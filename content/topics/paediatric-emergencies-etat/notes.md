@@ -14,13 +14,26 @@ highYield:
   - "Anaphylaxis: adrenaline 1 mg/mL (1:1000) 0.01 mL/kg IM in the anterolateral thigh (max 0.5 mL), repeat every 5 min if needed; then 10 mL/kg crystalloid bolus if shocked."
   - "Paediatric BLS: 5 rescue breaths, then 15 compressions : 2 breaths at 100–120/min, depth one-third of the chest (about 4 cm infant, 5 cm child); call for help after 1 minute if alone."
   - "Weight if no scale: 1–12 months = (0.5 × age in months) + 4; 1–5 years = (2 × age) + 8; 6–12 years = (3 × age) + 7 kg (APLS). Weigh as soon as the child is stable."
+format: concept
+system: Emergency medicine
+specialty: Paediatrics
+level: Core
+tags: [ETAT, triage, paediatric emergency, ABCD, shock, FEAST, fluid bolus, severe acute malnutrition, hypoglycaemia, convulsions, status epilepticus, Plan C, dehydration, anaphylaxis, basic life support, oxygen therapy]
+last_reviewed: 2026-11-11
+sources:
+  - "Ministry of Health Uganda. Uganda Clinical Guidelines 2023 (Chapter 1: Emergencies and Trauma)"
+  - "World Health Organization. Paediatric emergency triage, assessment and treatment: care of critically-ill children (ETAT guideline update), 2016"
+  - "World Health Organization. Pocket Book of Hospital Care for Children, 2nd edition, 2013 (Chapter 1)"
+  - "World Health Organization. Guideline on the prevention and management of wasting and nutritional oedema, 2023"
+  - "World Health Organization. Guideline on management of pneumonia and diarrhoea in children up to 10 years of age, 2024"
+  - "Maitland K, et al. FEAST trial. N Engl J Med 2011;364:2483-95"
+  - "ILCOR 2025 consensus; ERC 2025 and AHA 2025 paediatric life support guidelines"
+  - "Hutchison's Clinical Methods, 24th edition (Glynn & Drake), 2018"
 ---
 
-## In a nutshell
+## 1. Definitions and Key Concepts
 
-**ETAT** (Emergency Triage, Assessment and Treatment) is the WHO system for making sure that the sickest child in the waiting area is seen **first**, not last. Studies from Malawi and Kenya in the 1990s and 2000s showed that many hospital deaths happened in the **first 24 hours**, often before a doctor had seen the child. Introducing ETAT at Lilongwe Central Hospital roughly **halved inpatient mortality**. Uganda adopted ETAT through the Ministry of Health, and it is taught at Mulago, Mengo and regional referral hospitals (RRHs).
-
-ETAT has three parts:
+**ETAT** (Emergency Triage, Assessment and Treatment) is the WHO system for making sure that the sickest child in the waiting area is seen **first**, not last. It has three parts:
 
 1. **Triage**: a quick look at every child on arrival (no history, no stethoscope needed) to sort into **E**mergency, **P**riority or **Q**ueue.
 2. **Assessment**: for emergency cases, the **ABCD** approach (Airway and Breathing; Circulation; Coma and Convulsions; Dehydration).
@@ -28,8 +41,6 @@ ETAT has three parts:
 
 > [!PEARL]
 > The one thing never to forget: **treat what is killing the child, in ABCD order, before you work out why.** A convulsing child gets glucose and diazepam before you ask about the fever; a child in shock gets fluids before you send the malaria test. And **always check the glucose** in a child who is unconscious or convulsing.
-
-## Definitions & classification
 
 | Term | Meaning |
 |---|---|
@@ -64,16 +75,32 @@ ETAT has three parts:
 | **O** | **O**edema of both feet |
 | **B** | **B**urns (major) |
 
-## Epidemiology & Uganda context
+## 2. Burden and Uganda Context
 
+- Studies from Malawi and Kenya in the 1990s and 2000s showed that many hospital deaths happened in the **first 24 hours**, often before a doctor had seen the child. Introducing ETAT at Lilongwe Central Hospital roughly **halved inpatient mortality**. Uganda adopted ETAT through the Ministry of Health, and it is taught at Mulago, Mengo and regional referral hospitals (RRHs).
 - Uganda's under-5 mortality was about **52 per 1,000 live births** in UDHS 2022 (down from 64 in 2016). The leading killers of children admitted to Ugandan hospitals are **severe malaria (with severe anaemia), pneumonia, diarrhoea with dehydration, neonatal conditions, severe acute malnutrition and sepsis**, often in combination and often with HIV.
-- Many paediatric deaths happen within **24–48 hours of admission**. Delays happen at home (care-seeking), on the road (transport) and **inside the hospital** (registration, payment, waiting for the clinician, waiting for drugs). Triage attacks the third delay.
+- Many paediatric deaths happen within **24–48 hours of admission**. Delays happen at home (care-seeking), on the road (transport) and **inside the hospital** (registration, payment, waiting for the clinician, waiting for drugs). **Triage attacks the third delay.**
 - Children arrive late and very sick. A typical Mengo or Mulago acute care unit sees children with **cerebral malaria convulsing, severe anaemia with Hb 3 g/dL, and severe pneumonia** within the same hour.
 
 > [!UGANDA]
 > Realities of ETAT in Uganda: there may be **one nurse** triaging a full waiting area; **pulse oximeters** and **oxygen concentrators** have become common at RRHs and many HC IVs since COVID-19, but power cuts limit concentrators; **glucometers and strips** run out; **blood** comes from the Uganda Blood Transfusion Service and is often short; **rectal diazepam** is usually available, while **buccal midazolam** is not always stocked. At HC III level you stabilise (oxygen, glucose, first-dose antibiotics and antimalarial, diazepam, fluids) and **refer with a note and a health worker**. Mulago's Acute Care Unit and Mengo's paediatric emergency area run ETAT-based triage at the door.
 
-## Physiology & principles
+## 3. Principles and Framework
+
+### The ETAT pathway
+
+1. **Arrival → triage** (15–20 s), before registration or payment.
+2. **Any emergency sign?** Yes → resuscitation area, **ABCD now**:
+   - **A**: open the airway / clear obstruction.
+   - **B**: oxygen / bag-mask.
+   - **C**: shock? IV/IO, fluids per protocol (normal vs SAM).
+   - **C**: coma/convulsions: glucose, anticonvulsant, recovery position.
+   - **D**: severe dehydration: Plan C.
+   - Then: history, full examination, investigations, specific treatment, admit.
+3. No emergency sign → **any priority sign?** Yes → front of the queue, assess next.
+4. Neither → **queue**; re-triage if the child deteriorates.
+
+At every letter: **assess, treat, reassess** before moving on.
 
 ### Why children decompensate suddenly
 
@@ -90,38 +117,7 @@ The **FEAST trial** (Maitland et al., NEJM 2011), done largely in **Uganda** (in
 - **No boluses** for children with impaired circulation who do **not** meet the full WHO shock definition.
 - For true shock, **10–20 mL/kg over 30–60 min**, with reassessment (WHO ETAT 2016).
 - Severe dehydration from diarrhoea is different: these children have lost fluid and need it back (Plan C).
-- SAM and severe anaemia are special cases (below).
-
-## Clinical acumen
-
-### Focused history
-
-Taken **after** emergency treatment has started, usually from the mother or caregiver.
-
-| Question | Why it matters |
-|---|---|
-| Age; weight (or last weight on the child health card) | All doses and fluids are per kg; <2 months changes the list of causes and drugs |
-| Main complaint and duration: fever, cough, fast breathing, diarrhoea/vomiting, convulsions, reduced consciousness, pallor, swelling | Points to malaria, pneumonia, gastroenteritis, meningitis, severe anaemia, SAM |
-| Convulsions: how many, how long, focal, first ever? Fever? | Febrile convulsion vs cerebral malaria vs meningitis vs epilepsy vs hypoglycaemia |
-| Fluid in and out: drinking or breastfeeding? Vomiting everything? Diarrhoea frequency, blood? Urine output? | Dehydration severity; danger signs |
-| Possible ingestion: paraffin, drugs, pesticides, herbs, local brew | Poisoning changes treatment (see Common Poisoning) |
-| Drugs given at home or at the clinic: antimalarials, quinine, herbal medicines, diazepam already given | Quinine causes hypoglycaemia; repeated benzodiazepines cause respiratory depression |
-| Immunisation (child health card) | Unimmunised child: measles, pertussis, tetanus, invasive Hib/pneumococcal disease |
-| HIV status of child and mother; on cotrimoxazole/ART? | PCP, TB, severe bacterial infection; shapes antibiotics |
-| Feeding and growth (SAM history, recent weight loss, oedema) | SAM changes fluid and feeding protocols |
-| Known illness: sickle cell, heart disease, asthma, epilepsy, diabetes | Sickle crisis, heart failure (careful fluids), asthma, DKA |
-
-### Examination
-
-ETAT examination is ordered: **A → B → C → D → (Disability) → Exposure**, then the full examination.
-
-1. **Airway**: is the child talking or crying? Stridor, gurgling, foreign body?
-2. **Breathing**: respiratory rate (count a full minute), chest indrawing, grunting, nasal flaring, head nodding, wheeze, crackles, **SpO₂**, central cyanosis.
-3. **Circulation**: hands warm or cold, capillary refill time, pulse rate and volume, **pallor** (palms, conjunctivae), heart rate, BP if a paediatric cuff exists, liver size (enlarged in heart failure and fluid overload).
-4. **Coma/Convulsions**: AVPU (or Blantyre coma scale in under-5s), pupils, posture (decorticate/decerebrate), neck stiffness, bulging fontanelle, **glucose**.
-5. **Dehydration**: eyes, skin pinch, drinking, lethargy.
-6. **Exposure**: temperature, rashes (petechiae/purpura = meningococcaemia), **bilateral pitting oedema of the feet** and **severe wasting** (SAM), burns, injuries, jaundice.
-7. **Weight** (and MUAC if 6–59 months) as soon as stable.
+- SAM and severe anaemia are special cases (section 6).
 
 ### Age-specific vital signs
 
@@ -133,37 +129,22 @@ ETAT examination is ordered: **A → B → C → D → (Disability) → Exposure
 | 5–12 years | ≥30/min | 80–120 | 70 + (2 × age) up to 90 |
 | >12 years | ≥20/min | 60–100 | 90 mmHg |
 
-### Red flags
+### Weight when there is no scale (APLS)
 
-> [!REDFLAG]
-> - **Bradycardia** or slow, gasping breathing in a sick child = imminent arrest: ventilate with bag and mask now.
-> - **Silent chest** or exhaustion in asthma or bronchiolitis.
-> - **Hypotension** in a child = late, decompensated shock.
-> - **Petechial/purpuric rash with fever** = meningococcal sepsis until proved otherwise.
-> - **Fluid overload during resuscitation**: rising RR, new crackles, enlarging liver, gallop rhythm, raised JVP in older children; **stop fluids**.
-> - Seizures not stopping after **two doses** of benzodiazepine (established status epilepticus).
-> - Coma with **unequal pupils, abnormal posturing or irregular breathing** = raised intracranial pressure.
+| Age | Estimated weight |
+|---|---|
+| 1–12 months | (0.5 × age in months) + 4 kg |
+| 1–5 years | **(2 × age) + 8 kg** |
+| 6–12 years | (3 × age) + 7 kg |
 
-### Thinking like a clinician
+Use a length-based tape (Broselow) if available, and **weigh as soon as the child is stable**.
 
-- **"Is this child in shock, or just cold and febrile?"** All three WHO signs are needed (cold hands, CRT >3 s, weak fast pulse). A febrile child with malaria may have one or two; FEAST shows boluses can kill these children. Give maintenance fluids and recheck in 15–30 minutes.
-- **Pallor + respiratory distress + big liver in a child with malaria** is usually **severe anaemia with heart failure**, not pneumonia and not "shock needing saline". The treatment is **blood**, slowly, sometimes with furosemide, not crystalloid boluses.
-- **Unconscious child: think "G before D"** (glucose before diazepam/diagnosis). Hypoglycaemia is common in cerebral malaria, sepsis, SAM and after quinine.
-- **A child "fitting" with fever**: cerebral malaria, meningitis and febrile convulsion look alike at the door. Treat the seizure and glucose first; then decide on LP, mRDT/blood smear and antibiotics.
-- **SAM changes everything**: shock fluids are slower and dextrose-containing; dehydration is treated with ReSoMal; hypoglycaemia threshold is higher (<3.0 mmol/L); hypothermia is common.
-- **Common student mistakes**: queueing a child with emergency signs for registration; giving 20 mL/kg boluses to every febrile child; forgetting glucose; forgetting to weigh; using adult doses or adult vital signs; giving three or four doses of diazepam (respiratory arrest); not reassessing after each intervention.
-
-> [!EXAM]
-> Viva favourite: **"List the emergency signs."** Say them in ABCD order and include the details: obstructed/absent breathing, severe respiratory distress, central cyanosis, signs of shock (all three), coma, convulsing, and severe dehydration in a child with diarrhoea (two signs).
-
-## Clinical workup
-
-In emergencies, assessment and treatment happen together: "**assess, treat, reassess**" at each letter before moving on.
+## 4. Application in Practice
 
 ### Step 0: First 5 minutes
 
 1. **Triage at the door**: any emergency sign → carry the child straight to the resuscitation area. Shout for help (nurse, senior clinician).
-2. **A**: open the airway (head tilt-chin lift in a child; neutral position in an infant, towel under the shoulders). If trauma is possible, jaw thrust and stabilise the neck. If choking, back blows and chest/abdominal thrusts (see BLS).
+2. **A**: open the airway (head tilt–chin lift in a child; neutral position in an infant, towel under the shoulders). If trauma is possible, jaw thrust and stabilise the neck. If choking, back blows and chest/abdominal thrusts (section 6).
 3. **B**: if not breathing or gasping → **bag-mask ventilation** (5 rescue breaths). If breathing with distress or cyanosis → **oxygen**; target SpO₂ ≥94% while emergency signs are present.
 4. **C**: check the three shock signs. Stop any external bleeding. Insert an IV or **intraosseous (IO)** line (proximal tibia, if IV fails within 90 seconds or 2 attempts). Draw blood for **glucose, Hb, malaria test, grouping and cross-match**. Give fluids per protocol (normal vs SAM).
 5. **C**: coma or convulsing → recovery position (if no trauma), **check glucose** and give dextrose if low (or if you cannot check), **anticonvulsant** if fitting.
@@ -175,28 +156,43 @@ In emergencies, assessment and treatment happen together: "**assess, treat, reas
 
 ### Step 1: Focused history
 
-- [ ] **Age and weight** → doses and fluid volumes; <2 months = tiny baby (priority, different drugs).
-- [ ] **Onset and duration** of the main symptom → acute (hours: poisoning, convulsions) vs subacute (days: malaria, pneumonia, meningitis).
-- [ ] **Fever** → malaria, meningitis, pneumonia, sepsis.
-- [ ] **Convulsions**: number, duration, focal features, previous seizures → febrile convulsion vs CNS infection vs epilepsy.
-- [ ] **Diarrhoea and vomiting**: number per day, blood, last urine → dehydration plan.
-- [ ] **Cough, fast or difficult breathing, noisy breathing** → pneumonia, asthma, foreign body, croup.
-- [ ] **Ingestion** → specific antidotes; avoid harmful decontamination.
-- [ ] **Treatment already given** → total benzodiazepine doses, quinine (hypoglycaemia), herbal enemas.
-- [ ] **Immunisation, HIV status, feeding and growth** → unusual infections, SAM protocol.
-- [ ] **Known chronic illness** (sickle cell, heart disease, diabetes, epilepsy) → specific emergencies.
+Taken **after** emergency treatment has started, usually from the mother or caregiver.
+
+| Question | Why it matters |
+|---|---|
+| Age; weight (or last weight on the child health card) | All doses and fluids are per kg; <2 months = tiny baby (priority, different causes and drugs) |
+| Main complaint, onset and duration: fever, cough, fast breathing, diarrhoea/vomiting, convulsions, reduced consciousness, pallor, swelling | Acute (hours: poisoning, convulsions) vs subacute (days: malaria, pneumonia, meningitis); points to malaria, pneumonia, gastroenteritis, meningitis, severe anaemia, SAM |
+| Convulsions: how many, how long, focal, first ever? Fever? | Febrile convulsion vs cerebral malaria vs meningitis vs epilepsy vs hypoglycaemia |
+| Fluid in and out: drinking or breastfeeding? Vomiting everything? Diarrhoea frequency, blood? Last urine? | Dehydration severity and plan; danger signs |
+| Cough, fast or difficult breathing, noisy breathing | Pneumonia, asthma, foreign body, croup |
+| Possible ingestion: paraffin, drugs, pesticides, herbs, local brew | Poisoning changes treatment; avoid harmful decontamination (Common Poisoning topic) |
+| Drugs given at home or at the clinic: antimalarials, quinine, herbal medicines, diazepam already given | Quinine causes hypoglycaemia; repeated benzodiazepines cause respiratory depression; count total doses |
+| Immunisation (child health card) | Unimmunised child: measles, pertussis, tetanus, diphtheria, invasive Hib/pneumococcal disease |
+| HIV status of child and mother; on cotrimoxazole/ART? | PCP, TB, severe bacterial infection; shapes antibiotics |
+| Feeding and growth (SAM history, recent weight loss, oedema) | SAM changes fluid and feeding protocols |
+| Known illness: sickle cell, heart disease, asthma, epilepsy, diabetes | Sickle crisis, heart failure (careful fluids), asthma, DKA |
 
 ### Step 2: Focused examination
 
-**General**: AVPU, colour (pallor, cyanosis, jaundice), wasting, oedema, temperature, weight, MUAC.
+The ETAT examination is ordered **A → B → C → D → (Disability) → Exposure**. Once the child is stable, complete the full examination in the order of Hutchison's Clinical Methods (24th edition), adapted for children.
 
-**ABCD in order**, then:
+**ABCDE (during resuscitation)**
 
-- **Respiratory**: rate, indrawing, grunting, stridor, wheeze, crackles, air entry, SpO₂.
-- **Cardiovascular**: pulse, CRT, hand temperature, heart sounds (gallop), liver size, BP.
-- **Neurological**: AVPU/Blantyre score, pupils, neck stiffness, fontanelle, tone, posturing, focal signs.
-- **Abdomen**: distension, tenderness, hepatosplenomegaly (malaria, sickle cell, heart failure).
-- **Skin**: petechiae, purpura, rash, burns, skin pinch.
+1. **Airway**: is the child talking or crying? Stridor, gurgling, foreign body?
+2. **Breathing**: respiratory rate (count a full minute), chest indrawing, grunting, nasal flaring, head nodding, wheeze, crackles, **SpO₂**, central cyanosis.
+3. **Circulation**: hands warm or cold, capillary refill time, pulse rate and volume, **pallor** (palms, conjunctivae), heart rate, BP if a paediatric cuff exists, liver size (enlarged in heart failure and fluid overload).
+4. **Coma/Convulsions**: AVPU (or Blantyre coma scale in under-5s), pupils, posture (decorticate/decerebrate), neck stiffness, bulging fontanelle, **glucose**.
+5. **Dehydration**: eyes, skin pinch, drinking, lethargy.
+6. **Exposure**: temperature, rashes (petechiae/purpura = meningococcaemia), **bilateral pitting oedema of the feet** and **severe wasting** (SAM), burns, injuries, jaundice.
+7. **Weight** (and MUAC if 6–59 months) as soon as stable.
+
+**Full examination once stable (Hutchison order)**
+
+- **Introduction and consent**: introduce yourself, confirm the child's identity, explain to the mother and gain consent; **hand hygiene**; examine on the mother's lap where possible, exposing in stages and keeping the child warm.
+- **General inspection**: well or unwell, AVPU, colour (pallor, cyanosis, jaundice), hydration, wasting, oedema, dysmorphism; **vitals** against the age table; **weight, MUAC and growth** plotted.
+- **Hands, face and neck**: palmar pallor, CRT, clubbing; conjunctival pallor, jaundice, sunken eyes, nasal flaring; neck stiffness, lymph nodes, fontanelle.
+- **Systems**: respiratory (rate, indrawing, grunting, stridor, wheeze, crackles, air entry, SpO₂); cardiovascular (pulse, CRT, hand temperature, heart sounds and gallop, liver size, BP); neurological (AVPU/Blantyre score, pupils, tone, posturing, focal signs); abdomen (distension, tenderness, hepatosplenomegaly: malaria, sickle cell, heart failure); skin (petechiae, purpura, rash, burns, skin pinch).
+- **Distressing parts last** (ears, throat), then thank the mother, **hand hygiene**, summarise.
 
 | Document these positives | And these negatives |
 |---|---|
@@ -216,19 +212,20 @@ In emergencies, assessment and treatment happen together: "**assess, treat, reas
 - **Urine dipstick**: glucose and ketones (DKA), blood (haemoglobinuria in blackwater fever).
 - **MUAC** (6–59 months): <11.5 cm = SAM.
 
-### Step 4: Laboratory & imaging
+### Step 4: Laboratory and imaging
 
 | Test | When | Expected / abnormal finding | How it changes management | Availability |
 |---|---|---|---|---|
-| Blood glucose | Coma, convulsions, SAM, shock | <2.5 mmol/L (<3.0 in SAM) | 10% dextrose 5 mL/kg | Glucometer at HC III upward (strips often out) |
-| Hb / full blood count | Pallor, malaria, sepsis | Hb <4 g/dL, or <6 g/dL with distress | Transfuse | HemoCue at HC IV; FBC at hospital |
+| Blood glucose | Coma, convulsions, SAM, shock | <2.5 mmol/L (<3.0 in SAM); very high → DKA | 10% dextrose 5 mL/kg | Glucometer at HC III upward (strips often out) |
+| Hb / full blood count | Pallor, malaria, sepsis | Hb <4 g/dL, or <6 g/dL with distress | Transfuse; fluid strategy | HemoCue at HC IV; FBC at hospital |
 | Malaria smear / mRDT | Any fever | Positive; parasitaemia | IV artesunate for severe malaria | Everywhere |
-| Blood grouping & cross-match | Severe anaemia, bleeding | — | Blood ordered early | Hospitals with blood banks |
-| Blood culture | Sepsis, shock, meningitis | Organism and sensitivity | Narrow antibiotics later | Regional/national referral (often unavailable) |
+| Blood grouping & cross-match | Severe anaemia, bleeding | Group and compatible unit | Blood ordered early | Hospitals with blood banks |
+| Blood culture, FBC, CRP | Sepsis, shock, meningitis | Organism and sensitivity | Narrow antibiotics later | Regional/national referral (often unavailable) |
 | Lumbar puncture | Suspected meningitis once stable | Cloudy CSF, high WBC, low glucose | Antibiotic choice/duration | Hospitals; **delay if** raised ICP signs, shock or unstable |
-| Electrolytes, creatinine | Severe dehydration, shock, AKI, DKA | Na, K, urea abnormal | Fluid type, potassium | RRH/national referral |
+| Electrolytes, urea, creatinine | Severe dehydration, shock, AKI, DKA | Na, K, urea abnormal | Fluid type, potassium | RRH/national referral |
 | Blood gas | Shock, DKA, respiratory failure | Acidosis, high CO₂ | Severity, ventilation | Mulago/private hospitals mainly |
-| Chest X-ray | Respiratory distress after stabilisation | Pneumonia, effusion, pneumothorax, foreign body | Drainage, specific treatment | Hospitals |
+| HIV test (child and mother) | Every sick child with unknown status | Positive | ART, cotrimoxazole, broader differential | Everywhere |
+| Chest X-ray | Respiratory distress after stabilisation | Pneumonia, effusion, pneumothorax, foreign body, cardiomegaly | Drainage, specific treatment | Hospitals |
 
 ### Step 5: Putting it together
 
@@ -236,12 +233,41 @@ In emergencies, assessment and treatment happen together: "**assess, treat, reas
 
 **Problem list**: (1) coma/convulsions, (2) hypoglycaemia, (3) severe malaria, (4) severe anaemia, (5) possible meningitis (LP once stable).
 
+**Model case presentation**
+
+> "Baby J.N., an **18-month-old boy** from Nansana, **weight 9.0 kg** (weight-for-height Z-score −1.5, MUAC 12.8 cm, no oedema), brought in at 10:40 by his mother with **3 days of fever and 1 day of reduced feeding, followed by a generalised convulsion this morning** lasting about 20 minutes at home. He was **triaged Emergency (convulsing and AVPU P)**. Glucose was **2.0 mmol/L**, mRDT positive, Hb 6.8 g/dL. He received **rectal diazepam 4.5 mg**, **10% dextrose 45 mL IV**, oxygen for SpO₂ 92% and **IV artesunate 27 mg**. He has not convulsed again; now AVPU V, glucose 5.4 mmol/L. **Immunisation up to date for age** per the child health card (measles-rubella at 9 months given); **breastfeeding plus family foods**; mother **HIV-negative** in this pregnancy, child not tested. **Assessment: severe malaria (cerebral malaria with hypoglycaemia), moderate anaemia**, differential meningitis. **Plan**: continue artesunate, maintenance fluids with dextrose, 4-hourly glucose, Blantyre score, LP when stable, cross-match if Hb falls, HIV test."
+
 > [!NOTE]
 > **Worked example: is this shock?** A 3-year-old (14 kg) with fever for 2 days: hands cool, CRT 4 s, radial pulse 170/min and weak, AVPU = V, Hb 9 g/dL, no diarrhoea. **Interpretation**: all three WHO signs are present → **shock**; not SAM, not severely anaemic. **Action**: oxygen, IV access, glucose, **Ringer's lactate 20 mL/kg (280 mL) over 30–60 min** (10 mL/kg if you are worried about the heart), reassess after the bolus; if still shocked give a second 10–20 mL/kg; start **ceftriaxone** and **artesunate** if mRDT positive. If the liver enlarges or crackles appear, stop the fluid.
 
-## Differential diagnosis
+## 5. Clinical Acumen
 
-The commonest causes behind each emergency sign in Ugandan children:
+### Thinking like a clinician
+
+- **"Is this child in shock, or just cold and febrile?"** All three WHO signs are needed (cold hands, CRT >3 s, weak fast pulse). A febrile child with malaria may have one or two; FEAST shows boluses can kill these children. Give maintenance fluids and recheck in 15–30 minutes.
+- **Pallor + respiratory distress + big liver in a child with malaria** is usually **severe anaemia with heart failure**, not pneumonia and not "shock needing saline". The treatment is **blood**, slowly, sometimes with furosemide, not crystalloid boluses.
+- **Unconscious child: think "G before D"** (glucose before diazepam/diagnosis). Hypoglycaemia is common in cerebral malaria, sepsis, SAM and after quinine.
+- **A child "fitting" with fever**: cerebral malaria, meningitis and febrile convulsion look alike at the door. Treat the seizure and glucose first; then decide on LP, mRDT/blood smear and antibiotics.
+- **Deep sighing breathing with a clear chest** = metabolic acidosis (DKA, severe malaria, dehydration), not pneumonia.
+- **SAM changes everything**: shock fluids are slower and dextrose-containing; dehydration is treated with ReSoMal; hypoglycaemia threshold is higher (<3.0 mmol/L); hypothermia is common.
+- **Count every benzodiazepine dose**, including those given at home or at the referring clinic.
+- **Common student mistakes**: queueing a child with emergency signs for registration; giving 20 mL/kg boluses to every febrile child; forgetting glucose; forgetting to weigh; using adult doses or adult vital signs; giving three or four doses of diazepam (respiratory arrest); not reassessing after each intervention.
+
+> [!EXAM]
+> Viva favourite: **"List the emergency signs."** Say them in ABCD order and include the details: obstructed/absent breathing, severe respiratory distress, central cyanosis, signs of shock (all three), coma, convulsing, and severe dehydration in a child with diarrhoea (two signs).
+
+### Red flags
+
+> [!REDFLAG]
+> - **Bradycardia** or slow, gasping breathing in a sick child = imminent arrest: ventilate with bag and mask now.
+> - **Silent chest** or exhaustion in asthma or bronchiolitis.
+> - **Hypotension** in a child = late, decompensated shock.
+> - **Petechial/purpuric rash with fever** = meningococcal sepsis until proved otherwise.
+> - **Fluid overload during resuscitation**: rising RR, new crackles, enlarging liver, gallop rhythm, raised JVP in older children; **stop fluids**.
+> - Seizures not stopping after **two doses** of benzodiazepine (established status epilepticus).
+> - Coma with **unequal pupils, abnormal posturing or irregular breathing** = raised intracranial pressure.
+
+### Behind each emergency sign: the common causes
 
 | Emergency sign | Common causes | Distinguishing features | Key bedside test |
 |---|---|---|---|
@@ -253,40 +279,18 @@ The commonest causes behind each emergency sign in Ugandan children:
 | Severe dehydration | Acute watery diarrhoea, cholera, dysentery, DKA (polyuria) | Polyuria + acidotic breathing + glucose high → DKA | Glucose, urine ketones |
 | Severe pallor | Malaria, sickle cell crisis, hookworm/iron deficiency, malignancy, HIV | Splenomegaly, jaundice, haemoglobinuria (blackwater) | Hb, mRDT, sickling test |
 
-## Investigations
+### Scenarios
 
-| Test | What you are looking for | Why |
-|---|---|---|
-| Glucose | Hypoglycaemia or hyperglycaemia | Hypoglycaemia is quickly reversible and lethal if missed; very high glucose → DKA |
-| Hb/PCV | Severe anaemia | Decides transfusion and fluid strategy |
-| mRDT/smear | Malaria | Commonest cause of fever, coma and anaemia in Uganda |
-| Blood culture, FBC, CRP | Sepsis | Guides antibiotics |
-| CSF | Meningitis | Antibiotic choice and duration |
-| Electrolytes, urea, creatinine | Dehydration, AKI, DKA | Fluid type and potassium |
-| HIV test (child and mother) | HIV infection | Every sick child in Uganda should have their HIV status known |
-| Chest X-ray | Pneumonia, effusion, foreign body, cardiomegaly | Changes treatment once stable |
+- **This febrile child has a CRT of 4 seconds but warm hands and a good pulse. Bolus?** No. That is impaired circulation, not shock. Give maintenance fluids (or feeds), treat the cause, and reassess every 15–30 minutes.
+- **A wasted child with oedema is cold, with a weak fast pulse.** SAM shock protocol: 15 mL/kg over 1 hour of Ringer's lactate with 5% dextrose, pulse and RR every 5–10 minutes, glucose, warmth; never a 20 mL/kg saline bolus.
+- **A convulsing child has had diazepam at the clinic and one dose here, and is still fitting.** That is two doses: go to **phenobarbital**, not a third benzodiazepine; bag-mask ready.
+- **A child receiving antivenom or ceftriaxone develops stridor and urticaria.** Stop the infusion; **IM adrenaline** first; crystalloid if shocked.
 
-## Management
+## 6. Common Problems and Their Management
 
-### A. The ETAT algorithm
+### Airway and breathing
 
-```
-ARRIVAL ──► TRIAGE (15–20 s)
-            │
-  Any EMERGENCY sign? ── yes ──► Resuscitation area: ABCD now
-            │                       A: open airway / clear obstruction
-            no                      B: oxygen / bag-mask
-            │                       C: shock? IV/IO, fluids per protocol
-  Any PRIORITY sign? ── yes ──►     C: coma/convulsions: glucose, anticonvulsant
-            │                         recovery position
-            no                      D: severe dehydration: Plan C
-            │                     then: history, full exam, investigations,
-          QUEUE                         specific treatment, admit
-```
-
-### B. Airway and breathing
-
-1. **Not breathing / gasping**: open airway, **5 rescue breaths** with bag and mask (correct mask size covering mouth and nose), check for signs of life; if none, start CPR (see BLS).
+1. **Not breathing / gasping**: open airway, **5 rescue breaths** with bag and mask (correct mask size covering mouth and nose), check for signs of life; if none, start CPR (BLS below).
 2. **Choking (foreign body)**:
    - Infant: **5 back blows** (infant face-down along your forearm, head lower than body), then **5 chest thrusts** (two fingers on the lower sternum); repeat; check the mouth and remove visible objects only.
    - Child >1 year: **5 back blows**, then **5 abdominal thrusts** (Heimlich) standing behind the child; repeat.
@@ -294,7 +298,7 @@ ARRIVAL ──► TRIAGE (15–20 s)
 3. **Severe respiratory distress or cyanosis**: oxygen; position of comfort (let the child sit on the mother's lap); suction secretions gently; do not force an upset child with stridor to lie down.
 4. **Specific treatment**: salbutamol for wheeze, nebulised adrenaline/dexamethasone for croup, antibiotics for pneumonia (all covered in their own topics).
 
-#### Oxygen
+**Oxygen**
 
 | Situation | Start oxygen if | Target |
 |---|---|---|
@@ -308,9 +312,7 @@ ARRIVAL ──► TRIAGE (15–20 s)
 | Face mask / head box | Higher flows (5–10 L/min); use in emergencies and with bag-mask ventilation |
 | Bubble CPAP (where available) | Infants with severe respiratory distress not improving on prongs |
 
-### C. Circulation: shock
-
-#### Shock in a child **without** SAM (WHO ETAT 2016)
+### Shock in a child without SAM (WHO ETAT 2016)
 
 1. Oxygen; IV or IO access; take bloods (glucose, Hb, malaria test, cross-match, culture).
 2. **Check for severe anaemia** (Hb <5 g/dL or severe pallor): if present, **give blood (20 mL/kg whole blood or 10 mL/kg packed cells)** rather than repeated crystalloid.
@@ -321,10 +323,7 @@ ARRIVAL ──► TRIAGE (15–20 s)
 7. Improved → **maintenance fluids** (or oral feeding) and treat the cause (antibiotics, antimalarial).
 8. **Stop fluids at once** if the child develops fluid overload: crackles, rising RR, enlarging liver, gallop rhythm.
 
-> [!UGANDA]
-> **UCG 2023** and the WHO Pocket Book (2013) say **20 mL/kg Ringer's lactate or 0.9% saline "as rapidly as possible"** for shock (UCG's hypovolaemic-shock section 1.1.2.1, mainly bleeding and fluid loss, words it as 20–30 mL/kg over 60 minutes, repeated up to 60 mL/kg, then blood). The **WHO ETAT 2016** update, influenced by FEAST, recommends **10–20 mL/kg over 30–60 minutes** with reassessment, and **no bolus** for impaired circulation without full shock. Both say **15 mL/kg over 1 hour** in SAM. ETAT 2016 remains WHO's current paediatric emergency guideline. In practice: febrile shock (malaria/sepsis) → ETAT 2016 cautious boluses; haemorrhage or fluid loss → UCG volumes plus blood. Ask your senior which chart Mengo's emergency area uses; in an exam, quote ETAT 2016 and mention FEAST.
-
-#### Shock in a child **with** SAM
+### Shock in a child with SAM
 
 Children with severe wasting or oedema have a weak heart and leaky cells; fast saline drowns them.
 
@@ -335,21 +334,23 @@ Children with severe wasting or oedema have a weak heart and leaky cells; fast s
 5. **Not improving after two boluses of 15 mL/kg** → assume **septic shock**: give **maintenance IV fluid (4 mL/kg/h)** while waiting for blood, then **transfuse fresh whole blood 10 mL/kg slowly over 3 hours**, start antibiotics, and refer/call senior.
 6. **Stop** if RR rises by 5 or pulse by 15 per minute, or the liver enlarges (overload).
 
-#### Severe anaemia with distress
+### Severe anaemia with distress
 
 - Transfuse if **Hb <4 g/dL**, or **Hb 4–6 g/dL with respiratory distress, shock, impaired consciousness or high parasitaemia**.
 - **Whole blood 20 mL/kg** (or packed cells 10 mL/kg) over **3–4 hours**; in heart failure give 10 mL/kg packed cells and consider **furosemide 1 mg/kg IV**.
 - In SAM: **10 mL/kg** over 3 hours only.
 
-### D. Coma and convulsions
+### Coma and convulsions
 
 1. **Position**: recovery position (if no neck injury); keep the airway clear; suction; oxygen.
-2. **Glucose**: check; if **<2.5 mmol/L** (<3.0 in SAM), or if you cannot check, give **10% dextrose 5 mL/kg IV** (neonate 2 mL/kg) over 2–3 minutes, recheck in 30 minutes. If no IV: sugar or 10% dextrose via NG tube (see Hypoglycaemia topic).
+2. **Glucose**: check; if **<2.5 mmol/L** (<3.0 in SAM), or if you cannot check, give **10% dextrose 5 mL/kg IV** (neonate 2 mL/kg) over 2–3 minutes, recheck in 30 minutes. If no IV: sugar or 10% dextrose via NG tube (Hypoglycaemia topic).
 3. **Convulsing now**: give a benzodiazepine (table), time it; if still fitting after **10 minutes**, give a second dose; if still fitting after the second dose, give **phenobarbital** (or phenytoin) and call senior.
 4. **Look for the cause**: fever, mRDT, neck stiffness, LP when stable, poisoning, trauma, hypertension (AGN).
 5. **Treat fever** (paracetamol 15 mg/kg) and **raised ICP** (head up 30°, avoid fluid overload, avoid hypoxia).
 
-#### Anticonvulsant drug table
+**LP timing**: after the child is stable: not in shock, no signs of raised ICP (unequal pupils, abnormal posture, irregular breathing), not still convulsing, and no bleeding tendency. **Do not delay antibiotics for the LP.**
+
+**Anticonvulsant drug table**
 
 | Drug | Dose | Route | Frequency | Max / notes |
 |---|---|---|---|---|
@@ -363,7 +364,7 @@ Children with severe wasting or oedema have a weak heart and leaky cells; fast s
 > [!DRUG]
 > **No more than two doses of a benzodiazepine** (including any given at home or at the referring clinic). A third dose causes respiratory arrest, especially after phenobarbital. Neonates: use **phenobarbital 20 mg/kg** first, not diazepam.
 
-### E. Severe dehydration (no SAM): Plan C
+### Severe dehydration (no SAM): Plan C
 
 Give **100 mL/kg Ringer's lactate** (or 0.9% saline if RL unavailable) IV:
 
@@ -375,11 +376,11 @@ Give **100 mL/kg Ringer's lactate** (or 0.9% saline if RL unavailable) IV:
 - Repeat the first 30 mL/kg once if the radial pulse is still very weak or absent.
 - Reassess every 15–30 minutes; as soon as the child can drink, give **ORS 5 mL/kg/h** alongside.
 - Reassess at 3 h (child) or 6 h (infant) and choose Plan A, B or C again.
-- **Zinc** once rehydrated: the **WHO 2024 pneumonia and diarrhoea guideline** now suggests **5 mg daily for up to 14 days** (all ages up to 10 years); **UCG 2023** and most Ugandan wards still use **10 mg (<6 months) or 20 mg (≥6 months) daily for 10–14 days**. Know both and say which your ward follows.
+- **Zinc** once rehydrated (doses in section 7).
 - No IV access: ORS by NG tube **20 mL/kg/h for 6 hours** (120 mL/kg) and refer.
-- **In SAM**: do not use Plan C. Use **ReSoMal 5 mL/kg every 30 min for 2 hours, then 5–10 mL/kg/h for up to 10 hours**, unless the child is in shock (shock protocol above).
+- **In SAM**: do not use Plan C. Use **ReSoMal 5 mL/kg every 30 min for 2 hours, then 5–10 mL/kg/h for up to 10 hours**, unless the child is in shock (SAM shock protocol).
 
-### F. Anaphylaxis
+### Anaphylaxis
 
 Recognise: sudden onset after exposure (drug, food, insect sting, antivenom, vaccine) with **airway** (stridor, swelling), **breathing** (wheeze, distress) or **circulation** (shock) problems, usually with skin signs (urticaria, flushing, angioedema).
 
@@ -399,29 +400,17 @@ Recognise: sudden onset after exposure (drug, food, insect sting, antivenom, vac
 | **Hydrocortisone** | **4 mg/kg** (6 months–6 years 50 mg; 6–12 years 100 mg; >12 years 200 mg) | IV/IM | Once | Second-line |
 | **Salbutamol** | 2.5 mg (<5 years) or 5 mg (≥5 years) | Nebulised | Repeat as needed | For persistent wheeze after adrenaline |
 
-### G. Paediatric basic life support (BLS)
+### Paediatric basic life support (BLS)
 
 Based on the **2025 ILCOR consensus** as implemented by the **ERC 2025 and AHA 2025 paediatric life support guidelines** (the core sequence is unchanged from 2021: 5 rescue breaths, 15:2).
 
-
-```
-Unresponsive? ──► Shout for help
-      │
-Open airway (infant: neutral; child: head tilt–chin lift)
-      │
-Look, listen, feel ≤10 s: breathing normally?
-      │ no / gasping
-5 RESCUE BREATHS (bag–mask with O₂ if available)
-      │
-Signs of life / pulse >60? (≤10 s)
-      │ no
-15 CHEST COMPRESSIONS : 2 BREATHS
- rate 100–120/min, depth 1/3 of chest (≈4 cm infant, ≈5 cm child)
-      │
-Alone? After 1 minute of CPR go/phone for help
-      │
-Continue until signs of life, help arrives, or exhaustion
-```
+1. **Unresponsive?** Shout for help.
+2. **Open the airway** (infant: neutral; child: head tilt–chin lift).
+3. **Look, listen, feel ≤10 s**: breathing normally?
+4. Not breathing or gasping → **5 rescue breaths** (bag–mask with oxygen if available).
+5. **Signs of life / pulse >60?** (≤10 s). If not → **15 chest compressions : 2 breaths**, rate **100–120/min**, depth **one-third of the chest** (about 4 cm infant, 5 cm child).
+6. **Alone?** After 1 minute of CPR go or phone for help.
+7. Continue until signs of life, help arrives, or exhaustion.
 
 | Feature | Infant (<1 year) | Child (1 year–puberty) |
 |---|---|---|
@@ -432,10 +421,11 @@ Continue until signs of life, help arrives, or exhaustion
 | Rate | **100–120 per minute** | 100–120 per minute |
 
 - **Pulse <60/min with poor perfusion in an infant = start compressions.**
-- Advanced life support (hospital): adrenaline **10 µg/kg (0.1 mL/kg of 1:10,000) IV/IO every 3–5 minutes** for non-shockable rhythms; defibrillation **4 J/kg** for VF/pulseless VT. Reversible causes: the 4 Hs (hypoxia, hypovolaemia, hypo/hyperkalaemia, hypothermia; also hypoglycaemia) and 4 Ts (tension pneumothorax, tamponade, toxins, thromboembolism).
+- **Advanced life support** (hospital): adrenaline **10 µg/kg (0.1 mL/kg of 1:10,000) IV/IO every 3–5 minutes** for non-shockable rhythms; defibrillation **4 J/kg** for VF/pulseless VT. Reversible causes: the **4 Hs** (hypoxia, hypovolaemia, hypo/hyperkalaemia, hypothermia; also hypoglycaemia) and **4 Ts** (tension pneumothorax, tamponade, toxins, thromboembolism).
+- **Intraosseous access** if no IV after 2 attempts or 90 seconds: proximal tibia, 1–2 cm below the tibial tuberosity on the medial flat surface; all fluids and drugs can go through it.
 - Newborns follow **Helping Babies Breathe / neonatal resuscitation** (3:1 ratio, ventilation first); see the Neonatal Resuscitation topic.
 
-### H. Priority-sign children: what next
+### Priority-sign children: what next
 
 - **Tiny baby**: assess for sepsis, hypothermia, hypoglycaemia, jaundice; admit if sick.
 - **Very high temperature**: paracetamol 15 mg/kg, mRDT, look for focus.
@@ -445,11 +435,11 @@ Continue until signs of life, help arrives, or exhaustion
 - **Malnutrition/oedema**: SAM protocol (glucose, warmth, antibiotics, F-75).
 - **Referral**: read the note, re-triage, ask what was given (doses!).
 
-### I. Drug and fluid quick table (weight-based)
+### Drug and fluid quick table (weight-based)
 
 | Drug / fluid | Dose | Route | Frequency | Max / notes |
 |---|---|---|---|---|
-| 10% dextrose | **5 mL/kg** (neonate 2 mL/kg) | IV over 2–3 min | Recheck glucose at 30 min; repeat if low | Make 10% from 50%: 1 part 50% + 4 parts water for injection |
+| 10% dextrose | **5 mL/kg** (neonate 2 mL/kg) | IV over 2–3 min | Recheck glucose at 30 min; repeat if low | Make 10% from 50%: 1 part 50% + 4 parts water for injection (e.g. 10 mL + 40 mL), or 10 mL of 50% in 90 mL of 5% dextrose |
 | Ringer's lactate / 0.9% saline (shock, no SAM) | **10–20 mL/kg** | IV/IO over 30–60 min | Repeat once if still shocked and no overload | Total 40 mL/kg then senior review |
 | RL + 5% dextrose (shock in SAM) | **15 mL/kg** | IV over 1 h | Repeat once if improving | Then ReSoMal |
 | Whole blood | **20 mL/kg** (10 mL/kg in SAM/heart failure) | IV over 3–4 h | Once; recheck Hb | Packed cells 10 mL/kg |
@@ -458,7 +448,7 @@ Continue until signs of life, help arrives, or exhaustion
 | Paracetamol | **15 mg/kg** | Oral/rectal | 6-hourly | Max 60 mg/kg/day |
 | Furosemide | **1 mg/kg** | IV | Once (heart failure/overload) | Max 40 mg |
 
-## Complications
+### Complications of emergency care
 
 | Complication | Cause | Prevention |
 |---|---|---|
@@ -470,45 +460,41 @@ Continue until signs of life, help arrives, or exhaustion
 | Death in the queue | No triage | Triage before registration; re-triage the queue |
 | Hypothermia | Exposure during resuscitation, SAM | Cover, skin-to-skin, warm room |
 
-## Ward-round & exam pearls
+## 7. Guidelines, Policy and Law in Uganda
 
-### Model case presentation
+- **Ministry of Health ETAT adoption**: ETAT is the national standard for paediatric emergency care, taught at Mulago, Mengo and RRHs. Triage happens **at the door, before registration or payment**.
+- **Uganda Clinical Guidelines 2023, Chapter 1 (Emergencies and Trauma)**: the national reference for shock, anaphylaxis, convulsions, hypoglycaemia, dehydration and poisoning.
+- **WHO ETAT guideline update (2016)**: WHO's current paediatric emergency guideline; cautious boluses after FEAST.
+- **WHO Pocket Book of Hospital Care for Children (2013)**, Chapter 1 (triage and emergency conditions).
+- **WHO wasting and nutritional oedema guideline (2023)**: SAM shock and dehydration protocols.
+- **Resuscitation**: ILCOR 2025 consensus, ERC 2025 and AHA 2025 paediatric life support guidelines.
+- **Level of care**: HC II/III stabilise (oxygen, glucose, first-dose antibiotics and antimalarial, diazepam, fluids) and **refer with a note and a health worker**; HC IV and General Hospitals admit, transfuse and run oxygen; RRHs and Mulago provide HDU/ICU, inotropes and blood gas.
 
-> "Baby J.N., an **18-month-old boy** from Nansana, **weight 9.0 kg** (weight-for-height Z-score −1.5, MUAC 12.8 cm, no oedema), brought in at 10:40 by his mother with **3 days of fever and 1 day of reduced feeding, followed by a generalised convulsion this morning** lasting about 20 minutes at home. He was **triaged Emergency (convulsing and AVPU P)**. Glucose was **2.0 mmol/L**, mRDT positive, Hb 6.8 g/dL. He received **rectal diazepam 4.5 mg**, **10% dextrose 45 mL IV**, oxygen for SpO₂ 92% and **IV artesunate 27 mg**. He has not convulsed again; now AVPU V, glucose 5.4 mmol/L. **Immunisation up to date for age** per the child health card (measles-rubella at 9 months given); **breastfeeding plus family foods**; mother **HIV-negative** in this pregnancy, child not tested. **Assessment: severe malaria (cerebral malaria with hypoglycaemia), moderate anaemia**, differential meningitis. **Plan**: continue artesunate, maintenance fluids with dextrose, 4-hourly glucose, Blantyre score, LP when stable, cross-match if Hb falls, HIV test."
+> [!UGANDA]
+> **Fluid boluses: UCG versus WHO.** **UCG 2023** and the WHO Pocket Book (2013) say **20 mL/kg Ringer's lactate or 0.9% saline "as rapidly as possible"** for shock (UCG's hypovolaemic-shock section 1.1.2.1, mainly bleeding and fluid loss, words it as 20–30 mL/kg over 60 minutes, repeated up to 60 mL/kg, then blood). The **WHO ETAT 2016** update, influenced by FEAST, recommends **10–20 mL/kg over 30–60 minutes** with reassessment, and **no bolus** for impaired circulation without full shock. Both say **15 mL/kg over 1 hour** in SAM. In practice: febrile shock (malaria/sepsis) → ETAT 2016 cautious boluses; haemorrhage or fluid loss → UCG volumes plus blood. Ask your senior which chart Mengo's emergency area uses; in an exam, quote ETAT 2016 and mention FEAST.
 
-### Viva questions with answers
+> [!UGANDA]
+> **Zinc in diarrhoea: UCG versus WHO.** The **WHO 2024 pneumonia and diarrhoea guideline** now suggests **5 mg daily for up to 14 days** (all ages up to 10 years); **UCG 2023** and most Ugandan wards still use **10 mg (<6 months) or 20 mg (≥6 months) daily for 10–14 days**. Know both and say which your ward follows.
 
-1. **What are the ETAT triage categories?** Emergency (ABCD signs, treat immediately), Priority (assess next: 3 TPR-MOB), Queue.
-2. **Define shock in ETAT.** Cold hands **plus** capillary refill >3 s **plus** weak fast pulse. All three.
-3. **Why not give everyone a 20 mL/kg bolus?** FEAST (Uganda, Kenya, Tanzania) showed boluses increased mortality in febrile children with impaired perfusion; give boluses only for true shock, 10–20 mL/kg over 30–60 min, reassessing.
-4. **How do you manage shock in SAM?** 15 mL/kg Ringer's lactate with 5% dextrose over 1 hour; repeat if improving then ReSoMal; if not improving, maintenance fluid and transfuse 10 mL/kg over 3 hours.
-5. **A child is convulsing and you have no IV access. What do you give?** Rectal diazepam 0.5 mg/kg (max 10 mg) or buccal midazolam; plus glucose (sugar/10% dextrose via NG if no IV); repeat the benzodiazepine once after 10 minutes.
-6. **When do you give oxygen?** SpO₂ <94% if emergency signs, <90% if stable; or clinical signs (central cyanosis, severe indrawing, grunting, head nodding) if no oximeter.
-7. **First drug in anaphylaxis, and dose?** IM adrenaline 1:1000, 0.01 mL/kg (max 0.5 mL), anterolateral thigh, repeat every 5 minutes.
-8. **What is the BLS compression:ventilation ratio for children?** 15:2 for health workers, after 5 rescue breaths, at 100–120/min.
+> [!UGANDA]
+> **Phenobarbital dose**: WHO Pocket Book 15 mg/kg; UCG 2023 lists 10–15 mg/kg in severe malaria; many units use 15–20 mg/kg. Neonates 20 mg/kg first-line.
 
-### OSCE tips
+## 8. Key Points
 
-- In an ETAT station, **speak aloud**: "I am checking for emergency signs: airway and breathing, circulation, coma and convulsions, dehydration."
-- **Weigh or estimate weight first** and show the calculation for every dose.
-- **Reassess** after every intervention and say what you are looking for.
-- Ask for **glucose** in every unconscious or convulsing child.
-- Don't forget to **keep the child warm** and to **talk to the mother**.
+### High-yield points
 
-## Mnemonics & memory aids
+- Triage **before registration or payment**: E, P or Q in 15–20 seconds.
+- Treat in **ABCD order** before you know the diagnosis; **assess, treat, reassess**.
+- Shock = **all three** of cold hands, CRT >3 s, weak fast pulse.
+- **FEAST**: no boluses for impaired circulation; 10–20 mL/kg over 30–60 min only for true shock.
+- SAM shock: **15 mL/kg over 1 hour**, dextrose-containing; then ReSoMal or blood.
+- **Don't Ever Forget Glucose** in coma and convulsions.
+- **Maximum two** benzodiazepine doses; then phenobarbital. Neonates: phenobarbital first.
+- Severe anaemia with distress needs **blood**, not saline.
+- Anaphylaxis: **IM adrenaline first**.
+- Paediatric arrests are usually secondary: **5 rescue breaths**, then 15:2.
 
-- **ABCD**: Airway-Breathing, Circulation, Coma-Convulsions, Dehydration.
-- **3 TPR-MOB**: Tiny baby, Temperature, Trauma; Pallor, Poisoning, Pain; Respiratory distress, Restless/irritable/lethargic, Referral; Malnutrition, Oedema, Burns.
-- **Shock = "Cold, Slow, Weak"**: cold hands, slow capillary refill (>3 s), weak fast pulse.
-- **"DEFG: Don't Ever Forget Glucose"** in coma and convulsions.
-- **Plan C "30–70"**: 30 mL/kg then 70 mL/kg; infants 1 h + 5 h, children ½ h + 2½ h.
-- **SAM shock "15-15-ReSoMal"**: 15 mL/kg/h, repeat 15 if improving, then ReSoMal.
-- **Anaphylaxis "0.01 in the thigh"**: 0.01 mL/kg of 1:1000 IM.
-- **BLS "5-15-2"**: 5 rescue breaths, then 15 compressions to 2 breaths.
-
-## High-yield summary
-
-### Numbers & doses to know
+### Numbers & doses
 
 | Item | Value |
 |---|---|
@@ -522,14 +508,16 @@ Continue until signs of life, help arrives, or exhaustion
 | Shock in SAM | **15 mL/kg/h** RL + 5% dextrose; transfuse **10 mL/kg over 3 h** if no response |
 | Hypoglycaemia | **<2.5 mmol/L** (SAM **<3.0**) → **10% dextrose 5 mL/kg** (neonate 2 mL/kg) |
 | Diazepam | **0.5 mg/kg rectal** or **0.2–0.3 mg/kg IV**; max **10 mg**; max **2 doses** |
+| Midazolam (buccal) | **0.3–0.5 mg/kg**, max 10 mg |
 | Phenobarbital | **15–20 mg/kg IV/IM** over 15–20 min (neonate 20 mg/kg) |
 | Plan C | 100 mL/kg: infant 30 in 1 h + 70 in 5 h; child 30 in ½ h + 70 in 2½ h |
 | Transfusion | Hb **<4**, or **<6 with distress**: whole blood **20 mL/kg** over 3–4 h |
 | Anaphylaxis | Adrenaline 1:1000 **0.01 mL/kg IM**, max 0.5 mL, every 5 min |
 | BLS | 5 breaths, then **15:2**, 100–120/min, depth 1/3 of the chest |
+| ALS adrenaline | **10 µg/kg** (0.1 mL/kg of 1:10,000) IV/IO every 3–5 min; defibrillation **4 J/kg** |
 | Weight estimate | 1–5 y: **(2 × age) + 8 kg** |
 
-### Classic exam traps
+### Exam traps
 
 - **"Register and pay, then see the doctor."** Wrong: triage happens **before** registration; emergency cases are treated first.
 - **"Febrile child with cold hands: 20 mL/kg saline stat."** Wrong unless **all three** shock signs are present; FEAST showed harm.
@@ -542,23 +530,54 @@ Continue until signs of life, help arrives, or exhaustion
 
 ### Questions seniors ask
 
-**What are the emergency signs?**
-Obstructed/absent breathing, severe respiratory distress, central cyanosis, signs of shock (all three), coma or convulsing, and severe dehydration (2 signs) in a child with diarrhoea.
+**Viva questions**
 
-**This febrile child has a CRT of 4 seconds but warm hands and a good pulse. Bolus?**
-No. That is impaired circulation, not shock. Give maintenance fluids (or feeds), treat the cause, and reassess every 15–30 minutes.
+1. *What are the ETAT triage categories?* Emergency (ABCD signs, treat immediately), Priority (assess next: 3 TPR-MOB), Queue.
+2. *Define shock in ETAT.* Cold hands **plus** capillary refill >3 s **plus** weak fast pulse. All three.
+3. *Why not give everyone a 20 mL/kg bolus?* FEAST (Uganda, Kenya, Tanzania) showed boluses increased mortality in febrile children with impaired perfusion; give boluses only for true shock, 10–20 mL/kg over 30–60 min, reassessing.
+4. *How do you manage shock in SAM?* 15 mL/kg Ringer's lactate with 5% dextrose over 1 hour; repeat if improving then ReSoMal; if not improving, maintenance fluid and transfuse 10 mL/kg over 3 hours.
+5. *A child is convulsing and you have no IV access. What do you give?* Rectal diazepam 0.5 mg/kg (max 10 mg) or buccal midazolam; plus glucose (sugar/10% dextrose via NG if no IV); repeat the benzodiazepine once after 10 minutes.
+6. *When do you give oxygen?* SpO₂ <94% if emergency signs, <90% if stable; or clinical signs (central cyanosis, severe indrawing, grunting, head nodding) if no oximeter.
+7. *First drug in anaphylaxis, and dose?* IM adrenaline 1:1000, 0.01 mL/kg (max 0.5 mL), anterolateral thigh, repeat every 5 minutes.
+8. *What is the BLS compression:ventilation ratio for children?* 15:2 for health workers, after 5 rescue breaths, at 100–120/min.
 
-**How would you make 10% dextrose if you only have 50%?**
-Mix 1 part 50% dextrose with 4 parts water for injection (e.g. 10 mL + 40 mL), or 10 mL of 50% in 90 mL of 5% dextrose.
+**On the ward round**
 
-**When would you do an LP in this convulsing child?**
-After the child is stable: not in shock, no signs of raised ICP (unequal pupils, abnormal posture, irregular breathing), not still convulsing, and no bleeding tendency. Do not delay antibiotics for the LP.
+- **What are the emergency signs?** Obstructed/absent breathing, severe respiratory distress, central cyanosis, signs of shock (all three), coma or convulsing, and severe dehydration (2 signs) in a child with diarrhoea.
+- **This febrile child has a CRT of 4 seconds but warm hands and a good pulse. Bolus?** No. That is impaired circulation, not shock. Give maintenance fluids (or feeds), treat the cause, and reassess every 15–30 minutes.
+- **How would you make 10% dextrose if you only have 50%?** Mix 1 part 50% dextrose with 4 parts water for injection (e.g. 10 mL + 40 mL), or 10 mL of 50% in 90 mL of 5% dextrose.
+- **When would you do an LP in this convulsing child?** After the child is stable: not in shock, no signs of raised ICP (unequal pupils, abnormal posture, irregular breathing), not still convulsing, and no bleeding tendency. Do not delay antibiotics for the LP.
+- **What do you do if you cannot get an IV line in a shocked child?** Intraosseous needle in the proximal tibia (1–2 cm below the tibial tuberosity, medial flat surface) after 2 failed attempts or 90 seconds; all fluids and drugs can go through it.
+- **Why are children's arrests usually secondary?** Because they come from respiratory failure or shock, which is why BLS starts with rescue breaths and why early ABC treatment prevents arrest.
+- **How do you estimate the weight of a 3-year-old with no scale?** (2 × 3) + 8 = 14 kg (APLS); weigh as soon as possible, and use a length-based tape (Broselow) if available.
 
-**What do you do if you cannot get an IV line in a shocked child?**
-Intraosseous needle in the proximal tibia (1–2 cm below the tibial tuberosity, medial flat surface) after 2 failed attempts or 90 seconds; all fluids and drugs can go through it.
+### Mnemonics
 
-**Why are children's arrests usually secondary?**
-Because they come from respiratory failure or shock, which is why BLS starts with rescue breaths and why early ABC treatment prevents arrest.
+- **ABCD**: Airway-Breathing, Circulation, Coma-Convulsions, Dehydration.
+- **3 TPR-MOB**: Tiny baby, Temperature, Trauma; Pallor, Poisoning, Pain; Respiratory distress, Restless/irritable/lethargic, Referral; Malnutrition, Oedema, Burns.
+- **Shock = "Cold, Slow, Weak"**: cold hands, slow capillary refill (>3 s), weak fast pulse.
+- **"DEFG: Don't Ever Forget Glucose"** in coma and convulsions.
+- **Plan C "30–70"**: 30 mL/kg then 70 mL/kg; infants 1 h + 5 h, children ½ h + 2½ h.
+- **SAM shock "15-15-ReSoMal"**: 15 mL/kg/h, repeat 15 if improving, then ReSoMal.
+- **Anaphylaxis "0.01 in the thigh"**: 0.01 mL/kg of 1:1000 IM.
+- **BLS "5-15-2"**: 5 rescue breaths, then 15 compressions to 2 breaths.
 
-**How do you estimate the weight of a 3-year-old with no scale?**
-(2 × 3) + 8 = 14 kg (APLS); weigh as soon as possible, and use a length-based tape (Broselow) if available.
+### OSCE tips
+
+- In an ETAT station, **speak aloud**: "I am checking for emergency signs: airway and breathing, circulation, coma and convulsions, dehydration."
+- **Weigh or estimate weight first** and show the calculation for every dose.
+- **Reassess** after every intervention and say what you are looking for.
+- Ask for **glucose** in every unconscious or convulsing child.
+- Don't forget to **keep the child warm** and to **talk to the mother**.
+
+## 9. References
+
+1. Ministry of Health Uganda. Uganda Clinical Guidelines 2023: National Guidelines for Management of Common Health Conditions (Chapter 1: Emergencies and Trauma). Kampala: MoH; 2023. https://library.health.go.ug/uganda-clinical-guidelines-2023
+2. World Health Organization. Paediatric emergency triage, assessment and treatment: care of critically-ill children (ETAT guideline update). Geneva: WHO; 2016. https://www.who.int/publications/i/item/9789241510219
+3. World Health Organization. Pocket Book of Hospital Care for Children: guidelines for the management of common childhood illnesses, 2nd edition (Chapter 1: Triage and emergency conditions). Geneva: WHO; 2013. https://www.who.int/publications/i/item/978-92-4-154837-3
+4. World Health Organization. WHO guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years. Geneva: WHO; 2023. https://www.who.int/publications/i/item/9789240082830
+5. World Health Organization. Guideline on management of pneumonia and diarrhoea in children up to 10 years of age. Geneva: WHO; 2024. https://www.who.int/publications/i/item/9789240103412
+6. Maitland K, Kiguli S, Opoka RO, et al. Mortality after fluid bolus in African children with severe infection (FEAST trial). N Engl J Med 2011;364:2483-95.
+7. International Liaison Committee on Resuscitation (ILCOR) 2025 consensus on science; European Resuscitation Council and American Heart Association 2025 paediatric life support guidelines [VERIFY: full citations].
+8. Uganda Bureau of Statistics. Uganda Demographic and Health Survey 2022 (under-5 mortality).
+9. Glynn M, Drake WM, editors. Hutchison's Clinical Methods: An Integrated Approach to Clinical Practice. 24th edition. Edinburgh: Elsevier; 2018.
