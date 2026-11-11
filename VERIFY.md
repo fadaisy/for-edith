@@ -156,3 +156,4 @@ To update a topic, edit `content/topics/<slug>/notes.md` or `study.json`, then r
 - Full list of [VERIFY] flags raised during conversion: see the inline Verify chips on each topic page.
 - Measles 2025 case counts disagree: immunisation topic quotes 896 confirmed, measles topic over 10,163 (likely suspected vs confirmed); reconcile.
 - IUFD: third-stage oxytocin 10 IU IM vs avoiding IM injections in DIC (give IV if coagulopathy?); Prada et al. 2016 cited in abortion care without a reference entry.
+- Ventouse model case: 1/5 palpable with station +2 is mid-cavity, not 'low', by RCOG definitions; AHA/AAP 2025 neonatal update vs advanced resuscitation steps.
