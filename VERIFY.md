@@ -149,3 +149,8 @@ To update a topic, edit `content/topics/<slug>/notes.md` or `study.json`, then r
 - Rectal artesunate: iCCM capsule bands (1/2/3 capsules by age, 50 vs 100 mg) vs UCG malaria chapter 100 mg (5–<14 kg) / 200 mg (14–19 kg).
 - Buccal midazolam: 0.3 mg/kg (WHO/APLS) vs 0.3–0.5 mg/kg (BNFc bands); site uses 0.3–0.5 mg/kg, max 10 mg.
 - Vitamin A third dose: UCG gives day 14 to every measles case; WHO only with eye signs (immunisation and drug handbook previously said day 15).
+
+## Conversion review (new format)
+
+- Plain lidocaine maximum: MVA topic uses 4.5 mg/kg (WHO abortion care, max 300 mg); drug handbook and vaginal delivery use 3 mg/kg (BNF). Both now cross-referenced; confirm the unit's figure.
+- Full list of [VERIFY] flags raised during conversion: see the inline Verify chips on each topic page.
