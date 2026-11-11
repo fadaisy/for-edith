@@ -4,7 +4,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { studySchema, frontmatterSchema } from "../src/lib/content-schema.mjs";
+import { studySchema, frontmatterSchema, structuredFrontmatterSchema } from "../src/lib/content-schema.mjs";
+import { NOTE_FORMATS, FORMAT_NAMES, normTitle, splitSections, subheadings } from "../src/lib/note-format.mjs";
+import { parseMermaid } from "../src/lib/rehype-notes.mjs";
 import { topicHash, quickRefHash, readManifest } from "./pdf/hash.mjs";
 import { TOPICS } from "../src/content/curriculum.ts";
 
@@ -19,6 +21,8 @@ const only = args.filter((a) => !a.startsWith("--"));
 const slugs = only.length ? only : allSlugs;
 
 const MIN = { flashcards: 20, mcqs: 12, cases: 2, references: 5, caseSteps: 4 };
+// Old format (topics not yet converted). Structured notes (front-matter `format`) are
+// checked by checkStructured() instead.
 const REQUIRED_HEADINGS = [
   [/nutshell/i, "## In a nutshell"],
   [/clinical acumen/i, "## Clinical acumen"],
@@ -54,12 +58,16 @@ for (const slug of slugs) {
   else {
     const raw = fs.readFileSync(notesPath, "utf8");
     const { data, content } = matter(raw);
-    const fm = frontmatterSchema.safeParse(data);
-    if (!fm.success) err(slug, `front-matter: ${fm.error.issues.map((i) => `${i.path.join(".")} ${i.message}`).join("; ")}`);
+    const structured = data.format !== undefined;
+    const fm = (structured ? structuredFrontmatterSchema : frontmatterSchema).safeParse(data);
+    if (!fm.success) err(slug, `front-matter: ${fm.error.issues.map((i) => `${i.path.join(".") || "(root)"} ${i.message}`).join("; ")}`);
     else if (fm.data.highYield.length < 10) warn(slug, `highYield has ${fm.data.highYield.length} items (want 10–12)`);
-    const h2 = [...content.matchAll(/^## (.+)$/gm)].map((m) => m[1]);
-    for (const [re, label] of REQUIRED_HEADINGS)
-      if (!h2.some((h) => re.test(h))) err(slug, `notes.md missing a "${label}" section`);
+    if (structured) checkStructured(slug, data.format, content);
+    else {
+      const h2 = [...content.matchAll(/^## (.+)$/gm)].map((m) => m[1]);
+      for (const [re, label] of REQUIRED_HEADINGS)
+        if (!h2.some((h) => re.test(h))) err(slug, `notes.md missing a "${label}" section`);
+    }
     const words = content.split(/\s+/).filter(Boolean).length;
     if (words < 1500) warn(slug, `notes.md is only ${words} words (target 2,500–5,000)`);
     if (/<\/?[a-z][^>]*>/i.test(content.replace(/```[\s\S]*?```/g, "")))
@@ -110,6 +118,38 @@ const stale = TOPICS.filter(
 ).map((t) => t.slug);
 if (!only.length && fs.existsSync(path.join(root, "content/quick-reference.md")) && manifest["quick-reference"] !== quickRefHash()) stale.push("quick-reference");
 if (stale.length) err("pdf", `${stale.length} PDF(s) out of date (${stale.join(", ")}). Run \`npm run pdf\` and commit public/pdf.`);
+
+/** Structured notes: the exact numbered H2 list for the format, and its mandatory H3s. */
+function checkStructured(slug, format, content) {
+  const spec = NOTE_FORMATS[format];
+  if (!spec) return err(slug, `front-matter format "${format}" is not one of ${FORMAT_NAMES.join(", ")}`);
+  const { sections } = splitSections(content);
+  const want = spec.sections.map((t, i) => `${i + 1}. ${t}`);
+  const got = sections.map((s) => s.heading);
+  const missing = want.filter((w) => !got.some((g) => normTitle(g) === normTitle(w)));
+  const extra = got.filter((g) => !want.some((w) => normTitle(g) === normTitle(w)));
+  for (const m of missing) err(slug, `notes.md missing "## ${m}" (format: ${format})`);
+  for (const x of extra) err(slug, `notes.md has an unexpected H2 "## ${x}" (format ${format} allows only the numbered sections)`);
+  if (!missing.length && !extra.length) {
+    const i = got.findIndex((g, k) => normTitle(g) !== normTitle(want[k]));
+    if (i >= 0 || got.length !== want.length) err(slug, `numbered sections are out of order or repeated (expected ${want.length}, in order; found "${got[i] ?? got.at(-1)}" at position ${i + 1})`);
+  }
+  const byN = new Map(sections.filter((s) => s.n !== null).map((s) => [s.n, s]));
+  const has = (sec, sub) => subheadings(sec.body).some((h) => normTitle(h).startsWith(normTitle(sub)));
+  for (const [rules, report] of [
+    [spec.required, err],
+    [spec.expected, warn],
+  ])
+    for (const [n, subs] of Object.entries(rules)) {
+      const sec = byN.get(Number(n));
+      if (!sec || /^\s*not applicable/i.test(sec.body)) continue;
+      for (const sub of subs) if (!has(sec, sub)) report(slug, `"## ${n}. ${spec.sections[n - 1]}" has no "### ${sub}" subsection`);
+    }
+  // Mermaid blocks must be readable by the topic page's flowchart renderer.
+  for (const m of content.matchAll(/^```mermaid\n([\s\S]*?)^```/gm))
+    if (!parseMermaid(m[1])) err(slug, `a mermaid block could not be read (use "flowchart TD" with A["label"] --> B["label"] lines)`);
+  if (spec.mermaidIn && !/^```mermaid/m.test(byN.get(spec.mermaidIn)?.body ?? "")) warn(slug, `"## ${spec.mermaidIn}. ${spec.sections[spec.mermaidIn - 1]}" has no mermaid flowchart`);
+}
 
 const done = slugs.length - missing;
 console.log(`\n${done}/${slugs.length} topics present · ${errors} error(s) · ${warnings} warning(s)`);

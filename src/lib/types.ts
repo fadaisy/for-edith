@@ -44,6 +44,51 @@ export interface Heading {
   id: string;
 }
 
+export type NoteFormat = "disease" | "skill" | "concept";
+
+/** One numbered H2 section of structured notes. */
+export interface NoteSection {
+  /** Position in the notes (0-based); unique, unlike `n`. */
+  key: number;
+  /** The section number ("## 7. …"), null for an unnumbered H2. */
+  n: number | null;
+  title: string;
+  /** The H2's id (same slugger as the search index and rehype-slug). */
+  id: string;
+  /** Markdown under the H2. */
+  body: string;
+  /** Index into `chapters`. */
+  chapter: number;
+  words: number;
+  /** Every heading text up to and including this H2, to continue the page's slug sequence. */
+  slugSeed: string[];
+  /** H3 subsections. */
+  parts: Heading[];
+}
+
+export interface NoteChapter {
+  id: string;
+  title: string;
+  short: string;
+  minutes: number;
+}
+
+/** Notes in the structured format (front-matter `format` + numbered H2s), read as chapters. */
+export interface StructuredNotes {
+  format: NoteFormat;
+  preamble: string;
+  chapters: NoteChapter[];
+  sections: NoteSection[];
+}
+
+export interface NoteMeta {
+  system?: string;
+  specialty?: string;
+  level?: string;
+  tags?: string[];
+  lastReviewed?: string;
+}
+
 export interface TopicContent {
   topic: Topic;
   summary: string;
@@ -52,6 +97,11 @@ export interface TopicContent {
   headings: Heading[];
   wordCount: number;
   study: StudyData;
+  meta: NoteMeta;
+  /** Chapters view, when the notes use the structured format. */
+  structured: StructuredNotes | null;
+  /** Number of [VERIFY] markers in the notes. */
+  verifyCount: number;
 }
 
 export interface TopicSummary extends Topic {

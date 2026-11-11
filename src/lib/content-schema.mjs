@@ -47,3 +47,33 @@ export const frontmatterSchema = z.object({
   summary: z.string().min(1),
   highYield: z.array(z.string().min(1)).default([]),
 });
+
+// Structured notes (CONTENT_GUIDE.md): extra front-matter keys. YAML reads an unquoted
+// 2026-11-11 as a Date, so last_reviewed accepts both and is normalised to YYYY-MM-DD.
+const isoDate = z.union([
+  z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "must be YYYY-MM-DD"),
+  z.date().transform((d) => d.toISOString().slice(0, 10)),
+]);
+export const SPECIALTIES = ["Obstetrics", "Gynaecology", "Paediatrics", "Neonatology"];
+export const LEVELS = ["Core", "Advanced"];
+
+/** Every key a structured topic must have (used by the validator). */
+export const structuredFrontmatterSchema = frontmatterSchema.extend({
+  format: z.enum(["disease", "skill", "concept"]),
+  system: z.string().min(1),
+  specialty: z.enum(SPECIALTIES),
+  level: z.enum(LEVELS),
+  tags: z.array(z.string().min(1)).min(1),
+  last_reviewed: isoDate,
+  sources: z.array(z.string().min(1)).min(1),
+});
+
+/** The same keys, read leniently by the site: a bad value is dropped, never fatal. */
+export const noteMetaSchema = z.object({
+  format: z.enum(["disease", "skill", "concept"]).optional().catch(undefined),
+  system: z.string().optional().catch(undefined),
+  specialty: z.string().optional().catch(undefined),
+  level: z.string().optional().catch(undefined),
+  tags: z.array(z.string()).optional().catch(undefined),
+  last_reviewed: isoDate.optional().catch(undefined),
+});

@@ -13,6 +13,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeStringify from "rehype-stringify";
 import { chromium } from "playwright-core";
 import { rehypeCallouts } from "../src/lib/rehype-callouts.mjs";
+import { rehypeMermaid, rehypeVerify } from "../src/lib/rehype-notes.mjs";
 import { TOPICS } from "../src/content/curriculum.ts";
 import { ROTATIONS } from "../src/content/rotations.ts";
 import { PDF_DIR, MANIFEST, topicHash, quickRefHash, readManifest } from "./pdf/hash.mjs";
@@ -63,6 +64,8 @@ const processor = unified()
   .use(remarkRehype)
   .use(rehypeSlug)
   .use(rehypeCallouts)
+  .use(rehypeVerify)
+  .use(rehypeMermaid)
   .use(rehypePrint)
   .use(rehypeStringify);
 const md = (s) => String(processor.processSync(s));
@@ -148,6 +151,16 @@ blockquote { margin: 0 0 8pt; padding: 2pt 10pt; border-left: 3px solid var(--li
 .step-a { padding-left: 10pt; border-left: 2px solid var(--line); }
 .takeaway { border-left: 3.5pt solid var(--brand); background: #fdf1f5; border-radius: 6pt; padding: 5pt 10pt; }
 .refs li { margin: 3pt 0; }
+.verify { color: #8a5300; font-size: 8.5pt; }
+.verify-chip { display: inline-block; border: 1px solid #f2d9b0; background: #fdf3e6; border-radius: 3pt; padding: 0 3pt; font-size: 7pt; font-weight: 650; letter-spacing: .03em; line-height: 1.35; }
+.verify-note { font-style: italic; }
+.flow { margin: 4pt 0 9pt; max-width: 125mm; break-inside: avoid; }
+.flow-row { display: flex; flex-wrap: wrap; gap: 4pt; }
+.flow-step { flex: 1 1 35mm; border: 1px solid var(--brand-line); background: #fffafc; border-radius: 5pt; padding: 3pt 7pt; font-size: 9pt; line-height: 1.35; }
+.flow-via { display: block; font-size: 7.5pt; font-weight: 650; color: var(--brand-text); }
+.flow-arrow { display: flex; gap: 5pt; align-items: center; padding-left: 9pt; color: var(--brand); font-size: 9pt; line-height: 1.3; }
+.flow-edge { font-size: 8pt; color: var(--ink-2); }
+.flow-loops { list-style: none; padding: 0; margin: 3pt 0 0; font-size: 8.5pt; color: var(--ink-2); }
 .disclaimer { font-size: 8pt; color: var(--ink-3); margin-top: 14pt; border-top: 1px solid var(--line); padding-top: 6pt; }
 `;
 
@@ -160,8 +173,12 @@ const footer = (title) => `
 const page = (title, body) =>
   `<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><title>${esc(title)}</title><style>${CSS}</style></head><body>${body}</body></html>`;
 
-function toc(body) {
-  const h2 = [...body.replace(/```[\s\S]*?```/g, "").matchAll(/^## (.+)$/gm)].map((m) => m[1].replace(/[*_`]/g, ""));
+function toc(body, numbered = false) {
+  const h2 = [...body.replace(/```[\s\S]*?```/g, "").matchAll(/^## (.+)$/gm)].map((m) => {
+    const h = m[1].replace(/[*_`]/g, "");
+    // Structured notes number their own headings ("7. Differential Diagnoses").
+    return numbered ? h.replace(/^\d+\.\s+/, "") : h;
+  });
   return h2.length ? `<div class="toc">${h2.map((h, i) => `<div><b>${i + 1}</b>${esc(h)}</div>`).join("")}</div>` : "";
 }
 
@@ -224,7 +241,7 @@ function topicHtml(topic, notes, study) {
       ${data.summary ? `<p class="summary">${mdInline(data.summary)}</p>` : ""}
     </header>
     ${data.highYield?.length ? `<section class="mustknow"><h2>Must know before the ward round</h2><ol>${data.highYield.map((h) => `<li>${mdInline(h)}</li>`).join("")}</ol></section>` : ""}
-    ${toc(content)}
+    ${toc(content, Boolean(data.format))}
     <main>${md(content)}</main>
     ${selfTest.join("")}
     <p class="disclaimer">A study aid, not a protocol. Check doses against the Uganda Clinical Guidelines 2023, your unit's protocol and a senior before you treat a patient.</p>`,

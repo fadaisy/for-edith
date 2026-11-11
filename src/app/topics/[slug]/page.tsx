@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronLeft, ChevronRight, Sparkles, BookOpen, GraduationCap, Wrench, Pill } from "lucide-react";
+import { ChevronLeft, ChevronRight, Sparkles, BookOpen, GraduationCap, Wrench, Pill, CircleAlert } from "lucide-react";
 import { TOPICS, REFERENCE_WEEK } from "@/content/curriculum";
 import { ROTATIONS, rotationNeighbours } from "@/content/rotations";
 import { loadTopic } from "@/lib/content";
@@ -9,6 +9,7 @@ import { Markdown } from "@/components/markdown";
 import { KindChip } from "@/components/ui";
 import { TopicHeaderActions, TopicDetails, TopicTabs, TableOfContents } from "@/components/topic-view";
 import { DrugGroupGrid, ChapterList } from "@/components/drug-handbook";
+import { ChapterProvider, ChapterBody, ChapterToc } from "@/components/chapter-notes";
 import { drugHandbook } from "@/lib/drug-handbook";
 
 const KIND_ICON = { lecture: GraduationCap, tutorial: BookOpen, skill: Wrench, reference: Pill } as const;
@@ -59,8 +60,99 @@ export default async function TopicPage(props: PageProps<"/topics/[slug]">) {
         items: items.map(({ id, text }) => ({ id, text })),
       }))
     : null;
-  if (handbook) jump.length = 0;
+  // Structured notes (numbered sections in four chapters): the chapter tabs replace the jump pills.
+  const notes = handbook ? null : c.structured;
+  if (handbook || notes) jump.length = 0;
   const Icon = KIND_ICON[topic.kind];
+  const { meta } = c;
+  const reviewed = meta.lastReviewed
+    ? new Date(`${meta.lastReviewed}T00:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })
+    : null;
+
+  const grid = (
+    <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_292px] xl:gap-10">
+      <div className="min-w-0">
+        {c.highYield.length > 0 && !handbook && (
+          <section className="mb-6 flex flex-col gap-2.5 rounded-[14px] border border-brand-line bg-surface px-5 py-4">
+            <h2 className="flex items-center gap-2 text-[13px] font-semibold text-brand-text">
+              <Sparkles size={15} className="fill-brand text-brand" /> Must know before the ward round
+            </h2>
+            <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-[14.5px] leading-relaxed marker:font-semibold marker:text-brand">
+              {c.highYield.map((h, k) => (
+                <li key={k} className="pl-1">
+                  <Markdown className="prose-compact [&_p]:m-0 [&_p]:text-[14.5px]">{h}</Markdown>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        <TopicTabs
+          slug={slug}
+          topicTitle={topic.title}
+          cards={cards}
+          questions={questions}
+          cases={study.cases}
+          references={study.references}
+          toc={handbook ? <ChapterList base={`/topics/${slug}`} groups={handbook} /> : notes ? undefined : <TableOfContents headings={c.headings} />}
+        >
+          {handbook ? (
+            <>
+              <DrugGroupGrid base={`/topics/${slug}`} groups={handbook} />
+              <section className="mt-8 flex flex-col gap-2.5 rounded-[14px] border border-brand-line bg-surface px-5 py-4">
+                <h2 className="flex items-center gap-2 text-[13px] font-semibold text-brand-text">
+                  <Sparkles size={15} className="fill-brand text-brand" /> Must-know drug facts
+                </h2>
+                <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-[14.5px] leading-relaxed marker:font-semibold marker:text-brand">
+                  {c.highYield.map((h, k) => (
+                    <li key={k} className="pl-1">
+                      <Markdown className="prose-compact [&_p]:m-0 [&_p]:text-[14.5px]">{h}</Markdown>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            </>
+          ) : notes ? (
+            <ChapterBody
+              preamble={notes.preamble ? <Markdown>{notes.preamble}</Markdown> : undefined}
+              contents={notes.sections.map((sec) => (
+                <Markdown key={sec.key} headingIds slugSeed={sec.slugSeed}>
+                  {sec.body}
+                </Markdown>
+              ))}
+            />
+          ) : c.body ? (
+            <Markdown headingIds>{c.body}</Markdown>
+          ) : (
+            <div className="card p-8 text-center text-ink-3">Notes for this topic are being written. Check back soon, or try the flashcards and questions.</div>
+          )}
+        </TopicTabs>
+      </div>
+
+      <aside className="hidden xl:block">
+        <div className="sticky top-20 flex max-h-[calc(100dvh-6rem)] flex-col gap-6 overflow-y-auto rounded-[14px] border border-line bg-surface p-5">
+          <TopicDetails
+            slug={slug}
+            counts={{ flashcards: cards.length, mcqs: questions.length, cases: study.cases.length }}
+            sessions={sessions}
+            rotation={topic.rotation}
+            faculty={topic.faculty}
+            weekLabel={topic.week === REFERENCE_WEEK ? "Reference · not timetabled" : `${topic.week} · ${rotation.weekThemes[topic.week]}`}
+          />
+          <div className="border-t border-line pt-4">
+            <div className="mb-2 text-[12px] font-medium text-ink-3">{handbook ? "Chapters" : notes ? "In this chapter" : "On this page"}</div>
+            {handbook ? (
+              <ChapterList base={`/topics/${slug}`} groups={handbook} />
+            ) : notes ? (
+              <ChapterToc />
+            ) : (
+              <TableOfContents headings={c.headings} />
+            )}
+          </div>
+        </div>
+      </aside>
+    </div>
+  );
 
   return (
     <article>
@@ -88,7 +180,15 @@ export default async function TopicPage(props: PageProps<"/topics/[slug]">) {
                   Also in {ROTATIONS[r].name}
                 </span>
               ))}
+              {notes && meta.system && <span className="chip">{meta.system}</span>}
+              {notes && meta.level && <span className="chip !border-transparent !bg-lilac-soft !text-lilac-text">{meta.level}</span>}
               {c.wordCount > 0 && <span className="chip">{Math.max(1, Math.round(c.wordCount / 200))} min read</span>}
+              {notes && reviewed && <span className="chip">Reviewed {reviewed}</span>}
+              {c.verifyCount > 0 && (
+                <span className="chip !border-warn-line !bg-warn-soft !text-warn-text" title="Statements marked Verify are still being checked against the sources">
+                  <CircleAlert size={12} strokeWidth={2.4} /> {c.verifyCount} to verify
+                </span>
+              )}
               <div className="ml-auto hidden sm:block">
                 <TopicHeaderActions slug={slug} title={topic.title} />
               </div>
@@ -120,73 +220,25 @@ export default async function TopicPage(props: PageProps<"/topics/[slug]">) {
         )}
       </header>
 
-      <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_292px] xl:gap-10">
-        <div className="min-w-0">
-          {c.highYield.length > 0 && !handbook && (
-            <section className="mb-6 flex flex-col gap-2.5 rounded-[14px] border border-brand-line bg-surface px-5 py-4">
-              <h2 className="flex items-center gap-2 text-[13px] font-semibold text-brand-text">
-                <Sparkles size={15} className="fill-brand text-brand" /> Must know before the ward round
-              </h2>
-              <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-[14.5px] leading-relaxed marker:font-semibold marker:text-brand">
-                {c.highYield.map((h, k) => (
-                  <li key={k} className="pl-1">
-                    <Markdown className="prose-compact [&_p]:m-0 [&_p]:text-[14.5px]">{h}</Markdown>
-                  </li>
-                ))}
-              </ol>
-            </section>
-          )}
-
-          <TopicTabs
-            slug={slug}
-            topicTitle={topic.title}
-            cards={cards}
-            questions={questions}
-            cases={study.cases}
-            references={study.references}
-            toc={handbook ? <ChapterList base={`/topics/${slug}`} groups={handbook} /> : <TableOfContents headings={c.headings} />}
-          >
-            {handbook ? (
-              <>
-                <DrugGroupGrid base={`/topics/${slug}`} groups={handbook} />
-                <section className="mt-8 flex flex-col gap-2.5 rounded-[14px] border border-brand-line bg-surface px-5 py-4">
-                  <h2 className="flex items-center gap-2 text-[13px] font-semibold text-brand-text">
-                    <Sparkles size={15} className="fill-brand text-brand" /> Must-know drug facts
-                  </h2>
-                  <ol className="flex list-decimal flex-col gap-1.5 pl-5 text-[14.5px] leading-relaxed marker:font-semibold marker:text-brand">
-                    {c.highYield.map((h, k) => (
-                      <li key={k} className="pl-1">
-                        <Markdown className="prose-compact [&_p]:m-0 [&_p]:text-[14.5px]">{h}</Markdown>
-                      </li>
-                    ))}
-                  </ol>
-                </section>
-              </>
-            ) : c.body ? (
-              <Markdown headingIds>{c.body}</Markdown>
-            ) : (
-              <div className="card p-8 text-center text-ink-3">Notes for this topic are being written. Check back soon, or try the flashcards and questions.</div>
-            )}
-          </TopicTabs>
-        </div>
-
-        <aside className="hidden xl:block">
-          <div className="sticky top-20 flex max-h-[calc(100dvh-6rem)] flex-col gap-6 overflow-y-auto rounded-[14px] border border-line bg-surface p-5">
-            <TopicDetails
-              slug={slug}
-              counts={{ flashcards: cards.length, mcqs: questions.length, cases: study.cases.length }}
-              sessions={sessions}
-              rotation={topic.rotation}
-              faculty={topic.faculty}
-              weekLabel={topic.week === REFERENCE_WEEK ? "Reference · not timetabled" : `${topic.week} · ${rotation.weekThemes[topic.week]}`}
-            />
-            <div className="border-t border-line pt-4">
-              <div className="mb-2 text-[12px] font-medium text-ink-3">{handbook ? "Chapters" : "On this page"}</div>
-              {handbook ? <ChapterList base={`/topics/${slug}`} groups={handbook} /> : <TableOfContents headings={c.headings} />}
-            </div>
-          </div>
-        </aside>
-      </div>
+      {notes ? (
+        <ChapterProvider
+          slug={slug}
+          chapters={notes.chapters}
+          sections={notes.sections.map(({ key, n, title, id, chapter, words, parts }) => ({
+            key,
+            n,
+            title,
+            id,
+            chapter,
+            minutes: Math.max(1, Math.round(words / 200)),
+            parts,
+          }))}
+        >
+          {grid}
+        </ChapterProvider>
+      ) : (
+        grid
+      )}
 
       <nav className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2">
         {prev ? (

@@ -45,72 +45,144 @@ invent citations; every URL in `references` must be a real page you found.
 
 ## `notes.md` format
 
+Notes are being moved to a **structured format**: front-matter that names the topic's
+`format`, and numbered H2 sections that are the same for every topic of that format. The
+topic page shows structured notes as **four chapter tabs** (each a group of numbered
+sections that fold open and closed), and `npm run validate` checks the exact heading list.
+Topics not yet converted (no `format` key) still use the older free headings and are
+validated as before; convert them, do not write new ones that way. The gold standard is
+`content/topics/acute-asthma/notes.md`.
+
+### Front-matter
+
 ```markdown
 ---
-title: Postpartum Haemorrhage
+title: "Acute asthma (paediatric)"
 summary: One or two sentences, exam-style, that capture the essence of the topic.
 highYield:
   - 10–12 one-line must-know facts: numbers, cut-offs, doses, first-line actions (shown as "Must know")
+format: disease            # disease | skill | concept
+system: Respiratory
+specialty: Paediatrics     # Obstetrics | Gynaecology | Paediatrics | Neonatology
+level: Core                # Core | Advanced
+tags: [asthma, wheeze, salbutamol]
+last_reviewed: 2026-11-11  # YYYY-MM-DD
+sources:
+  - "Ministry of Health Uganda. Uganda Clinical Guidelines 2023 (5.1.1 Asthma)"
+  - "Hutchison's Clinical Methods, 24th edition (Glynn & Drake), 2018"
 ---
-
-## In a nutshell
-...
 ```
 
-### Required H2 sections (in this order)
+All keys are required. `highYield` is the "Must know before the ward round" box above the
+chapters; `sources` are short source names (full references go in section "References" and
+in `study.json`).
 
-The validator checks the ones marked ✔ (by keyword); the others are strongly
-expected.
+### Choosing the format
 
-1. ✔ `## In a nutshell`: 5–10 lines: what it is, why it matters in Uganda, the one
-   thing never to forget.
-2. `## Definitions & classification`
-3. `## Epidemiology & Uganda context`: burden, local statistics, the realities of
-   health facilities.
-4. `## Pathophysiology` (or `Anatomy` / `Physiology` / `Principles`, whichever fits):
-   explain the *why*, because understanding the mechanism is what makes the
-   management stick.
-5. ✔ `## Clinical acumen`: subsections `### Focused history`,
-   `### Examination`, `### Red flags`, `### Thinking like a clinician` (patterns,
-   pitfalls, "if X then think Y").
-5b. ✔ `## Clinical workup`: the stepwise ward approach to a patient with this condition, in the order
-   you would really do it. Required subsections:
-   - `### Step 0: First 5 minutes`: immediate assessment (ABC, vitals, shock index, danger signs), when to
-     call for help, and what to start at once.
-   - `### Step 1: Focused history`: a checklist; each item says *why* it matters (what answer changes the plan).
-   - `### Step 2: Focused examination`: general, then system and obstetric/pelvic, with the key positive
-     and negative findings to document.
-   - `### Step 3: Bedside tests`: what you can do in minutes on the ward (urine dipstick, Hb/HemoCue, RBS,
-     bedside clotting test, pregnancy test, point-of-care ultrasound, CTG/Doppler, partograph).
-   - `### Step 4: Laboratory & imaging`: a **table**: Test | When | Expected / abnormal finding | How it
-     changes management. Include Ugandan availability (HC IV vs regional/national referral).
-   - `### Step 5: Putting it together`: a model one-line summary, problem list and working diagnosis,
-     plus one or two worked examples of interpreting results (e.g. a partograph, a CTG, an OGTT, LFTs).
-   For skill topics this is the pre-procedure assessment (indications checked, prerequisites, consent,
-   equipment check) and the post-procedure checks.
-6. `## Differential diagnosis`: a **table** with columns such as Condition /
-   Distinguishing features / Key investigation.
-7. `## Investigations`: a table: Test / What you are looking for / Why.
-8. ✔ `## Management`: the heart of the page. Use `###` subsections, ordered lists of
-   steps, and **drug tables** (Drug / Dose / Route / Frequency / Notes).
-   Include an algorithm-style numbered flow for emergencies.
-9. `## Complications`
-10. `## Ward-round & exam pearls`: a model **case presentation / summary line**, likely
-    viva questions *with answers*, and OSCE tips.
-11. `## Mnemonics & memory aids`
-12. ✔ `## High-yield summary`: the last-minute revision page. Required subsections:
-    `### Numbers & doses to know` (a table: item / value), `### Classic exam traps` (5–8 bullets:
-    the tempting wrong answer and the right one), `### Questions seniors ask` (5–8 Q&As with short
-    model answers).
+| `format` | Use it for | Chapters on the topic page (sections) |
+|---|---|---|
+| `disease` | Most tutorials and lectures about a condition | Overview 1–5 · Diagnosis 6–8 · Management 9–13 · Revision 14–15 |
+| `skill` | Bedside, examination and procedure topics | Overview 1–4 · Procedure 5–6 · Acumen & management 7–9 · Revision 10–12 |
+| `concept` | Lectures that are not a single disease (professionalism, child rights, child survival, rational use of investigations, growth and development, IYCF, EmONC, anatomy, physiological changes) | Overview 1–3 · In practice 4–5 · Management & policy 6–7 · Revision 8–9 |
 
-For **skill topics** (`kind: "skill"`: partograph, MVA, instruments/sutures,
-vaginal delivery, ventouse, IPC, neonatal resuscitation, history & exam),
-adapt the headings: you may replace sections 3–7 with `## Equipment`,
-`## Indications & contraindications`, `## Procedure step by step` (numbered), and
-`## OSCE checklist` (a checklist table). You must still include `## Clinical acumen`
-(judgement calls, when to abandon or escalate, troubleshooting) and a `## Management`
-section (e.g. managing complications and aftercare), because the validator requires
-both.
+### `format: disease`: H2 headings exactly, in this order
+
+1. `## 1. Definition`
+2. `## 2. Epidemiology`
+3. `## 3. Aetiology and Risk Factors`
+4. `## 4. Pathophysiology`: a causal chain; every feature in section 6 traceable as
+   "X → Y"; one ` ```mermaid ` flowchart (see below).
+5. `## 5. Classification / Staging` (or "Not applicable" and one line why)
+6. `## 6. Clinical Features` with ✔ `### History` (each question and *why* it matters),
+   ✔ `### Examination` (Hutchison order, below), ✔ `### Red flags`,
+   ✔ `### Thinking like a clinician` (patterns, pitfalls, "if X then think Y", common
+   student mistakes)
+7. `## 7. Differential Diagnoses`: a table, Differential | Distinguishing clinical feature |
+   Distinguishing investigation
+8. `## 8. Clinical Workup` with `### Bedside`, `### Basic lab`, `### Imaging`,
+   `### Specialised / referral-level` (each test: why, expected finding, facility level) and
+   ✔ `### Putting it together` (model one-liner, problem list, worked examples)
+9. `## 9. Management` with `### Immediate / emergency` (ABCDE), `### Definitive`,
+   ✔ `### Drug table` (Drug | Dose (per kg + max for children; adult) | Route | Frequency |
+   Duration | Key cautions), `### Referral criteria` (HC III/IV → General Hospital → RRH →
+   NRH), `### Monitoring and follow-up`. Extra subsections may follow these (by setting,
+   ward care, discharge, prevention of recurrence…).
+10. `## 10. Complications` (disease-related vs treatment-related)
+11. `## 11. Prognosis`
+12. `## 12. Prevention`
+13. `## 13. Special Populations` (only those that change management)
+14. `## 14. Key Points` with ✔ `### High-yield points`, ✔ `### Numbers & doses` (a table),
+    ✔ `### Exam traps`, ✔ `### Questions seniors ask` (with answers), `### Mnemonics`,
+    `### OSCE tips`, and `### Presenting this tutorial` where the topic is presented
+15. `## 15. References`
+
+### `format: skill`
+
+`## 1. Purpose and Indications` · `## 2. Contraindications and Precautions` ·
+`## 3. Relevant Anatomy and Normal Values` · `## 4. Equipment and Preparation` (consent,
+positioning, exposure) · `## 5. Procedure Step by Step` (numbered; examinations in
+Hutchison order) · `## 6. Findings and Interpretation` (what each sign means; a table) ·
+`## 7. Clinical Acumen` (thinking like a clinician, judgement calls, when to stop or
+escalate, common mistakes) · `## 8. Complications and Troubleshooting` ·
+`## 9. Documentation and Presenting Findings` (a model presentation) ·
+`## 10. OSCE Checklist` (a table: Step | Done well when | Critical?) · `## 11. Key Points`
+(the same subsections as disease section 14) · `## 12. References`.
+
+### `format: concept`
+
+`## 1. Definitions and Key Concepts` · `## 2. Burden and Uganda Context` ·
+`## 3. Principles and Framework` · `## 4. Application in Practice` (stepwise, what to do on
+the ward) · `## 5. Clinical Acumen` (thinking like a clinician, pitfalls, scenarios) ·
+`## 6. Common Problems and Their Management` · `## 7. Guidelines, Policy and Law in Uganda` ·
+`## 8. Key Points` (the same subsections as disease section 14) · `## 9. References`.
+
+### What the validator checks
+
+- Every front-matter key above, with valid values.
+- The exact numbered H2 list for the format, in order, and no other H2s.
+- The ✔ subsections (disease sections 6, 8, 9 and 14; the Key Points section of skill and
+  concept topics: High-yield points, Numbers & doses, Exam traps, Questions seniors ask).
+  "Numbers and doses" and "Numbers & doses" are treated alike. A section whose body starts
+  with "Not applicable" is not checked for subsections.
+- The other subsections named above, the disease flowchart and the 10–12 `highYield`
+  facts are warnings.
+- Mermaid blocks must be readable flowcharts (below), callout types must be known, and the
+  notes must contain no HTML.
+
+### Examination: Hutchison order
+
+Examination content follows **Hutchison's Clinical Methods, 24th edition**:
+introduction and consent (parent, and the child's assent), hand hygiene, position and
+exposure, general inspection from the end of the bed (well or unwell, distress, colour,
+hydration, nutrition, dysmorphism; vital signs; growth plotted), hands → face → neck, then
+the system (inspection → palpation → percussion → auscultation), complete the examination,
+thank, hand hygiene, summarise. In children observe first, auscultate while the child is
+quiet and leave distressing parts (ears, throat) to last. The obstetric abdominal
+examination: inspection, fundal height, lie, presentation, engagement (fifths),
+auscultation of the fetal heart. Add Hutchison to the references wherever examination is
+covered.
+
+### Flowcharts
+
+Draw one Mermaid flowchart where a causal chain or algorithm helps (always in disease
+section 4). The site does not run Mermaid: it draws the chart as a vertical chain of steps,
+and the PDF prints the same chain. Keep it to a top-down chain, with a decision branch at
+most:
+
+````markdown
+```mermaid
+flowchart TD
+  A["Trigger: virus, smoke, dust"] --> B["Inflamed, hyper-responsive airway"]
+  B --> C["Bronchospasm, oedema, mucus plugs"]
+  C -->|tiring| D["Silent chest, rising PaCO2"]
+```
+````
+
+### `[VERIFY]` markers
+
+Mark anything uncertain inline with `[VERIFY]` or `[VERIFY: short reason]`. Never invent a
+statistic or a reference to avoid one. The site shows each marker as an amber "Verify" chip
+and counts them in the topic header ("12 to verify"), so they are easy to find and clear.
 
 ### Callouts
 
@@ -138,14 +210,18 @@ Use GitHub-style alert blockquotes. Supported types:
 
 ### Style
 
-- Plain, warm, clear English, written for a bright student rather than a consultant.
-  Explain jargon the first time you use it.
+- Plain, warm, clear British English, written for a bright student rather than a
+  consultant. Explain jargon the first time you use it.
+- A conversion is a reorganisation at **full detail**, not a summary: carry over every
+  clinically useful fact, dose, table, callout, worked example and teaching point; remove
+  only true duplicates.
 - Prefer **tables** and **numbered steps** to walls of text. Bold the key words.
-- Length: aim for **2,500–5,000 words** per topic. Be thorough; this is her textbook.
-- Use SI units (mmol/L, g/dL as used in Uganda) and Ugandan drug availability
-  (e.g. misoprostol, oxytocin, MgSO₄, hydralazine, nifedipine, methyldopa, TLD).
-- No HTML and no images. Use Markdown only. You may draw simple ASCII diagrams inside
-  fenced code blocks when a picture really helps (e.g. fetal skull diameters).
+- Use SI units (mmol/L, g/dL as used in Uganda), generic drug names and Ugandan drug
+  availability (e.g. misoprostol, oxytocin, MgSO₄, hydralazine, nifedipine, methyldopa, TLD).
+- Cite the most recent guideline editions (UCG 2023, the latest WHO, GINA 2025…). Where UCG
+  and WHO or international guidance differ, say so in an `[!UGANDA]` callout.
+- If a section genuinely does not apply, write "Not applicable" and one line why.
+- No HTML, no images and no emojis. Use Markdown only.
 
 ## `study.json` format
 

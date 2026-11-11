@@ -45,6 +45,8 @@
   --bad-soft: #fdecef;
   --warn: #c2680c;
   --warn-soft: #fdf3e6;
+  --warn-line: #f2d9b0;
+  --warn-text: #8a5300;
 
   --primary: #1c1d1f; /* primary buttons are ink, Attio-style */
   --primary-ink: #ffffff;
@@ -88,6 +90,8 @@
   --bad-soft: #321419;
   --warn: #fbbf24;
   --warn-soft: #2e230c;
+  --warn-line: #5c4512;
+  --warn-text: #fcd34d;
   --primary: #f4f2f3;
   --primary-ink: #18181b;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.4);
@@ -129,6 +133,8 @@
     --bad-soft: #321419;
     --warn: #fbbf24;
     --warn-soft: #2e230c;
+    --warn-line: #5c4512;
+    --warn-text: #fcd34d;
     --primary: #f4f2f3;
     --primary-ink: #18181b;
     --shadow: 0 1px 2px rgb(0 0 0 / 0.4);
@@ -171,6 +177,8 @@
   --color-bad-soft: var(--bad-soft);
   --color-warn: var(--warn);
   --color-warn-soft: var(--warn-soft);
+  --color-warn-line: var(--warn-line);
+  --color-warn-text: var(--warn-text);
   --color-primary: var(--primary);
   --color-primary-ink: var(--primary-ink);
   --font-sans: var(--font-sans-var), ui-sans-serif, system-ui, sans-serif;
@@ -458,6 +466,43 @@ a.card:hover, button.card:hover { border-color: var(--brand-line); box-shadow: v
 .callout-exam .callout-title { color: var(--lilac); }
 .callout-note { background: var(--surface-2); border-color: var(--line); border-left-color: var(--ink-3); }
 .callout-note .callout-title { color: var(--ink-2); }
+
+/* [VERIFY] markers: an amber chip, then the reason in small amber text */
+.verify { color: var(--warn-text); font-size: 0.8em; line-height: 1.4; }
+.verify-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid var(--warn-line);
+  background: var(--warn-soft);
+  padding: 0 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.3rem;
+  vertical-align: 0.08em;
+  white-space: nowrap;
+}
+.verify-note { font-style: italic; }
+
+/* Mermaid flowcharts, drawn as a vertical chain of steps */
+.prose-edith .flow { margin: 1.25rem 0; display: flex; flex-direction: column; align-items: stretch; max-width: 34rem; }
+.prose-edith .flow-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.prose-edith .flow-step {
+  flex: 1 1 10rem;
+  border: 1px solid var(--brand-line);
+  background: color-mix(in srgb, var(--brand-soft) 55%, var(--surface));
+  border-radius: 10px;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+.prose-edith .flow-via { display: block; font-size: 0.72rem; font-weight: 600; color: var(--brand-text); }
+.prose-edith .flow-arrow { display: flex; align-items: center; gap: 0.5rem; padding-left: 1.1rem; min-height: 1.6rem; color: var(--brand); }
+.prose-edith .flow-arrow-icon { font-size: 1rem; line-height: 1; }
+.prose-edith .flow-edge { font-size: 0.78rem; color: var(--ink-2); }
+.prose-edith .flow-loops { list-style: none; padding: 0; margin: 0.6rem 0 0; font-size: 0.8rem; color: var(--ink-2); }
+.prose-edith .flow-loops li { margin: 0.15rem 0; padding: 0; }
 
 /* Flashcard flip */
 .flip { perspective: 1200px; }

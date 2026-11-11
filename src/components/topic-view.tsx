@@ -220,7 +220,8 @@ export function TopicTabs({
   questions: QuizQuestion[];
   cases: ClinicalCase[];
   references: Reference[];
-  toc: React.ReactNode;
+  /** The phone's "Jump to section" list (none for chaptered notes, which have chapter tabs). */
+  toc?: React.ReactNode;
   children: React.ReactNode;
 }) {
   const [tab, setTab] = useState<Tab>("notes");
@@ -291,19 +292,21 @@ export function TopicTabs({
       <div className={clsx(tab !== "notes" && "hidden")}>
         <div>
           <div className="min-w-0">
-            <div className="mb-4 xl:hidden">
-              <button className="btn btn-outline w-full justify-between" onClick={() => setTocOpen((o) => !o)}>
-                <span className="flex items-center gap-2">
-                  <List size={16} /> Jump to section
-                </span>
-                <span className="text-ink-3">{tocOpen ? "▲" : "▼"}</span>
-              </button>
-              {tocOpen && (
-                <div className="card mt-2 p-2" onClick={() => setTocOpen(false)}>
-                  {toc}
-                </div>
-              )}
-            </div>
+            {toc && (
+              <div className="mb-4 xl:hidden">
+                <button className="btn btn-outline w-full justify-between" onClick={() => setTocOpen((o) => !o)}>
+                  <span className="flex items-center gap-2">
+                    <List size={16} /> Jump to section
+                  </span>
+                  <span className="text-ink-3">{tocOpen ? "▲" : "▼"}</span>
+                </button>
+                {tocOpen && (
+                  <div className="card mt-2 p-2" onClick={() => setTocOpen(false)}>
+                    {toc}
+                  </div>
+                )}
+              </div>
+            )}
             {children}
             {/* Phone: floating test-me bar above the tab bar */}
             <div className="safe-bottom fixed inset-x-3 bottom-[4.9rem] z-20 flex gap-2 rounded-2xl bg-[#1c1d1f]/95 p-2 shadow-pop backdrop-blur lg:hidden">

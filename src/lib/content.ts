@@ -5,8 +5,10 @@ import matter from "gray-matter";
 import GithubSlugger from "github-slugger";
 import { cache } from "react";
 import { TOPICS, TOPIC_BY_SLUG, type Topic } from "@/content/curriculum";
-import { frontmatterSchema, studySchema } from "@/lib/content-schema.mjs";
-import type { StudyData, TopicContent, TopicSummary, Heading, SearchEntry } from "@/lib/types";
+import { frontmatterSchema, noteMetaSchema, studySchema } from "@/lib/content-schema.mjs";
+import { NOTE_FORMATS, chapterOf, countVerify, isStructured, splitSections } from "@/lib/note-format.mjs";
+import { mermaidText } from "@/lib/rehype-notes.mjs";
+import type { StudyData, TopicContent, TopicSummary, Heading, SearchEntry, NoteMeta, StructuredNotes, NoteFormat } from "@/lib/types";
 import { drugHandbook } from "@/lib/drug-handbook";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -31,6 +33,42 @@ export function extractHeadings(markdown: string, depths: number[] = [2, 3]): He
     if (depths.includes(m[1].length)) headings.push({ depth: m[1].length, text, id });
   }
   return headings;
+}
+
+const words = (s: string) => s.split(/\s+/).filter(Boolean).length;
+
+/**
+ * Groups structured notes into the format's four chapters. Null when the headings cannot be
+ * matched up safely (the page then shows the notes as one long page).
+ */
+function structureNotes(format: NoteFormat, body: string): StructuredNotes | null {
+  const { preamble, sections } = splitSections(body);
+  const all = extractHeadings(body, [1, 2, 3, 4, 5, 6]);
+  const h2 = all.flatMap((h, i) => (h.depth === 2 ? [i] : []));
+  if (h2.length !== sections.length || !sections.length) return null;
+  let chapter = 0;
+  const out = sections.map((s, key) => {
+    const at = h2[key];
+    if (s.n !== null) chapter = chapterOf(format, s.n);
+    return {
+      key,
+      n: s.n,
+      title: s.title,
+      id: all[at].id,
+      body: s.body,
+      chapter,
+      words: words(s.body),
+      slugSeed: all.slice(0, at + 1).map((h) => h.text),
+      parts: all.slice(at + 1, h2[key + 1] ?? all.length).filter((h) => h.depth === 3),
+    };
+  });
+  const chapters = NOTE_FORMATS[format].chapters.map((c, i) => ({
+    id: c.id,
+    title: c.title,
+    short: c.short,
+    minutes: Math.max(1, Math.round(out.filter((s) => s.chapter === i).reduce((n, s) => n + s.words, 0) / 200)),
+  }));
+  return { format, preamble, chapters, sections: out };
 }
 
 export const loadStudy = cache((slug: string): StudyData => {
@@ -58,6 +96,8 @@ export const loadTopic = cache((slug: string): TopicContent | null => {
   let body = "";
   let summary = topic.blurb;
   let highYield: string[] = [];
+  let meta: NoteMeta = {};
+  let structured: StructuredNotes | null = null;
   if (fs.existsSync(file)) {
     const { data, content } = matter(fs.readFileSync(file, "utf8"));
     const fm = frontmatterSchema.safeParse(data);
@@ -66,6 +106,10 @@ export const loadTopic = cache((slug: string): TopicContent | null => {
       highYield = fm.data.highYield;
     }
     body = content;
+    const m = noteMetaSchema.parse(data);
+    meta = { system: m.system, specialty: m.specialty, level: m.level, tags: m.tags, lastReviewed: m.last_reviewed };
+    // Reference topics (drug handbooks) keep their own chapter pages.
+    if (topic.kind !== "reference" && isStructured(m.format, body)) structured = structureNotes(m.format, body);
   }
   return {
     topic,
@@ -73,8 +117,11 @@ export const loadTopic = cache((slug: string): TopicContent | null => {
     highYield,
     body,
     headings: extractHeadings(body),
-    wordCount: body.split(/\s+/).filter(Boolean).length,
+    wordCount: words(body),
     study: loadStudy(slug),
+    meta,
+    structured,
+    verifyCount: countVerify(body),
   };
 });
 
@@ -110,7 +157,8 @@ export const loadQuickReference = cache(() => {
 
 /** Split notes into plain-text chunks, one per H2/H3 heading, for full-text search. */
 function sectionChunks(body: string, headings: Heading[]) {
-  const lines = body.split("\n");
+  // Flowcharts are indexed as their steps ("A → B → C").
+  const lines = body.replace(/^```mermaid\n([\s\S]*?)^```/gm, (_, src: string) => mermaidText(src)).split("\n");
   const chunks: { id: string; heading: string; text: string }[] = [];
   let hi = 0;
   let current: { id: string; heading: string; lines: string[] } | null = null;
@@ -129,6 +177,7 @@ function sectionChunks(body: string, headings: Heading[]) {
     ...c,
     text: c.text
       .replace(/> \[![A-Z]+\]/g, "")
+      .replace(/\[VERIFY[^\]]*\]/g, "")
       .replace(/[*_`>|#]/g, " ")
       .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
       .replace(/-{3,}/g, " ")

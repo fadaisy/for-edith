@@ -11,3 +11,14 @@ export const studySchema: z.ZodType<{
   references: unknown[];
 }>;
 export const frontmatterSchema: z.ZodType<{ title: string; summary: string; highYield: string[] }>;
+export const SPECIALTIES: string[];
+export const LEVELS: string[];
+export const structuredFrontmatterSchema: z.ZodTypeAny;
+export const noteMetaSchema: z.ZodType<{
+  format?: "disease" | "skill" | "concept";
+  system?: string;
+  specialty?: string;
+  level?: string;
+  tags?: string[];
+  last_reviewed?: string;
+}>;
