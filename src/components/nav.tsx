@@ -15,6 +15,7 @@ import {
   ListChecks,
   Search,
   Stethoscope,
+  Target,
   Timer,
   UserRound,
   Zap,
@@ -33,6 +34,7 @@ const STUDY = [
   { href: "/flashcards", label: "Flashcards", icon: Layers },
   { href: "/quiz", label: "Quiz", icon: ListChecks },
   { href: "/cases", label: "Cases", icon: Stethoscope },
+  { href: "/practice", label: "Practice", icon: Target },
 ];
 /** Reference links; the drug handbook is the active rotation's. */
 const referenceLinks = (rotation: RotationId) => [
@@ -47,6 +49,7 @@ const MOBILE = [
   { href: "/schedule", label: "Calendar", icon: CalendarDays },
   { href: "/flashcards", label: "Cards", icon: Layers },
   { href: "/quiz", label: "Quiz", icon: ListChecks },
+  { href: "/practice", label: "Practice", icon: Target },
 ];
 
 const openCommand = () => window.dispatchEvent(new Event("open-command"));
@@ -218,6 +221,7 @@ const TITLES: Record<string, string> = {
   "/flashcards": "Flashcards",
   "/quiz": "Quiz",
   "/cases": "Cases",
+  "/practice": "Practice",
   "/schedule": "Timetable",
   "/quick-reference": "Quick reference",
   "/calculators": "Calculators",
@@ -288,7 +292,7 @@ export function BottomNav() {
   const pathname = usePathname();
   return (
     <nav className="safe-bottom fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/90 backdrop-blur-md lg:hidden">
-      <div className="mx-auto grid max-w-lg grid-cols-5 px-1">
+      <div className="mx-auto grid max-w-lg grid-cols-6 px-0.5">
         {MOBILE.map((n) => {
           const active = isActive(pathname, n.href);
           const Icon = n.icon;
@@ -324,6 +328,11 @@ function commandsFor(rotation: RotationId, setRotation: (r: RotationId) => void)
   return [
     ...other.map((r) => ({ id: `rotation-${r}`, label: `Switch to ${ROTATIONS[r].name}`, hint: "Rotation", run: () => setRotation(r), icon: ArrowLeftRight })),
     ...[...STUDY, ...referenceLinks(rotation)].map((n) => ({ id: n.href, label: n.label, hint: "Go to", href: n.href, icon: n.icon })),
+    { id: "practice-spot", label: "Spot diagnosis drill", hint: "Practice", href: "/practice/spot", icon: Target },
+    { id: "practice-dose", label: "Dose calculation drill", hint: "Practice", href: "/practice/dose", icon: Calculator },
+    { id: "practice-osce", label: "OSCE stations", hint: "Practice", href: "/practice/osce", icon: Stethoscope },
+    { id: "practice-viva", label: "Ward-round rapid fire (viva)", hint: "Practice", href: "/practice/viva", icon: Zap },
+    { id: "practice-mistakes", label: "Mistakes deck", hint: "Practice", href: "/practice/mistakes", icon: ListChecks },
     { id: "mock", label: "Start a mock progressive test", hint: "Action", href: "/quiz?mode=exam", icon: Timer },
     { id: "search", label: "Full-text search of all notes", hint: "Action", href: "/search", icon: Search },
     { id: "account", label: "Account & settings", hint: "Go to", href: "/account", icon: UserRound },

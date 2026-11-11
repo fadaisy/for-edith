@@ -1,0 +1,950 @@
+[
+  {
+    "id": "spot-001",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Bleeding",
+    "history": "28-year-old para 3 at 34 weeks with sudden painless bright-red vaginal bleeding of about 300 mL at home, no contractions.",
+    "sign": "Soft, non-tender uterus; fetal head high and not engaged; fetal heart normal.",
+    "answer": "Placenta praevia",
+    "accept": [
+      "placenta praevia",
+      "placenta previa",
+      "praevia",
+      "previa"
+    ],
+    "why": "Painless bleeding with a soft relaxed uterus and a high head is praevia until proved otherwise. Resuscitate and do NOT do a digital vaginal examination; get an ultrasound for the placental site.",
+    "topic": "antepartum-haemorrhage"
+  },
+  {
+    "id": "spot-002",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Bleeding",
+    "history": "32-year-old with pre-eclampsia at 36 weeks, sudden severe constant abdominal pain and a small amount of dark blood.",
+    "sign": "Tense, woody, tender uterus; fetal heart not heard.",
+    "answer": "Placental abruption",
+    "accept": [
+      "placental abruption",
+      "abruptio placentae",
+      "abruption",
+      "accidental haemorrhage"
+    ],
+    "why": "Constant pain with a woody tender uterus and bleeding less than the shock suggests (concealed) is abruption, which can cause DIC. Resuscitate, do a 20-minute clotting test, and with a dead fetus aim for vaginal delivery (ARM and oxytocin).",
+    "topic": "antepartum-haemorrhage"
+  },
+  {
+    "id": "spot-003",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Labour",
+    "history": "30-year-old para 4 with a previous caesarean scar, 10 hours into labour on oxytocin, who suddenly has tearing pain and the contractions stop.",
+    "sign": "Shock, fetal parts easily felt under the abdominal wall, fetal heart absent.",
+    "answer": "Uterine rupture",
+    "accept": [
+      "uterine rupture",
+      "rupture of the uterus",
+      "ruptured uterus",
+      "scar rupture"
+    ],
+    "why": "Sudden pain, cessation of contractions, shock and easily palpable fetal parts after a previous scar and oxytocin point to rupture. Stop oxytocin, resuscitate and go straight to laparotomy.",
+    "topic": "antepartum-haemorrhage"
+  },
+  {
+    "id": "spot-004",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Hypertension",
+    "history": "22-year-old primigravida at 37 weeks with a headache for two days, then a generalised tonic-clonic fit at home.",
+    "sign": "BP 170/115 mmHg, urine protein 3+.",
+    "answer": "Eclampsia",
+    "accept": [
+      "eclampsia",
+      "eclamptic fit"
+    ],
+    "why": "A fit with hypertension and proteinuria in pregnancy is eclampsia until proved otherwise. Left lateral position and airway first, give MgSO4 (Pritchard 4 g IV + 10 g IM), treat BP of 160/110 or more, then deliver within 12 hours.",
+    "topic": "pre-eclampsia-eclampsia"
+  },
+  {
+    "id": "spot-005",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Hypertension",
+    "history": "29-year-old at 33 weeks with epigastric pain and vomiting, BP 150/100 mmHg.",
+    "sign": "Platelets 62 x 10^9/L, AST 160 IU/L, LDH 840 IU/L, schistocytes on the film.",
+    "answer": "HELLP syndrome",
+    "accept": [
+      "hellp",
+      "hellp syndrome"
+    ],
+    "why": "Haemolysis (LDH 600 or more), raised liver enzymes (AST 70 or more) and platelets below 100 define HELLP, a severe pre-eclampsia variant that may have only a mild BP rise. Give MgSO4, control BP and plan delivery; check platelets before any spinal anaesthesia.",
+    "topic": "pre-eclampsia-eclampsia"
+  },
+  {
+    "id": "spot-006",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Postpartum",
+    "history": "35-year-old para 6 who delivered a 4.2 kg baby 20 minutes ago; heavy bleeding continues although the placenta came out complete.",
+    "sign": "Soft, boggy uterus above the umbilicus; 900 mL measured in the calibrated drape.",
+    "answer": "Uterine atony",
+    "accept": [
+      "uterine atony",
+      "atony",
+      "atonic uterus",
+      "atonic pph",
+      "primary pph from atony"
+    ],
+    "why": "A soft boggy fundus with heavy bleeding after a complete placenta is atony. Start the whole E-MOTIVE bundle at once: uterine massage, oxytocin 10 IU, tranexamic acid 1 g IV, IV fluids, genital tract examination, and escalate if bleeding continues.",
+    "topic": "postpartum-haemorrhage"
+  },
+  {
+    "id": "spot-007",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Postpartum",
+    "history": "Para 3 who delivered at a health centre after the midwife pulled on the cord; she is now pale with profound shock.",
+    "sign": "Fundus not palpable abdominally; a red mass at the introitus; pulse slow.",
+    "answer": "Uterine inversion",
+    "accept": [
+      "uterine inversion",
+      "inversion",
+      "inverted uterus"
+    ],
+    "why": "Shock out of proportion to blood loss, an absent fundus and a mass in the vagina is inversion (cord traction on an unseparated placenta is the usual cause). Call for help, stop oxytocin, treat shock and replace the uterus immediately, then give oxytocin.",
+    "topic": "postpartum-haemorrhage"
+  },
+  {
+    "id": "spot-008",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Postpartum",
+    "history": "Para 2 who delivered a baby 40 minutes ago with active management of the third stage; no placenta has come, bleeding is moderate.",
+    "sign": "Placenta not delivered 30 minutes after birth; fundus firm.",
+    "answer": "Retained placenta",
+    "accept": [
+      "retained placenta",
+      "retained products",
+      "retention of placenta"
+    ],
+    "why": "Placenta not out within 30 minutes of an actively managed birth is retained placenta. Empty the bladder, give extra oxytocin 10 IU and repeat controlled cord traction, then manual removal with one dose of antibiotic; never ergometrine.",
+    "topic": "postpartum-haemorrhage"
+  },
+  {
+    "id": "spot-009",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Early pregnancy",
+    "history": "24-year-old, 7 weeks amenorrhoea, left iliac fossa pain and a faint.",
+    "sign": "BP 80/50 mmHg, pulse 130, positive urine hCG, distended tender abdomen with shoulder-tip pain.",
+    "answer": "Ruptured ectopic pregnancy",
+    "accept": [
+      "ruptured ectopic pregnancy",
+      "ruptured ectopic",
+      "ectopic pregnancy",
+      "ectopic",
+      "tubal pregnancy"
+    ],
+    "why": "Shock, a positive pregnancy test and peritonism mean a ruptured ectopic. Resuscitate and operate at the same time; clamping the bleeding tube is the resuscitation, so do not wait for the BP to normalise.",
+    "topic": "ectopic-pregnancy"
+  },
+  {
+    "id": "spot-010",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Early pregnancy",
+    "history": "26-year-old, 10 weeks pregnant, heavy bleeding with cramps who passed some tissue at home.",
+    "sign": "Cervical os open with products felt at the os; uterus smaller than dates.",
+    "answer": "Incomplete abortion",
+    "accept": [
+      "incomplete abortion",
+      "incomplete miscarriage",
+      "inevitable abortion"
+    ],
+    "why": "Bleeding with an open os and retained products is incomplete abortion. Resuscitate if needed, then evacuate the uterus with MVA or misoprostol and give post-abortion family planning before she leaves.",
+    "topic": "abortion-post-abortal-care"
+  },
+  {
+    "id": "spot-011",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Early pregnancy",
+    "history": "19-year-old, 3 days after an unsafe termination by a traditional provider, with fever, lower abdominal pain and foul discharge.",
+    "sign": "Temperature 39.5 C, pulse 120, tender uterus, foul blood-stained discharge from an open os.",
+    "answer": "Septic abortion",
+    "accept": [
+      "septic abortion",
+      "septic miscarriage",
+      "infected abortion"
+    ],
+    "why": "Fever, pelvic pain and foul discharge after an unsafe abortion is septic abortion. Resuscitate, give IV ampicillin, gentamicin and metronidazole at once, then evacuate the infected tissue within hours (evacuation is source control).",
+    "topic": "abortion-post-abortal-care"
+  },
+  {
+    "id": "spot-012",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Early pregnancy",
+    "history": "23-year-old, 12 weeks amenorrhoea, severe vomiting and irregular dark bleeding with grape-like vesicles passed.",
+    "sign": "Uterus larger than dates, no fetal heart; ultrasound snowstorm pattern; very high hCG.",
+    "answer": "Molar pregnancy",
+    "accept": [
+      "molar pregnancy",
+      "hydatidiform mole",
+      "complete mole",
+      "mole",
+      "gestational trophoblastic disease"
+    ],
+    "why": "A uterus large for dates with vesicles, hyperemesis and a snowstorm scan is molar pregnancy. Evacuate the uterus, send the tissue for histology and follow hCG afterwards.",
+    "topic": "abortion-post-abortal-care"
+  },
+  {
+    "id": "spot-013",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Labour",
+    "history": "20-year-old primigravida, 36 hours in labour at a health centre, exhausted and dehydrated.",
+    "sign": "Moulding +++, large caput, Bandl's ring, distended bladder with blood-stained urine.",
+    "answer": "Obstructed labour",
+    "accept": [
+      "obstructed labour",
+      "obstructed labor",
+      "cephalopelvic disproportion",
+      "cpd"
+    ],
+    "why": "Failure of descent despite strong contractions with moulding +++, caput and a retraction ring is obstructed labour. Resuscitate, catheterise, give antibiotics and do a caesarean; never use oxytocin.",
+    "topic": "obstructed-labour-malpresentation"
+  },
+  {
+    "id": "spot-014",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Labour",
+    "history": "Para 1 at 38 weeks; artificial rupture of membranes with a high head, followed by sudden fetal bradycardia.",
+    "sign": "A pulsating loop of cord felt in the vagina below the presenting part.",
+    "answer": "Cord prolapse",
+    "accept": [
+      "cord prolapse",
+      "umbilical cord prolapse",
+      "prolapsed cord"
+    ],
+    "why": "A pulsating cord below the presenting part after rupture of membranes is cord prolapse. Do not handle the cord, keep the presenting part off it (push up or knee-chest position) and arrange a category 1 caesarean.",
+    "topic": "obstructed-labour-malpresentation"
+  },
+  {
+    "id": "spot-015",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Labour",
+    "history": "Diabetic mother delivering a 4.4 kg baby; the head is born, then pulls back against the perineum.",
+    "sign": "Turtle sign; no descent with routine gentle traction.",
+    "answer": "Shoulder dystocia",
+    "accept": [
+      "shoulder dystocia"
+    ],
+    "why": "Retraction of the delivered head (turtle sign) means an impacted anterior shoulder. Call for help and note the time, then McRoberts plus suprapubic pressure (HELPERR); never fundal pressure or hard traction.",
+    "topic": "vaginal-delivery-skills"
+  },
+  {
+    "id": "spot-016",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Infection",
+    "history": "26-year-old at 28 weeks with 3 days of fever, rigors, vomiting and right loin pain.",
+    "sign": "Temperature 39 C, right renal angle tenderness, pus cells and nitrite positive on urine dipstick.",
+    "answer": "Acute pyelonephritis",
+    "accept": [
+      "acute pyelonephritis",
+      "pyelonephritis",
+      "upper urinary tract infection",
+      "upper uti"
+    ],
+    "why": "Fever with loin pain and pyuria in pregnancy is pyelonephritis, and every case is admitted. Send an MSU culture, then give IV antibiotics (ceftriaxone) and careful fluids with fetal monitoring.",
+    "topic": "uti-in-pregnancy"
+  },
+  {
+    "id": "spot-017",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Medical disorders",
+    "history": "28-year-old with HbSS at 30 weeks, severe limb and back pain after a febrile illness.",
+    "sign": "Pallor, mild jaundice, tender limbs; Hb 6.5 g/dL (usual 7 g/dL); no uterine tenderness.",
+    "answer": "Sickle cell vaso-occlusive crisis",
+    "accept": [
+      "sickle cell crisis",
+      "vaso-occlusive crisis",
+      "painful crisis",
+      "sickle crisis",
+      "vaso occlusive crisis",
+      "sickle cell vaso-occlusive crisis"
+    ],
+    "why": "Typical pain in a known HbSS woman, triggered by infection, with normal uterine tone is a vaso-occlusive crisis (commoner in the third trimester). Treat with hydration, effective analgesia and oxygen if hypoxic, and look for malaria or other infection.",
+    "topic": "sickle-cell-disease-pregnancy"
+  },
+  {
+    "id": "spot-018",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Antenatal",
+    "history": "Para 1 booked as 28 weeks by dates, with a uterus much larger than dates and heavy nausea.",
+    "sign": "Fundal height 36 cm, many fetal parts, two fetal heart rates that differ; ultrasound shows two sacs.",
+    "answer": "Twin pregnancy",
+    "accept": [
+      "twin pregnancy",
+      "twins",
+      "multiple pregnancy"
+    ],
+    "why": "A uterus large for dates with two heads and two different heart rates is twins. Establish chorionicity on early ultrasound (lambda versus T sign), give enhanced ANC and plan delivery in a hospital.",
+    "topic": "multiple-pregnancy"
+  },
+  {
+    "id": "spot-019",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Antenatal",
+    "history": "32-year-old at 34 weeks with no fetal movements for two days.",
+    "sign": "No fetal heart on Pinard; real-time ultrasound shows no cardiac activity.",
+    "answer": "Intrauterine fetal death",
+    "accept": [
+      "intrauterine fetal death",
+      "iufd",
+      "intrauterine death",
+      "fetal demise",
+      "stillbirth"
+    ],
+    "why": "Absent movements plus no cardiac activity on real-time ultrasound confirms IUFD. Check her for pre-eclampsia, abruption, sepsis and DIC, then induce vaginal delivery (mifepristone and misoprostol).",
+    "topic": "intrauterine-fetal-death"
+  },
+  {
+    "id": "spot-020",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Preterm",
+    "history": "30-year-old at 32 weeks with a sudden gush of clear fluid 6 hours ago; no contractions.",
+    "sign": "Pooling of liquor in the posterior fornix on sterile speculum; afebrile.",
+    "answer": "Preterm prelabour rupture of membranes",
+    "accept": [
+      "pprom",
+      "preterm prelabour rupture of membranes",
+      "preterm premature rupture of membranes",
+      "preterm rupture of membranes"
+    ],
+    "why": "Liquor pooling on a sterile speculum before 37 weeks without labour is PPROM. Avoid digital examination, give erythromycin and antenatal corticosteroids, and plan in-utero transfer.",
+    "topic": "preterm-labour-prom-pprom"
+  },
+  {
+    "id": "spot-021",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Oncology",
+    "history": "45-year-old woman living with HIV, 8 months of post-coital bleeding and foul watery discharge.",
+    "sign": "Hard, friable, fungating mass replacing the cervix that bleeds on touch.",
+    "answer": "Cervical cancer",
+    "accept": [
+      "cervical cancer",
+      "carcinoma of the cervix",
+      "cervical carcinoma",
+      "ca cervix",
+      "cancer of the cervix"
+    ],
+    "why": "Post-coital bleeding with a hard friable cervical mass is cancer until proved otherwise. Take a biopsy for histology, stage by FIGO 2018 and refer to the cancer unit.",
+    "topic": "malignant-lesions-cervix"
+  },
+  {
+    "id": "spot-022",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Benign",
+    "history": "38-year-old with intermenstrual spotting and light post-coital bleeding.",
+    "sign": "A smooth red pedunculated mass protruding from the external os, moving on touch.",
+    "answer": "Cervical polyp",
+    "accept": [
+      "cervical polyp",
+      "endocervical polyp",
+      "polyp"
+    ],
+    "why": "A soft smooth pedunculated mass at the os is a cervical polyp. Remove it by twisting (avulsion) in clinic and always send it for histology, after cancer has been excluded by looking and screening.",
+    "topic": "benign-lesions-cervix"
+  },
+  {
+    "id": "spot-023",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Pelvic floor",
+    "history": "60-year-old para 8 with a dragging feeling and a lump at the vulva, worse after standing.",
+    "sign": "On straining the cervix descends well beyond the hymen but the uterus is not completely everted.",
+    "answer": "Uterine prolapse",
+    "accept": [
+      "uterine prolapse",
+      "prolapse",
+      "pelvic organ prolapse",
+      "uterovaginal prolapse"
+    ],
+    "why": "A vaginal lump that descends on straining with the cervix beyond the hymen is uterine prolapse, graded by POP-Q. Treat only if symptomatic: pelvic floor training and a pessary first, surgery if she declines or fails.",
+    "topic": "genital-prolapse"
+  },
+  {
+    "id": "spot-024",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Fistula",
+    "history": "18-year-old who delivered a stillbirth after 3 days of labour; 7 days later she leaks urine continuously.",
+    "sign": "Urine pooling in the vagina; methylene blue instilled into the bladder stains a vaginal swab blue.",
+    "answer": "Vesicovaginal fistula",
+    "accept": [
+      "vesicovaginal fistula",
+      "vvf",
+      "vesico-vaginal fistula",
+      "obstetric fistula"
+    ],
+    "why": "Continuous leakage starting days after obstructed labour with a positive dye test is a VVF from pressure necrosis. A fresh fistula gets a Foley catheter on free drainage for 4 to 6 weeks; otherwise refer for repair.",
+    "topic": "vvf-rvf"
+  },
+  {
+    "id": "spot-025",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Fertility",
+    "history": "24-year-old trying to conceive for 18 months, with cycles every 3 to 4 months.",
+    "sign": "Hirsutism and acne, BMI 31, polycystic ovaries on ultrasound.",
+    "answer": "Polycystic ovary syndrome",
+    "accept": [
+      "pcos",
+      "polycystic ovary syndrome",
+      "polycystic ovarian syndrome"
+    ],
+    "why": "Oligo-ovulation with hyperandrogenism and polycystic ovaries meet the Rotterdam criteria for PCOS. Confirm patent tubes and a normal semen analysis before ovulation induction, and advise weight loss.",
+    "topic": "infertility"
+  },
+  {
+    "id": "spot-026",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Congenital",
+    "history": "14-year-old with no menses yet, normal breast development and 4 months of cyclical lower abdominal pain.",
+    "sign": "Bluish bulging membrane at the introitus and a lower abdominal mass (haematocolpos).",
+    "answer": "Imperforate hymen",
+    "accept": [
+      "imperforate hymen",
+      "haematocolpos"
+    ],
+    "why": "Primary amenorrhoea with cyclical pain and a bulging bluish hymen is an imperforate hymen. Treat by hymenotomy and drainage; never needle-aspirate it, which causes pyocolpos.",
+    "topic": "congenital-malformations-genital-tract"
+  },
+  {
+    "id": "spot-027",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Puerperium",
+    "history": "28-year-old, day 3 after a prolonged labour and vaginal delivery, with fever and lower abdominal pain.",
+    "sign": "Temperature 39 C, tender subinvolved uterus, foul-smelling lochia.",
+    "answer": "Puerperal sepsis",
+    "accept": [
+      "puerperal sepsis",
+      "endometritis",
+      "postpartum endometritis",
+      "puerperal pyrexia"
+    ],
+    "why": "Fever with pelvic pain, offensive lochia and delayed involution within 42 days of birth is puerperal sepsis. Give IV ampicillin, gentamicin and metronidazole, look for retained products and test for malaria.",
+    "topic": "puerperium-lactation"
+  },
+  {
+    "id": "spot-028",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Puerperium",
+    "history": "Breastfeeding mother in week 3 postpartum with a painful red area on the right breast, fever and aches.",
+    "sign": "Hot, tender, erythematous wedge-shaped area; no fluctuant mass.",
+    "answer": "Mastitis",
+    "accept": [
+      "mastitis",
+      "lactational mastitis"
+    ],
+    "why": "A hot, red, tender wedge with fever in a lactating woman is mastitis. Keep breastfeeding and emptying the breast and give cloxacillin 500 mg 6-hourly for 10 to 14 days; drain it if an abscess forms.",
+    "topic": "puerperium-lactation"
+  },
+  {
+    "id": "spot-029",
+    "rotation": "obgyn",
+    "area": "Obstetrics · Antenatal",
+    "history": "30-year-old at 37 weeks; fundal height matches dates.",
+    "sign": "Hard round ballotable head in the fundus, soft irregular mass over the pelvic brim, fetal heart heard above the umbilicus.",
+    "answer": "Breech presentation",
+    "accept": [
+      "breech presentation",
+      "breech",
+      "breech lie"
+    ],
+    "why": "A head at the fundus with a soft mass at the brim and the heart above the umbilicus is a breech. Confirm by ultrasound (also looking for praevia and anomalies) and plan delivery in a facility that can do a caesarean.",
+    "topic": "obstructed-labour-malpresentation"
+  },
+  {
+    "id": "spot-030",
+    "rotation": "obgyn",
+    "area": "Gynaecology · Early pregnancy",
+    "history": "22-year-old, 8 weeks pregnant, light vaginal bleeding and mild cramps for 2 days.",
+    "sign": "Cervical os closed, uterus equal to dates; ultrasound shows a live intrauterine fetus.",
+    "answer": "Threatened abortion",
+    "accept": [
+      "threatened abortion",
+      "threatened miscarriage"
+    ],
+    "why": "Light bleeding with a closed os and a live fetus on scan is threatened abortion. Reassure her, make sure it is not ectopic, check Rhesus status (anti-D if Rh-negative) and tell her to return if bleeding becomes heavy.",
+    "topic": "abortion-post-abortal-care"
+  },
+  {
+    "id": "spot-031",
+    "rotation": "paeds",
+    "area": "Paediatrics · Infections",
+    "history": "3-year-old with 3 days of fever, now unrousable after two convulsions.",
+    "sign": "Blantyre coma score 1, malaria RDT positive, blood glucose 4.5 mmol/L.",
+    "answer": "Cerebral malaria (severe malaria)",
+    "accept": [
+      "cerebral malaria",
+      "severe malaria",
+      "severe falciparum malaria",
+      "complicated malaria",
+      "cerebral malaria (severe malaria)"
+    ],
+    "why": "Fever with unrousable coma (Blantyre 2 or less) and a positive test, once hypoglycaemia is excluded, is cerebral malaria. Give IV artesunate 3 mg/kg (under 20 kg) at 0, 12 and 24 h then daily, and monitor glucose.",
+    "topic": "malaria-in-children"
+  },
+  {
+    "id": "spot-032",
+    "rotation": "paeds",
+    "area": "Paediatrics · CNS",
+    "history": "10-month-old with 2 days of fever, vomiting, irritability and refusal to feed.",
+    "sign": "Bulging anterior fontanelle with turbid CSF full of neutrophils.",
+    "answer": "Bacterial meningitis",
+    "accept": [
+      "bacterial meningitis",
+      "pyogenic meningitis",
+      "meningitis"
+    ],
+    "why": "In infants the signs are fever, irritability and a bulging fontanelle, not neck stiffness. Give ceftriaxone at once and never let the lumbar puncture delay it.",
+    "topic": "meningitis"
+  },
+  {
+    "id": "spot-033",
+    "rotation": "paeds",
+    "area": "Paediatrics · CNS",
+    "history": "5-year-old with 3 weeks of headache, vomiting and weight loss; the father is on TB treatment.",
+    "sign": "Left sixth cranial nerve palsy; CSF clear with lymphocytes, high protein and very low glucose.",
+    "answer": "Tuberculous meningitis",
+    "accept": [
+      "tuberculous meningitis",
+      "tb meningitis",
+      "tbm",
+      "tubercular meningitis"
+    ],
+    "why": "A subacute course, a TB contact, cranial nerve palsy and lymphocytic CSF with high protein and very low glucose is TB meningitis. Start TB treatment promptly and look for hydrocephalus.",
+    "topic": "childhood-tuberculosis"
+  },
+  {
+    "id": "spot-034",
+    "rotation": "paeds",
+    "area": "Paediatrics · CNS",
+    "history": "18-month-old with fever 39.2 C and one generalised fit lasting 3 minutes; now alert and playing.",
+    "sign": "Malaria RDT negative, glucose normal, no neck stiffness, fully recovered within 30 minutes.",
+    "answer": "Simple febrile convulsion",
+    "accept": [
+      "simple febrile convulsion",
+      "febrile convulsion",
+      "febrile seizure",
+      "febrile fit",
+      "simple febrile seizure"
+    ],
+    "why": "A generalised fit under 15 minutes, once in 24 h, with full recovery in a child aged 6 months to 5 years, after malaria, hypoglycaemia and meningitis are excluded, is a simple febrile convulsion. Treat the fever and its cause; give a benzodiazepine only if a seizure reaches 5 minutes.",
+    "topic": "febrile-convulsions"
+  },
+  {
+    "id": "spot-035",
+    "rotation": "paeds",
+    "area": "Paediatrics · Newborn",
+    "history": "Day-7 baby born at home with the cord cut by a razor and dressed with cow dung; sucked well for 2 days but now cannot suck.",
+    "sign": "Trismus, generalised rigidity, opisthotonus and spasms on touch; the baby is conscious.",
+    "answer": "Neonatal tetanus",
+    "accept": [
+      "neonatal tetanus",
+      "tetanus neonatorum",
+      "tetanus"
+    ],
+    "why": "A baby who sucked normally, then stops between days 3 and 28 with trismus and spasms, has neonatal tetanus (a clinical diagnosis). Give human tetanus immunoglobulin 500 IU IM, metronidazole and diazepam for spasms, in a quiet dark room.",
+    "topic": "neonatal-tetanus"
+  },
+  {
+    "id": "spot-036",
+    "rotation": "paeds",
+    "area": "Paediatrics · Infections",
+    "history": "2-year-old, unvaccinated, with 4 days of fever, cough, runny nose and red eyes; a rash has just started behind the ears.",
+    "sign": "White spots on the buccal mucosa (Koplik spots) and a maculopapular rash spreading downward.",
+    "answer": "Measles",
+    "accept": [
+      "measles",
+      "rubeola"
+    ],
+    "why": "Fever with cough, coryza, conjunctivitis, Koplik spots then a descending rash is measles. Give vitamin A 200,000 IU (12 months or older), isolate, support nutrition and treat complications, especially pneumonia.",
+    "topic": "measles"
+  },
+  {
+    "id": "spot-037",
+    "rotation": "paeds",
+    "area": "Paediatrics · Cardiology",
+    "history": "9-year-old with a sore throat 3 weeks ago, now fever and a painful knee that settled as the ankle became painful.",
+    "sign": "New apical pansystolic murmur, raised ESR and ASO titre.",
+    "answer": "Acute rheumatic fever",
+    "accept": [
+      "acute rheumatic fever",
+      "rheumatic fever",
+      "arf"
+    ],
+    "why": "Migratory arthritis plus carditis after a streptococcal sore throat meets the Jones criteria. Give benzathine penicillin IM, treat arthritis and any heart failure, and start secondary prophylaxis.",
+    "topic": "rheumatic-fever-rhd"
+  },
+  {
+    "id": "spot-038",
+    "rotation": "paeds",
+    "area": "Paediatrics · Renal",
+    "history": "7-year-old with puffy eyes and cola-coloured urine 2 weeks after a sore throat.",
+    "sign": "BP 130/90 mmHg, urine blood 3+ and protein 1+, low C3.",
+    "answer": "Post-streptococcal glomerulonephritis",
+    "accept": [
+      "post-streptococcal glomerulonephritis",
+      "psgn",
+      "acute glomerulonephritis",
+      "agn",
+      "nephritic syndrome",
+      "poststreptococcal glomerulonephritis"
+    ],
+    "why": "Haematuria, hypertension, periorbital oedema and low C3 after strep infection is PSGN (nephritic). Restrict fluid and salt, give furosemide, treat the BP and give penicillin for 10 days.",
+    "topic": "agn-nephrotic-syndrome-aki"
+  },
+  {
+    "id": "spot-039",
+    "rotation": "paeds",
+    "area": "Paediatrics · Renal",
+    "history": "4-year-old with generalised swelling for a week and frothy urine; no cola urine.",
+    "sign": "Urine protein 4+, blood negative, serum albumin 16 g/L, normal BP.",
+    "answer": "Nephrotic syndrome",
+    "accept": [
+      "nephrotic syndrome",
+      "minimal change disease",
+      "minimal change nephrotic syndrome",
+      "nephrosis"
+    ],
+    "why": "Heavy proteinuria (3+ or more), albumin below 30 g/L and oedema without haematuria or hypertension is nephrotic syndrome. Screen for TB, HIV and hepatitis B, deworm, then start prednisolone 60 mg/m2/day (2 mg/kg, maximum 60 mg).",
+    "topic": "agn-nephrotic-syndrome-aki"
+  },
+  {
+    "id": "spot-040",
+    "rotation": "paeds",
+    "area": "Paediatrics · Gastro",
+    "history": "18-month-old with 3 days of watery diarrhoea and vomiting, lethargic.",
+    "sign": "Sunken eyes, drinks poorly, skin pinch goes back very slowly.",
+    "answer": "Severe dehydration",
+    "accept": [
+      "severe dehydration",
+      "dehydration",
+      "severe dehydration plan c"
+    ],
+    "why": "Two or more of lethargy, sunken eyes and a very slow skin pinch is severe dehydration. Give Plan C: Ringer's lactate 100 mL/kg IV (30 mL/kg in 30 minutes, then 70 mL/kg in 2.5 hours at 12 months or older) and ORS by mouth as soon as she can drink.",
+    "topic": "diarrhoea-dehydration"
+  },
+  {
+    "id": "spot-041",
+    "rotation": "paeds",
+    "area": "Paediatrics · Nutrition",
+    "history": "2-year-old, recently weaned, with swollen feet and face, irritable and refusing food.",
+    "sign": "Bilateral pitting oedema, sparse thin reddish hair and flaky skin.",
+    "answer": "Kwashiorkor",
+    "accept": [
+      "kwashiorkor",
+      "oedematous malnutrition",
+      "oedematous sam",
+      "severe acute malnutrition with oedema"
+    ],
+    "why": "Bilateral pitting oedema makes it severe acute malnutrition whatever the weight. Treat hypoglycaemia, hypothermia and infection first, give antibiotics, and feed cautiously with F-75 (100 mL/kg/day if oedema is severe).",
+    "topic": "malnutrition-growth-monitoring"
+  },
+  {
+    "id": "spot-042",
+    "rotation": "paeds",
+    "area": "Paediatrics · Emergency",
+    "history": "8-year-old, 10 minutes after IV ceftriaxone, with sudden hives, lip swelling, wheeze and floppiness.",
+    "sign": "Stridor, urticaria, BP 70/40 mmHg and a weak fast pulse.",
+    "answer": "Anaphylaxis",
+    "accept": [
+      "anaphylaxis",
+      "anaphylactic shock",
+      "anaphylactic reaction"
+    ],
+    "why": "Sudden airway, breathing and circulation compromise with skin signs after a drug is anaphylaxis. Stop the drug and give IM adrenaline 1:1000 at once, 0.3 mL for age 6 to 12 years, into the anterolateral thigh, repeating every 5 minutes if needed.",
+    "topic": "paediatric-emergencies-etat"
+  },
+  {
+    "id": "spot-043",
+    "rotation": "paeds",
+    "area": "Paediatrics · Respiratory",
+    "history": "7-year-old with known wheeze and 2 days of cough, now too breathless to speak a sentence.",
+    "sign": "SpO2 90%, respiratory rate 38/min, widespread wheeze.",
+    "answer": "Acute severe asthma",
+    "accept": [
+      "acute severe asthma",
+      "severe asthma",
+      "asthma attack",
+      "acute asthma",
+      "asthma exacerbation",
+      "severe asthma attack"
+    ],
+    "why": "Being too breathless to talk with SpO2 below 92% is a severe asthma attack. Give oxygen to keep SpO2 at 94% or more, repeated salbutamol every 20 minutes and early oral prednisolone 1 to 2 mg/kg.",
+    "topic": "acute-asthma"
+  },
+  {
+    "id": "spot-044",
+    "rotation": "paeds",
+    "area": "Paediatrics · Respiratory",
+    "history": "15-month-old with 3 days of cough and fast breathing, not drinking.",
+    "sign": "Respiratory rate 62/min, severe lower chest indrawing, SpO2 86% in air.",
+    "answer": "Severe pneumonia",
+    "accept": [
+      "severe pneumonia",
+      "pneumonia",
+      "lower respiratory tract infection",
+      "lrti"
+    ],
+    "why": "Fast breathing with chest indrawing plus SpO2 below 90% or a danger sign is severe pneumonia. Admit, give oxygen and ampicillin or penicillin plus gentamicin.",
+    "topic": "lower-respiratory-tract-infections"
+  },
+  {
+    "id": "spot-045",
+    "rotation": "paeds",
+    "area": "Paediatrics · ENT",
+    "history": "3-year-old with ear pain, fever 38.9 C and tugging at the right ear overnight.",
+    "sign": "Red, bulging tympanic membrane.",
+    "answer": "Acute otitis media",
+    "accept": [
+      "acute otitis media",
+      "otitis media",
+      "aom",
+      "middle ear infection"
+    ],
+    "why": "Ear pain and fever with a red bulging drum for under 14 days is acute otitis media. Give amoxicillin for 5 days (40 to 45 mg/kg twice daily) with analgesia, and dry any discharge by wicking.",
+    "topic": "upper-respiratory-tract-infections"
+  },
+  {
+    "id": "spot-046",
+    "rotation": "paeds",
+    "area": "Paediatrics · ENT",
+    "history": "18-month-old with 2 days of coryza, then a barking cough at night and a hoarse voice.",
+    "sign": "Inspiratory stridor, barking cough, no drooling.",
+    "answer": "Croup",
+    "accept": [
+      "croup",
+      "laryngotracheobronchitis",
+      "viral croup",
+      "laryngotracheitis"
+    ],
+    "why": "A barking cough, hoarseness and inspiratory stridor at 6 months to 3 years is croup (parainfluenza; measles in Uganda). Give a single oral dose of dexamethasone 0.15 mg/kg and keep the child calm.",
+    "topic": "upper-respiratory-tract-infections"
+  },
+  {
+    "id": "spot-047",
+    "rotation": "paeds",
+    "area": "Paediatrics · Emergency",
+    "history": "3-year-old with severe malaria, now fitting, unresponsive and not fed for 8 hours.",
+    "sign": "Bedside blood glucose 1.6 mmol/L.",
+    "answer": "Hypoglycaemia",
+    "accept": [
+      "hypoglycaemia",
+      "hypoglycemia",
+      "low blood sugar"
+    ],
+    "why": "Glucose below 2.5 mmol/L in a convulsing child is hypoglycaemia; treat even if you cannot measure it. Give 10% dextrose 5 mL/kg IV over 2 to 5 minutes, recheck after 30 minutes, and never give undiluted 50% dextrose.",
+    "topic": "hypoglycaemia-children"
+  },
+  {
+    "id": "spot-048",
+    "rotation": "paeds",
+    "area": "Paediatrics · Endocrine",
+    "history": "10-year-old with 2 weeks of polyuria and weight loss, now vomiting, abdominal pain and drowsy.",
+    "sign": "Deep sighing breathing with a clear chest, acetone breath, glucose 29 mmol/L and ketonuria 3+.",
+    "answer": "Diabetic ketoacidosis",
+    "accept": [
+      "diabetic ketoacidosis",
+      "dka",
+      "new type 1 diabetes in ketoacidosis"
+    ],
+    "why": "Kussmaul breathing, dehydration, high glucose and ketones is DKA, often mistaken for malaria or pneumonia. Give 0.9% saline first, start insulin 1 to 2 hours later with NO bolus, and watch for cerebral oedema.",
+    "topic": "endocrine-disorders-children"
+  },
+  {
+    "id": "spot-049",
+    "rotation": "paeds",
+    "area": "Paediatrics · Endocrine",
+    "history": "6-week-old with prolonged jaundice, constipation, poor feeding and long sleeps.",
+    "sign": "Large tongue, umbilical hernia, hypotonia and a hoarse cry.",
+    "answer": "Congenital hypothyroidism",
+    "accept": [
+      "congenital hypothyroidism",
+      "hypothyroidism",
+      "cretinism"
+    ],
+    "why": "Prolonged jaundice with a large tongue, umbilical hernia, hypotonia and constipation is congenital hypothyroidism, and Uganda has no newborn screening. Confirm with TSH and free T4 and start levothyroxine as soon as possible to prevent intellectual disability.",
+    "topic": "endocrine-disorders-children"
+  },
+  {
+    "id": "spot-050",
+    "rotation": "paeds",
+    "area": "Paediatrics · Endocrine",
+    "history": "10-day-old with vomiting, weight loss and lethargy, and ambiguous genitalia.",
+    "sign": "Sodium 122 mmol/L, potassium 7.0 mmol/L, glucose 2.1 mmol/L.",
+    "answer": "Salt-wasting congenital adrenal hyperplasia",
+    "accept": [
+      "congenital adrenal hyperplasia",
+      "cah",
+      "salt-wasting cah",
+      "adrenal crisis",
+      "salt wasting congenital adrenal hyperplasia",
+      "salt-wasting adrenal crisis",
+      "salt-wasting congenital adrenal hyperplasia"
+    ],
+    "why": "Ambiguous genitalia with low sodium, high potassium and low glucose is salt-wasting CAH. Give IV hydrocortisone (25 mg in an infant), 0.9% saline 20 mL/kg and 10% dextrose 2 mL/kg.",
+    "topic": "endocrine-disorders-children"
+  },
+  {
+    "id": "spot-051",
+    "rotation": "paeds",
+    "area": "Paediatrics · Genetics",
+    "history": "Newborn with hypotonia and poor suck, born to a 41-year-old mother.",
+    "sign": "Flat facial profile, upslanting eyes, Brushfield spots, single palmar crease and a sandal gap.",
+    "answer": "Down syndrome",
+    "accept": [
+      "down syndrome",
+      "down's syndrome",
+      "trisomy 21",
+      "downs syndrome"
+    ],
+    "why": "Hypotonia with a flat face, upslanting fissures, Brushfield spots and a single palmar crease is trisomy 21. Arrange an echocardiogram for every baby (heart defects in 40 to 50%), plus TSH, hearing and red reflex checks.",
+    "topic": "down-syndrome-congenital-anomalies"
+  },
+  {
+    "id": "spot-052",
+    "rotation": "paeds",
+    "area": "Paediatrics · Newborn",
+    "history": "Term baby born after prolonged labour with fetal bradycardia; Apgar 2 at 1 minute and 4 at 5 minutes, needed bag-mask ventilation.",
+    "sign": "At 12 hours: lethargic, hypotonic, weak suck and seizures.",
+    "answer": "Hypoxic-ischaemic encephalopathy",
+    "accept": [
+      "hypoxic-ischaemic encephalopathy",
+      "hie",
+      "hypoxic ischaemic encephalopathy",
+      "birth asphyxia",
+      "neonatal encephalopathy",
+      "moderate hie"
+    ],
+    "why": "Lethargy, hypotonia, weak suck and seizures after an intrapartum hypoxic event is moderate HIE (Sarnat stage 2). Give supportive care: keep 36.5 to 37.5 C (avoid hyperthermia), check glucose and control seizures with phenobarbital.",
+    "topic": "birth-asphyxia-hie"
+  },
+  {
+    "id": "spot-053",
+    "rotation": "paeds",
+    "area": "Paediatrics · Newborn",
+    "history": "Baby born at 29 weeks to a mother who received no antenatal steroids, grunting from 30 minutes of life.",
+    "sign": "Grunting, nasal flaring, severe recession and cyanosis; bilateral ground-glass chest X-ray.",
+    "answer": "Respiratory distress syndrome",
+    "accept": [
+      "respiratory distress syndrome",
+      "rds",
+      "hyaline membrane disease",
+      "neonatal rds"
+    ],
+    "why": "Grunting, recession and tachypnoea within 4 hours of birth in a preterm baby is RDS (surfactant deficiency). Start bubble CPAP with oxygen to SpO2 90 to 95%, IV fluids, and antibiotics until sepsis is excluded.",
+    "topic": "prematurity-low-birth-weight"
+  },
+  {
+    "id": "spot-054",
+    "rotation": "paeds",
+    "area": "Paediatrics · Newborn",
+    "history": "Term baby noticed to be yellow at 14 hours of age; mother is blood group O and the baby is group A.",
+    "sign": "Yellow to the palms and soles.",
+    "answer": "ABO haemolytic disease of the newborn",
+    "accept": [
+      "abo incompatibility",
+      "abo haemolytic disease",
+      "haemolytic disease of the newborn",
+      "abo haemolytic disease of the newborn",
+      "haemolytic jaundice",
+      "hdn"
+    ],
+    "why": "Jaundice in the first 24 hours is always pathological; with an O mother and A baby the cause is ABO haemolysis. Measure bilirubin within 2 hours and start phototherapy if it is above the threshold.",
+    "topic": "common-neonatal-disorders"
+  },
+  {
+    "id": "spot-055",
+    "rotation": "paeds",
+    "area": "Paediatrics · Infections",
+    "history": "6-year-old barefoot child with tiredness, pallor and poor school performance; no diarrhoea.",
+    "sign": "Hb 6.5 g/dL with microcytic hypochromic cells; stool microscopy shows hookworm ova.",
+    "answer": "Hookworm infection",
+    "accept": [
+      "hookworm",
+      "hookworm infection",
+      "hookworm anaemia",
+      "ancylostoma",
+      "necator"
+    ],
+    "why": "Barefoot child with iron-deficiency anaemia and hookworm ova has hookworm infection (gut blood loss). Give albendazole 400 mg once, then iron about 3 mg/kg/day for 3 months.",
+    "topic": "intestinal-worms"
+  },
+  {
+    "id": "spot-056",
+    "rotation": "paeds",
+    "area": "Paediatrics · Renal",
+    "history": "9-month-old girl with 3 days of fever, no cough or diarrhoea, and offensive urine.",
+    "sign": "Clean-catch urine: leucocyte esterase 3+ and nitrite positive.",
+    "answer": "Urinary tract infection",
+    "accept": [
+      "urinary tract infection",
+      "uti",
+      "pyelonephritis",
+      "febrile uti"
+    ],
+    "why": "Unexplained fever with both leucocyte esterase and nitrite positive is a UTI. Send a culture and treat; use parenteral antibiotics if the child is under 3 months or sick.",
+    "topic": "uti-children"
+  },
+  {
+    "id": "spot-057",
+    "rotation": "paeds",
+    "area": "Paediatrics · Skin",
+    "history": "5-year-old with intense itch worse at night; her siblings are scratching too.",
+    "sign": "Papules and burrows in the finger webs, wrists and axillae.",
+    "answer": "Scabies",
+    "accept": [
+      "scabies",
+      "sarcoptes"
+    ],
+    "why": "Night itch with burrows in the finger webs and itchy family members is scabies. Treat the whole household at the same time with permethrin 5% or benzyl benzoate, wash bedding and repeat after 7 days; infected scabies can cause PSGN.",
+    "topic": "skin-diseases-children"
+  },
+  {
+    "id": "spot-058",
+    "rotation": "paeds",
+    "area": "Paediatrics · Oncology",
+    "history": "6-year-old with a rapidly enlarging right jaw swelling over 3 weeks and loosening teeth.",
+    "sign": "Firm, non-tender jaw mass displacing the teeth.",
+    "answer": "Burkitt lymphoma",
+    "accept": [
+      "burkitt lymphoma",
+      "burkitt's lymphoma",
+      "burkitts lymphoma",
+      "burkitt"
+    ],
+    "why": "A rapidly growing jaw mass at 4 to 7 years in East Africa is Burkitt lymphoma (EBV and malaria linked, doubling in about 25 hours). Refer urgently for biopsy and chemotherapy; it is highly curable when caught early.",
+    "topic": "childhood-cancers"
+  },
+  {
+    "id": "spot-059",
+    "rotation": "paeds",
+    "area": "Paediatrics · Poisoning",
+    "history": "3-year-old found beside an open bottle of agricultural pesticide, drooling and vomiting.",
+    "sign": "Pinpoint pupils, profuse secretions, bradycardia, wheeze and muscle twitching.",
+    "answer": "Organophosphate poisoning",
+    "accept": [
+      "organophosphate poisoning",
+      "organophosphate",
+      "op poisoning",
+      "pesticide poisoning",
+      "cholinergic toxidrome"
+    ],
+    "why": "Pinpoint pupils with salivation, bronchorrhoea, bradycardia and twitching is the cholinergic toxidrome. Remove contaminated clothes and wash the skin (staff wear gloves), give oxygen and atropine IV, doubling the dose every 5 minutes until the chest is dry.",
+    "topic": "poisoning-children"
+  },
+  {
+    "id": "spot-060",
+    "rotation": "paeds",
+    "area": "Paediatrics · Neurology",
+    "history": "3-year-old who was preterm and needed resuscitation, not yet walking, with stiff legs that scissor when lifted.",
+    "sign": "Increased tone and brisk reflexes in both legs, toe-walking, no loss of earlier skills.",
+    "answer": "Cerebral palsy",
+    "accept": [
+      "cerebral palsy",
+      "spastic cerebral palsy",
+      "spastic diplegia",
+      "spastic diplegic cerebral palsy"
+    ],
+    "why": "A permanent, non-progressive motor disorder with upper motor neurone signs after a perinatal insult is cerebral palsy; loss of skills would point to another disease. Look for epilepsy, feeding, hearing and vision problems and start physiotherapy early.",
+    "topic": "cerebral-palsy"
+  }
+]

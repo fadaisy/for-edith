@@ -1,0 +1,830 @@
+[
+  {
+    "id": "data-01",
+    "rotation": "obgyn",
+    "kind": "OGTT",
+    "stem": "A 28-year-old at 26 weeks with a previous macrosomic baby has a 75 g OGTT after an overnight fast.",
+    "data": [
+      {
+        "k": "Fasting glucose",
+        "v": "5.3 mmol/L"
+      },
+      {
+        "k": "1-hour glucose",
+        "v": "9.4 mmol/L"
+      },
+      {
+        "k": "2-hour glucose",
+        "v": "7.6 mmol/L"
+      }
+    ],
+    "q": "How do you interpret this OGTT (WHO 2013)?",
+    "opts": [
+      "Normal, because the 1-hour and 2-hour values are below their cut-offs",
+      "Gestational diabetes, because the fasting value is 5.1 mmol/L or more",
+      "Overt diabetes in pregnancy",
+      "Impaired tolerance that only needs a repeat test in 4 weeks"
+    ],
+    "answer": 1,
+    "why": "WHO 2013 diagnoses GDM if any one value is met: fasting 5.1-6.9, 1-hour 10.0 or more, or 2-hour 8.5-11.0 mmol/L, so a fasting 5.3 is enough. Overt diabetes needs a fasting value of 7.0 or more or a 2-hour value of 11.1 or more, which she does not have.",
+    "topic": "diabetes-in-pregnancy"
+  },
+  {
+    "id": "data-02",
+    "rotation": "obgyn",
+    "kind": "LFTs / platelets",
+    "stem": "A 29-year-old at 33 weeks has epigastric pain and vomiting; BP is 148/96 mmHg with little proteinuria.",
+    "data": [
+      {
+        "k": "Platelets",
+        "v": "62 x 10^9/L"
+      },
+      {
+        "k": "AST",
+        "v": "156 IU/L"
+      },
+      {
+        "k": "LDH",
+        "v": "820 IU/L"
+      },
+      {
+        "k": "Blood film",
+        "v": "Schistocytes"
+      }
+    ],
+    "q": "What is the diagnosis?",
+    "opts": [
+      "Pre-eclampsia without severe features",
+      "Gestational thrombocytopenia",
+      "Acute viral hepatitis",
+      "HELLP syndrome"
+    ],
+    "answer": 3,
+    "why": "LDH of 600 IU/L or more (haemolysis), AST of 70 IU/L or more and platelets below 100 x 10^9/L meet the HELLP criteria, and the BP may be only mildly raised. Gestational thrombocytopenia does not raise AST or LDH, and viral hepatitis would usually give transaminases in the hundreds to thousands without haemolysis and low platelets.",
+    "topic": "pre-eclampsia-eclampsia"
+  },
+  {
+    "id": "data-03",
+    "rotation": "obgyn",
+    "kind": "Semen analysis",
+    "stem": "A couple has not conceived after 18 months. The husband gives a sample after 3 days of abstinence, examined within 1 hour.",
+    "data": [
+      {
+        "k": "Volume",
+        "v": "2.5 mL"
+      },
+      {
+        "k": "Concentration",
+        "v": "6 million/mL"
+      },
+      {
+        "k": "Total sperm number",
+        "v": "15 million"
+      },
+      {
+        "k": "Progressive motility",
+        "v": "18%"
+      },
+      {
+        "k": "Normal forms",
+        "v": "3%"
+      }
+    ],
+    "q": "What is the best interpretation and next step?",
+    "opts": [
+      "Abnormal: low count, motility and morphology; repeat in about 3 months",
+      "Normal semen, so look only at the wife",
+      "Azoospermia; refer for testicular biopsy",
+      "Abnormal only because of the volume; repeat tomorrow"
+    ],
+    "answer": 0,
+    "why": "WHO 2021 lower reference limits are volume 1.4 mL, 16 million/mL, total 39 million, progressive motility 30% and normal forms 4%, so concentration, total number, motility and morphology are all low. Spermatogenesis takes about 74 days, so repeat the test after about 3 months before labelling it.",
+    "topic": "infertility"
+  },
+  {
+    "id": "data-04",
+    "rotation": "obgyn",
+    "kind": "Partograph",
+    "stem": "A woman is in labour at an HC III with a modified WHO partograph. Her first active-phase VE at 06:00 showed 6 cm (plotted on the alert line). At 10:00 she is still 6 cm, head 3/5 palpable, FHR 140/min, liquor clear, 3 contractions in 10 minutes lasting 40 seconds.",
+    "data": [
+      {
+        "k": "Cervix 06:00",
+        "v": "6 cm (on alert line)"
+      },
+      {
+        "k": "Cervix 10:00",
+        "v": "6 cm"
+      },
+      {
+        "k": "Head",
+        "v": "3/5 palpable"
+      },
+      {
+        "k": "FHR",
+        "v": "140/min"
+      },
+      {
+        "k": "Liquor",
+        "v": "Clear"
+      }
+    ],
+    "q": "Where is the plot now and what do you do?",
+    "opts": [
+      "Left of the alert line: continue to observe 4-hourly",
+      "Between alert and action lines: no action is needed",
+      "On the action line: full reassessment and a decision (augment, deliver or caesarean)",
+      "On the action line: give ergometrine to strengthen contractions"
+    ],
+    "answer": 2,
+    "why": "The action line is 4 hours to the right of the alert line, so 6 cm at 10:00 lies on it. Reaching the action line calls for a full reassessment (powers, passage, passenger) and a decision to augment, deliver or do a caesarean; ergometrine is never used for augmentation.",
+    "topic": "partograph-labour-monitoring"
+  },
+  {
+    "id": "data-05",
+    "rotation": "obgyn",
+    "kind": "Partograph",
+    "stem": "A primigravida in labour for 20 hours: cervix 7 cm at 06:00 and still 7 cm at 14:00; head 4/5 palpable (unchanged).",
+    "data": [
+      {
+        "k": "Cervix",
+        "v": "7 cm, no change in 8 h"
+      },
+      {
+        "k": "Descent",
+        "v": "4/5 palpable, no change"
+      },
+      {
+        "k": "Moulding",
+        "v": "+++, large caput"
+      },
+      {
+        "k": "Contractions",
+        "v": "4 in 10 min, over 40 s each"
+      },
+      {
+        "k": "Urine",
+        "v": "Scanty and blood-stained"
+      }
+    ],
+    "q": "What is the best next step?",
+    "opts": [
+      "Increase the oxytocin infusion",
+      "Resuscitate, catheterise, give antibiotics and prepare for caesarean section",
+      "Wait for the action line before deciding",
+      "Apply fundal pressure to help descent"
+    ],
+    "answer": 1,
+    "why": "Cervix not advancing and head not descending despite strong contractions, with moulding +++, a big caput and blood-stained urine, is obstructed labour. Act with a caesarean even before the action line; oxytocin and fundal pressure risk uterine rupture.",
+    "topic": "partograph-labour-monitoring"
+  },
+  {
+    "id": "data-06",
+    "rotation": "obgyn",
+    "kind": "CTG / FHR",
+    "stem": "A woman in labour on oxytocin has continuous FHR monitoring: baseline 150 bpm; with each contraction the rate falls to 100 bpm, reaching its lowest point after the peak of the contraction and recovering only after it ends.",
+    "data": [
+      {
+        "k": "Baseline FHR",
+        "v": "150 bpm"
+      },
+      {
+        "k": "Pattern",
+        "v": "Dip to 100 bpm after contraction peak"
+      },
+      {
+        "k": "Recovery",
+        "v": "After the contraction ends"
+      },
+      {
+        "k": "Recurrence",
+        "v": "With most contractions"
+      }
+    ],
+    "q": "What is the pattern and what does it suggest?",
+    "opts": [
+      "A normal reassuring trace",
+      "Early decelerations from head compression, which are benign",
+      "Variable decelerations proving cord prolapse",
+      "Late decelerations suggesting uteroplacental insufficiency"
+    ],
+    "answer": 3,
+    "why": "A dip that lags behind the contraction and recurs with it is a late deceleration, a sign of reduced placental reserve and a trigger to call a senior. Early decelerations are a mirror image of the contraction (head compression) and are benign; stop the oxytocin and prepare to expedite delivery.",
+    "topic": "partograph-labour-monitoring"
+  },
+  {
+    "id": "data-07",
+    "rotation": "obgyn",
+    "kind": "Haemoglobin electrophoresis",
+    "stem": "A couple attends pre-conception counselling. Her electrophoresis shows HbSS; his shows HbAS (sickle trait).",
+    "data": [
+      {
+        "k": "Woman",
+        "v": "HbSS"
+      },
+      {
+        "k": "Partner",
+        "v": "HbAS"
+      }
+    ],
+    "q": "What is the chance that each child has sickle cell disease?",
+    "opts": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "answer": 2,
+    "why": "An HbSS mother passes S to every child and an HbAS father passes S half the time, so each child has a 50% chance of HbSS and a 50% chance of trait. A sickling test cannot distinguish AS from SS, which is why electrophoresis for both partners is needed.",
+    "topic": "sickle-cell-disease-pregnancy"
+  },
+  {
+    "id": "data-08",
+    "rotation": "obgyn",
+    "kind": "Urine culture",
+    "stem": "A 24-year-old at 14 weeks has no urinary symptoms and a negative dipstick for nitrite and leucocyte esterase; the booking MSU culture grows one organism.",
+    "data": [
+      {
+        "k": "Symptoms",
+        "v": "None"
+      },
+      {
+        "k": "Dipstick",
+        "v": "Nitrite negative, LE negative"
+      },
+      {
+        "k": "MSU culture",
+        "v": "E. coli 10^5 CFU/mL"
+      },
+      {
+        "k": "Temperature",
+        "v": "36.8 C"
+      }
+    ],
+    "q": "What is the diagnosis and management?",
+    "opts": [
+      "Asymptomatic bacteriuria: treat for 7 days (for example nitrofurantoin) and do a test of cure",
+      "Contaminated sample: ignore it because the dipstick was negative",
+      "Acute pyelonephritis: admit for IV ceftriaxone",
+      "Normal flora: repeat only if symptoms develop"
+    ],
+    "answer": 0,
+    "why": "10^5 CFU/mL or more of a single organism on a clean-catch MSU without symptoms is asymptomatic bacteriuria, and a negative dipstick does not exclude it. Untreated, up to 30-40% progress to pyelonephritis, so treat for 7 days and check a test of cure.",
+    "topic": "uti-in-pregnancy"
+  },
+  {
+    "id": "data-09",
+    "rotation": "obgyn",
+    "kind": "FBC / Hb",
+    "stem": "A 30-year-old at 30 weeks is pale and breathless on climbing stairs; HemoCue Hb is checked at antenatal clinic.",
+    "data": [
+      {
+        "k": "Hb (HemoCue)",
+        "v": "6.4 g/dL"
+      },
+      {
+        "k": "Gestation",
+        "v": "30 weeks"
+      },
+      {
+        "k": "Pulse",
+        "v": "112/min"
+      },
+      {
+        "k": "BP",
+        "v": "100/60 mmHg"
+      }
+    ],
+    "q": "How do you classify this and what is the right action?",
+    "opts": [
+      "Mild anaemia: routine iron and review in 4 weeks",
+      "Moderate anaemia: oral iron and review in 2 weeks",
+      "Normal haemodilution of pregnancy",
+      "Severe anaemia (below 7 g/dL): admit or refer for assessment and treatment"
+    ],
+    "answer": 3,
+    "why": "In pregnancy anaemia is Hb below 11 g/dL, moderate is 7.0-9.9 and severe is below 7. A value below 7 means admission or referral, with a search for the cause (malaria, hookworm, iron deficiency, sickle cell), rather than outpatient iron.",
+    "topic": "antenatal-care"
+  },
+  {
+    "id": "data-10",
+    "rotation": "obgyn",
+    "kind": "Serum magnesium",
+    "stem": "A woman with severe pre-eclampsia is on a MgSO4 maintenance regimen after delivery.",
+    "data": [
+      {
+        "k": "Serum Mg",
+        "v": "5.2 mmol/L"
+      },
+      {
+        "k": "Patellar reflexes",
+        "v": "Absent"
+      },
+      {
+        "k": "Respiratory rate",
+        "v": "10/min"
+      },
+      {
+        "k": "Urine output",
+        "v": "20 mL/h"
+      }
+    ],
+    "q": "What is the immediate action?",
+    "opts": [
+      "Continue the infusion because flushing and weakness are expected",
+      "Stop MgSO4, call for help, support breathing with oxygen and bag-mask, and give calcium gluconate 10% 10 mL IV over 10 minutes",
+      "Give another MgSO4 loading dose to prevent fits",
+      "Give furosemide alone and recheck in 6 hours"
+    ],
+    "answer": 1,
+    "why": "Therapeutic Mg is 2-3.5 mmol/L; reflexes are lost at about 4-5 mmol/L and respiratory depression at 6-7.5, and her respiratory rate is below 12 with oliguria (reduced excretion). Stop the drug, call for help, support ventilation and give calcium gluconate slowly; giving it too fast causes bradycardia.",
+    "topic": "obs-gyn-pharmacology"
+  },
+  {
+    "id": "data-11",
+    "rotation": "obgyn",
+    "kind": "Coagulation / FBC",
+    "stem": "A 36-year-old with pre-eclampsia at 37 weeks has sudden severe constant abdominal pain, a tense tender uterus and dark bleeding; no fetal heart is heard.",
+    "data": [
+      {
+        "k": "Platelets",
+        "v": "68 x 10^9/L"
+      },
+      {
+        "k": "Fibrinogen",
+        "v": "1.5 g/L"
+      },
+      {
+        "k": "20-minute clotting test",
+        "v": "No clot"
+      },
+      {
+        "k": "Hb",
+        "v": "8.0 g/dL"
+      }
+    ],
+    "q": "What do these results mean and what is needed?",
+    "opts": [
+      "Normal pregnancy values; no action beyond observation",
+      "Iron deficiency anaemia only",
+      "DIC complicating abruption: transfuse blood and clotting factors and deliver vaginally",
+      "Placenta praevia; do a vaginal examination"
+    ],
+    "answer": 2,
+    "why": "Low platelets, fibrinogen below 2 g/L and a non-clotting blood sample show consumptive coagulopathy (DIC) from abruption (fibrinogen is normally high in pregnancy). Replace red cells and clotting factors (FFP, cryoprecipitate or fresh whole blood) and aim for vaginal delivery with ARM and oxytocin as the fetus is dead.",
+    "topic": "antepartum-haemorrhage"
+  },
+  {
+    "id": "data-12",
+    "rotation": "obgyn",
+    "kind": "Vital signs / shock index",
+    "stem": "A woman delivered vaginally 5 minutes ago and is bleeding heavily.",
+    "data": [
+      {
+        "k": "Pulse",
+        "v": "124/min"
+      },
+      {
+        "k": "BP",
+        "v": "88/54 mmHg"
+      },
+      {
+        "k": "Shock index (HR/SBP)",
+        "v": "1.4"
+      },
+      {
+        "k": "Measured blood loss",
+        "v": "1,100 mL"
+      }
+    ],
+    "q": "What does the shock index show?",
+    "opts": [
+      "It is 1.4, which needs urgent action: call the senior, give the E-MOTIVE bundle and prepare to transfer",
+      "It is 0.7, which is normal postpartum",
+      "It is 0.9, so observe and recheck in an hour",
+      "It is unreliable until the BP is below 80 mmHg"
+    ],
+    "answer": 0,
+    "why": "Shock index is heart rate divided by systolic BP (124/88 = 1.4); normal postpartum is 0.7-0.9, 0.9 or more is abnormal and 1.4 or more needs urgent action and transfer. Hypotension is a late sign, so do not wait for it.",
+    "topic": "postpartum-haemorrhage"
+  },
+  {
+    "id": "data-13",
+    "rotation": "paeds",
+    "kind": "CSF",
+    "stem": "A 14-month-old has fever for 2 days, vomiting and neck stiffness. Blood glucose is 5.6 mmol/L.",
+    "data": [
+      {
+        "k": "Appearance",
+        "v": "Turbid"
+      },
+      {
+        "k": "WBC",
+        "v": "2,800/uL (90% neutrophils)"
+      },
+      {
+        "k": "Protein",
+        "v": "2.4 g/L"
+      },
+      {
+        "k": "CSF glucose",
+        "v": "1.0 mmol/L"
+      },
+      {
+        "k": "Gram stain",
+        "v": "Pending"
+      }
+    ],
+    "q": "What pattern is this and what do you do?",
+    "opts": [
+      "Viral meningitis: supportive care only",
+      "TB meningitis: start anti-TB drugs only",
+      "Bacterial meningitis: give ceftriaxone now",
+      "Cryptococcal meningitis: give amphotericin"
+    ],
+    "answer": 2,
+    "why": "Turbid CSF with neutrophils in the hundreds to thousands, protein above 1 g/L and a CSF:blood glucose ratio below 0.4 (here 0.18) is bacterial meningitis. TB gives lymphocytes with a clear fluid, cryptococcus few cells with positive CrAg, and viral CSF keeps a normal glucose.",
+    "topic": "meningitis"
+  },
+  {
+    "id": "data-14",
+    "rotation": "paeds",
+    "kind": "CSF",
+    "stem": "A 5-year-old has 3 weeks of headache, vomiting and weight loss; her father is on TB treatment and she has a sixth nerve palsy. Blood glucose is 5.0 mmol/L.",
+    "data": [
+      {
+        "k": "Appearance",
+        "v": "Clear, slightly yellow"
+      },
+      {
+        "k": "WBC",
+        "v": "180/uL (85% lymphocytes)"
+      },
+      {
+        "k": "Protein",
+        "v": "2.8 g/L"
+      },
+      {
+        "k": "CSF glucose",
+        "v": "1.1 mmol/L"
+      },
+      {
+        "k": "CSF:blood glucose",
+        "v": "0.22"
+      }
+    ],
+    "q": "What is the most likely diagnosis?",
+    "opts": [
+      "Tuberculous meningitis",
+      "Bacterial meningitis",
+      "Cryptococcal meningitis",
+      "Viral meningitis"
+    ],
+    "answer": 0,
+    "why": "A subacute illness with a TB contact, cranial nerve palsy and lymphocytic CSF with high protein and very low glucose is TB meningitis. Bacterial meningitis gives a turbid CSF with neutrophils, cryptococcus gives few cells with a positive CrAg, and viral meningitis keeps a normal glucose.",
+    "topic": "meningitis"
+  },
+  {
+    "id": "data-15",
+    "rotation": "paeds",
+    "kind": "FBC / Hb",
+    "stem": "A 3-year-old has fever for 3 days, is pale and drowsy with deep breathing; the malaria RDT is positive.",
+    "data": [
+      {
+        "k": "Hb",
+        "v": "3.8 g/dL"
+      },
+      {
+        "k": "Respiratory rate",
+        "v": "52/min (deep, clear chest)"
+      },
+      {
+        "k": "Blood glucose",
+        "v": "4.2 mmol/L"
+      },
+      {
+        "k": "Liver edge",
+        "v": "2 cm below costal margin"
+      }
+    ],
+    "q": "Besides IV artesunate, what is the key management?",
+    "opts": [
+      "Give a 20 mL/kg normal saline bolus",
+      "Transfuse whole blood 20 mL/kg over 3-4 hours",
+      "Start oral iron and recheck Hb in 2 weeks",
+      "Wait for the antimalarial to raise the Hb"
+    ],
+    "answer": 1,
+    "why": "Hb of 4 g/dL or less (or 4-6 with danger signs such as respiratory distress or impaired consciousness) needs transfusion, whole blood 20 mL/kg over 3-4 hours. The FEAST trial showed fluid boluses harm children without true shock, and iron or waiting does not correct a life-threatening Hb.",
+    "topic": "anaemia-blood-transfusion"
+  },
+  {
+    "id": "data-16",
+    "rotation": "paeds",
+    "kind": "Blood gas / ketones",
+    "stem": "A 10-year-old with 2 weeks of polyuria has vomiting, abdominal pain and deep sighing breathing.",
+    "data": [
+      {
+        "k": "Glucose",
+        "v": "31 mmol/L"
+      },
+      {
+        "k": "Venous pH",
+        "v": "7.04"
+      },
+      {
+        "k": "Bicarbonate",
+        "v": "4 mmol/L"
+      },
+      {
+        "k": "Blood BOHB",
+        "v": "6.2 mmol/L"
+      }
+    ],
+    "q": "How severe is this DKA (ISPAD 2022)?",
+    "opts": [
+      "Mild (pH 7.2-7.3)",
+      "Moderate (pH below 7.2)",
+      "Not DKA but hyperosmolar state",
+      "Severe (pH below 7.1, bicarbonate below 5)"
+    ],
+    "answer": 3,
+    "why": "DKA is glucose above 11 mmol/L with pH below 7.3 or bicarbonate below 18 and ketones; severe is pH below 7.1 or bicarbonate below 5. Severe DKA needs a senior early, saline first and insulin 1-2 hours later with no bolus.",
+    "topic": "endocrine-disorders-children"
+  },
+  {
+    "id": "data-17",
+    "rotation": "paeds",
+    "kind": "MUAC / Z-score",
+    "stem": "An 18-month-old is brought for growth monitoring at an HC III.",
+    "data": [
+      {
+        "k": "MUAC",
+        "v": "112 mm"
+      },
+      {
+        "k": "Weight-for-height Z-score",
+        "v": "-2.3"
+      },
+      {
+        "k": "Oedema",
+        "v": "None"
+      },
+      {
+        "k": "Appetite test",
+        "v": "Eats a third of a sachet of RUTF in 30 min"
+      }
+    ],
+    "q": "How do you classify her nutrition and where is she treated?",
+    "opts": [
+      "Moderate acute malnutrition: supplementary feeding",
+      "Normal: reassure and recheck in 3 months",
+      "Uncomplicated severe acute malnutrition: outpatient RUTF",
+      "Stunting: refer to a dietician"
+    ],
+    "answer": 2,
+    "why": "SAM in 6-59 months is MUAC below 115 mm, WHZ below -3 or bilateral oedema, and any one is enough, so MUAC 112 mm makes her SAM even though WHZ is only -2.3. With a good appetite and no complication she is managed as an outpatient with RUTF.",
+    "topic": "malnutrition-growth-monitoring"
+  },
+  {
+    "id": "data-18",
+    "rotation": "paeds",
+    "kind": "Growth Z-scores",
+    "stem": "A 3-year-old is plotted on WHO charts.",
+    "data": [
+      {
+        "k": "Height-for-age Z",
+        "v": "-3.4"
+      },
+      {
+        "k": "Weight-for-age Z",
+        "v": "-2.6"
+      },
+      {
+        "k": "Weight-for-height Z",
+        "v": "-0.4"
+      },
+      {
+        "k": "MUAC",
+        "v": "140 mm"
+      },
+      {
+        "k": "Oedema",
+        "v": "None"
+      }
+    ],
+    "q": "What is her nutritional status?",
+    "opts": [
+      "Severe stunting without wasting",
+      "Severe acute malnutrition",
+      "Moderate acute malnutrition (wasting)",
+      "Overweight"
+    ],
+    "answer": 0,
+    "why": "Stunting is height-for-age below -2 and severe below -3; her weight-for-height of -0.4 and MUAC of 140 mm show she is not wasted. This is chronic undernutrition, so address long-term feeding rather than giving RUTF for SAM.",
+    "topic": "malnutrition-growth-monitoring"
+  },
+  {
+    "id": "data-19",
+    "rotation": "paeds",
+    "kind": "Urine dipstick / serum albumin",
+    "stem": "A 4-year-old has generalised swelling for a week and frothy urine; she is not hypertensive.",
+    "data": [
+      {
+        "k": "Urine protein",
+        "v": "4+"
+      },
+      {
+        "k": "Urine blood",
+        "v": "Negative"
+      },
+      {
+        "k": "Serum albumin",
+        "v": "16 g/L"
+      },
+      {
+        "k": "BP",
+        "v": "95/60 mmHg"
+      },
+      {
+        "k": "C3",
+        "v": "Normal"
+      }
+    ],
+    "q": "What is the diagnosis and first treatment?",
+    "opts": [
+      "Post-streptococcal GN: fluid and salt restriction and furosemide",
+      "Nephrotic syndrome: prednisolone 60 mg/m2/day (2 mg/kg, maximum 60 mg) after screening for TB, HIV and hepatitis B",
+      "Acute kidney injury: peritoneal dialysis",
+      "Heart failure: digoxin"
+    ],
+    "answer": 1,
+    "why": "Proteinuria of 3+ or more with albumin below 30 g/L and oedema, but no haematuria, hypertension or low C3, is nephrotic syndrome. PSGN would show cola urine, hypertension and a low C3; here the treatment is prednisolone after screening and deworming.",
+    "topic": "agn-nephrotic-syndrome-aki"
+  },
+  {
+    "id": "data-20",
+    "rotation": "paeds",
+    "kind": "Urine dipstick",
+    "stem": "A 9-month-old girl has 3 days of fever with no cough or diarrhoea; a clean-catch urine sample is dipped.",
+    "data": [
+      {
+        "k": "Leucocyte esterase",
+        "v": "3+"
+      },
+      {
+        "k": "Nitrite",
+        "v": "Positive"
+      },
+      {
+        "k": "Blood",
+        "v": "Trace"
+      },
+      {
+        "k": "Temperature",
+        "v": "39.2 C"
+      }
+    ],
+    "q": "What is the next step?",
+    "opts": [
+      "Dismiss as contamination and repeat in a week",
+      "Treat as malaria without testing",
+      "Wait for a bag-urine culture before any treatment",
+      "Treat as UTI and send a urine culture first"
+    ],
+    "answer": 3,
+    "why": "Both leucocyte esterase and nitrite positive means treat as UTI and send a culture. Nitrite is specific but often negative in infants, so a positive result is very reliable; use parenteral antibiotics if the child is under 3 months or sick.",
+    "topic": "uti-children"
+  },
+  {
+    "id": "data-21",
+    "rotation": "paeds",
+    "kind": "Serum electrolytes / glucose",
+    "stem": "A 10-day-old has vomiting, weight loss and lethargy and has ambiguous genitalia.",
+    "data": [
+      {
+        "k": "Sodium",
+        "v": "122 mmol/L"
+      },
+      {
+        "k": "Potassium",
+        "v": "7.0 mmol/L"
+      },
+      {
+        "k": "Glucose",
+        "v": "2.1 mmol/L"
+      },
+      {
+        "k": "Genitalia",
+        "v": "Virilised, no palpable gonads"
+      }
+    ],
+    "q": "What is the diagnosis and the immediate treatment?",
+    "opts": [
+      "Pyloric stenosis: pyloromyotomy after fluids",
+      "Gastroenteritis: oral rehydration",
+      "Salt-wasting CAH: IV hydrocortisone, 0.9% saline 20 mL/kg and 10% dextrose",
+      "Neonatal sepsis only: antibiotics and wait"
+    ],
+    "answer": 2,
+    "why": "Low sodium, high potassium and low glucose with ambiguous genitalia in a vomiting neonate is salt-wasting congenital adrenal hyperplasia, an adrenal crisis. Give hydrocortisone IV (25 mg in an infant), saline 20 mL/kg and 10% dextrose 2 mL/kg; pyloric stenosis causes low potassium and chloride, not high potassium.",
+    "topic": "endocrine-disorders-children"
+  },
+  {
+    "id": "data-22",
+    "rotation": "paeds",
+    "kind": "Blood glucose",
+    "stem": "A 2-year-old with severe acute malnutrition and weight-for-height Z -3.5 is lethargic and cold on admission.",
+    "data": [
+      {
+        "k": "Blood glucose",
+        "v": "2.8 mmol/L"
+      },
+      {
+        "k": "Temperature",
+        "v": "35.2 C"
+      },
+      {
+        "k": "Oedema",
+        "v": "None"
+      }
+    ],
+    "q": "How do you interpret the glucose?",
+    "opts": [
+      "Hypoglycaemia: the SAM cut-off is below 3.0 mmol/L",
+      "Normal: the cut-off is 2.0 mmol/L",
+      "Not low, because 2.5 mmol/L is the cut-off for every child",
+      "Low only if below 2.2 mmol/L"
+    ],
+    "answer": 0,
+    "why": "The treatment threshold is below 2.5 mmol/L in a well-nourished child but below 3.0 mmol/L in SAM, so this is hypoglycaemia. Give 10% dextrose 5 mL/kg IV (or 50 mL of 10% glucose by mouth or NG if conscious), then feed F-75 every 30 minutes for 2 hours, and warm her.",
+    "topic": "hypoglycaemia-children"
+  },
+  {
+    "id": "data-23",
+    "rotation": "paeds",
+    "kind": "Serum bilirubin",
+    "stem": "A term baby (39 weeks) is jaundiced at 36 hours of age but feeding well; mother and baby are group O.",
+    "data": [
+      {
+        "k": "Age",
+        "v": "36 hours"
+      },
+      {
+        "k": "Total serum bilirubin",
+        "v": "240 umol/L"
+      },
+      {
+        "k": "Phototherapy threshold at 36 h",
+        "v": "225 umol/L"
+      },
+      {
+        "k": "Exchange threshold at 36 h",
+        "v": "400 umol/L"
+      }
+    ],
+    "q": "What do you do?",
+    "opts": [
+      "Observe: this is physiological jaundice",
+      "Start phototherapy, repeat bilirubin in 4-6 hours and look for a cause",
+      "Arrange exchange transfusion now",
+      "Stop breastfeeding for 48 hours"
+    ],
+    "answer": 1,
+    "why": "Bilirubin of 240 is above the phototherapy threshold of 225 at 36 hours but well below the exchange threshold of 400. Start phototherapy, repeat the TSB in 4-6 hours and look for the cause (haemolysis, sepsis); jaundice this high on day 2 is not simply physiological.",
+    "topic": "common-neonatal-disorders"
+  },
+  {
+    "id": "data-24",
+    "rotation": "paeds",
+    "kind": "Pulse oximetry / vital signs",
+    "stem": "A 2-year-old has had cough for 3 days and cannot drink.",
+    "data": [
+      {
+        "k": "Respiratory rate",
+        "v": "56/min"
+      },
+      {
+        "k": "Chest",
+        "v": "Severe lower chest indrawing"
+      },
+      {
+        "k": "SpO2",
+        "v": "86% in air"
+      },
+      {
+        "k": "Temperature",
+        "v": "38.6 C"
+      }
+    ],
+    "q": "How do you classify and manage this child?",
+    "opts": [
+      "Pneumonia: oral amoxicillin at home for 5 days",
+      "Bronchiolitis: supportive care only",
+      "Acute asthma: salbutamol alone",
+      "Severe pneumonia: admit, give oxygen and ampicillin or penicillin plus gentamicin"
+    ],
+    "answer": 3,
+    "why": "Fast breathing (40 or more at 1-4 years) with indrawing is pneumonia, but SpO2 below 90% or being unable to drink makes it severe pneumonia. Admit, give oxygen and injectable antibiotics, not home amoxicillin.",
+    "topic": "lower-respiratory-tract-infections"
+  }
+]
