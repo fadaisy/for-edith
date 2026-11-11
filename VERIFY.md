@@ -154,3 +154,4 @@ To update a topic, edit `content/topics/<slug>/notes.md` or `study.json`, then r
 
 - Plain lidocaine maximum: MVA topic uses 4.5 mg/kg (WHO abortion care, max 300 mg); drug handbook and vaginal delivery use 3 mg/kg (BNF). Both now cross-referenced; confirm the unit's figure.
 - Full list of [VERIFY] flags raised during conversion: see the inline Verify chips on each topic page.
+- Measles 2025 case counts disagree: immunisation topic quotes 896 confirmed, measles topic over 10,163 (likely suspected vs confirmed); reconcile.
