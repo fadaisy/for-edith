@@ -14,9 +14,26 @@ highYield:
   - "Pregnancy normal ranges to quote: creatinine 35–70 µmol/L, PaCO₂ about 4 kPa, HCO₃⁻ 18–22 mmol/L, fibrinogen 4–6 g/L, ALP up 2–4 times, albumin 28–37 g/L."
   - Never physiological in pregnancy are RR above 20/min, SpO₂ below 95%, resting HR above 100, a diastolic murmur, raised ALT/AST and unilateral leg swelling.
   - A pregnant woman can lose up to about 30% of her blood volume before BP falls. Shock index (HR ÷ SBP) 0.9 or more is worrying and 1.4 or more is critical.
+format: concept
+system: Reproductive (maternal physiology)
+specialty: Obstetrics
+level: Core
+tags: [diagnosis of pregnancy, hCG, early pregnancy ultrasound, Naegele's rule, dating, maternal physiology, haemodilution, cardiac output, aortocaval compression, respiratory alkalosis, GFR, hypercoagulability, insulin resistance, pregnancy reference ranges]
+last_reviewed: 2026-11-11
+sources:
+  - "Ministry of Health Uganda. Uganda Clinical Guidelines 2023"
+  - "World Health Organization. Recommendations on antenatal care for a positive pregnancy experience, 2016"
+  - "World Health Organization. Daily iron and folic acid supplementation during pregnancy (eLENA)"
+  - "World Health Organization. Guideline on haemoglobin cutoffs to define anaemia, 2024"
+  - "StatPearls. Physiology, maternal blood"
+  - "Circulation (AHA). Cardiovascular physiology of pregnancy, 2014"
+  - "American Journal of Clinical Nutrition. Plasma volume expansion in pregnancy, 2017"
+  - "Medscape. Shock and pregnancy: cardiovascular and respiratory physiology"
+  - "Nursing Times. Pregnancy 1: effects on haematological and cardiovascular systems, 2023"
+  - "Hutchison's Clinical Methods, 24th edition (Glynn & Drake), 2018"
 ---
 
-## In a nutshell
+## 1. Definitions and Key Concepts
 
 This lecture has two halves that belong together.
 
@@ -24,8 +41,6 @@ This lecture has two halves that belong together.
 2. **Physiological changes** are the body's preparation to grow a fetus and survive delivery: more blood, more cardiac output, more ventilation, more clotting, more insulin resistance. These changes are why pregnant women **tolerate haemorrhage until they suddenly crash**, why they **desaturate quickly** during eclampsia or anaesthesia, why **VTE** is a leading killer, and why normal laboratory values differ.
 
 The one thing never to forget: **"normal" values change in pregnancy.** A creatinine, PaCO₂ or heart rate that is normal for a non-pregnant woman may be a warning sign in a pregnant one, and vice versa, since a lower Hb and higher WCC can be physiological.
-
-## Definitions & classification
 
 ### Signs and symptoms of pregnancy: the three classic categories
 
@@ -44,7 +59,7 @@ The one thing never to forget: **"normal" values change in pregnancy.** A creati
 | **Trimesters** | First up to 13+6 weeks; second 14–27+6 weeks; third 28 weeks to delivery |
 | **Embryonic vs fetal period** | Embryo until 10 weeks' GA (8 weeks post-conception): organogenesis, the most teratogen-sensitive time. Fetus after that |
 
-## Epidemiology & Uganda context
+## 2. Burden and Uganda Context
 
 - Uganda has one of the highest fertility rates in the world (**about 4.5 children per woman**, UDHS 2022) and many unintended pregnancies, especially among adolescents (about 1 in 4 girls aged 15–19 has begun childbearing).
 - **Late recognition of pregnancy** drives late ANC booking. Many women attend first in the second trimester, which means late dating, missed early folate and missed early risk assessment.
@@ -52,7 +67,21 @@ The one thing never to forget: **"normal" values change in pregnancy.** A creati
 - **Ultrasound** is widely available in towns (private clinics, HC IV and hospitals) but less so rurally. Clinical skills (bimanual size, fundal height, fetal heart with a Pinard or Doppler) still matter.
 - Background anaemia, malaria, HIV and rheumatic heart disease interact with the physiological changes. A woman with **mitral stenosis** may first decompensate at **28–32 weeks** (when cardiac output nears its peak) or **immediately after delivery** (autotransfusion).
 
-## Physiology
+## 3. Principles and Framework
+
+The physiological changes follow from a few hormones (table below) acting on every system. Learn each change with its **reason** and its **clinical consequence**: that is how they are examined and how you will use them on the ward.
+
+```mermaid
+flowchart TD
+  A["Placenta and corpus luteum: hCG, progesterone, oestrogen, hPL, relaxin"] --> B["Progesterone: smooth-muscle relaxation, CO2 sensitivity"]
+  A --> C["Oestrogen: RAAS activation, clotting factors, binding globulins"]
+  A --> D["hPL and cortisol: insulin resistance"]
+  B --> E["Low SVR, venodilation, hydroureter, slow gut, hyperventilation"]
+  C --> F["Plasma volume up 40-50%, hypercoagulable state"]
+  D --> G["Glucose diverted to the fetus; GDM unmasked at 24-28 weeks"]
+  E --> H["Lower BP mid-pregnancy, oedema, pyelonephritis risk, reflux, PaCO2 about 4 kPa"]
+  F --> I["Haemodilution, tolerance of blood loss, VTE risk 5-fold"]
+```
 
 ### Hormones driving the changes
 
@@ -160,56 +189,7 @@ The one thing never to forget: **"normal" values change in pregnancy.** A creati
 - Typical total **11–16 kg** for a woman of normal BMI (IOM). The components are fetus about 3.4 kg, placenta 0.6, amniotic fluid 0.8, uterus 0.9, breasts 0.4, blood 1.5, extracellular fluid 1.5 and fat about 3.5 kg.
 - Energy needs rise by about 300 kcal/day in the second and third trimesters, so advise "**one extra meal a day**" in Uganda.
 
-## Clinical acumen
-
-### Focused history (diagnosing pregnancy)
-
-| Question | Why it matters |
-|---|---|
-| **First day of the LNMP**, and was it normal (flow, duration)? | Dating. A lighter "period" may have been implantation or threatened miscarriage bleeding |
-| **Cycle length and regularity** | Naegele assumes 28 days. For a long cycle, add days |
-| **Contraception**: type, when stopped | Depo-Provera can cause amenorrhoea without pregnancy; conceiving with an IUD in place raises ectopic risk; stopping the pill causes irregular cycles |
-| **Breastfeeding?** | Lactational amenorrhoea can hide a new pregnancy |
-| **Symptoms**: nausea, breast tenderness, frequency, quickening | Presumptive support. Severe vomiting suggests twins or a molar pregnancy |
-| **Pain or bleeding** | **Ectopic** or **miscarriage** must be excluded early |
-| **Home pregnancy test results** | Timing and repeat testing |
-| **Previous pregnancies, ectopics, PID, tubal surgery** | Ectopic risk |
-| **Medical conditions and drugs** | Teratogens (valproate, warfarin, ACE inhibitors, methotrexate, isotretinoin); plan folate 5 mg if on antiepileptics or with a previous NTD |
-
-### Examination
-
-- **General:** pallor, BP (baseline for later comparison), pulse, weight, thyroid, breasts (Montgomery's tubercles, secondary areola) with consent and a chaperone.
-- **Abdomen:** palpate the fundus (12 weeks or more), fetal heart by Doppler (10–12 weeks or more), fetal parts (20 weeks or more). Look for **linea nigra and striae**.
-- **Pelvic (bimanual) exam** when indicated: uterine size (a hen's egg is about 6 weeks, an orange about 8 weeks, a grapefruit about 12 weeks), softening (Hegar's/Goodell's), adnexal tenderness or mass (**ectopic**), cervical excitation.
-- **Speculum:** bluish cervix (Chadwick's), the os (open or closed if bleeding), discharge.
-
-### Red flags
-
-> [!REDFLAG]
-> - **Positive pregnancy test + pain or bleeding + empty uterus on scan** means **ectopic until proven otherwise**. Shock, shoulder-tip pain or peritonism means a ruptured ectopic: resuscitate and take her to theatre.
-> - **Uterus much larger than dates + very high hCG + hyperemesis or early pre-eclampsia (before 20 weeks) + vaginal bleeding** means a **molar pregnancy**.
-> - **Breathlessness with RR above 20/min, SpO₂ below 95%, orthopnoea, a diastolic murmur, or tachycardia above 100 bpm** is **not** physiological: think cardiac disease (RHD, peripartum cardiomyopathy), PE, pneumonia or severe anaemia.
-> - **Unilateral leg swelling** (usually left) means DVT until proven otherwise.
-> - **Generalised or facial oedema with hypertension** means pre-eclampsia.
-> - **Pruritus of the palms and soles, no rash** means intrahepatic cholestasis (check bile acids and LFTs).
-
-### Thinking like a clinician
-
-- **"Every woman of reproductive age is pregnant until proven otherwise."** Before an X-ray, prescription, laparotomy or diagnosis of "PID" or "appendicitis", do a urine hCG.
-- **Interpreting hCG with ultrasound:**
-  - hCG above the discriminatory zone (about 1,500–3,500 IU/L) with **no intrauterine sac on TVS** suggests ectopic or complete miscarriage.
-  - hCG below the zone with no sac means a **pregnancy of unknown location**: repeat hCG in 48 hours. A rise of 63% or more suggests a viable IUP; a fall of 50% or more suggests failing pregnancy; a suboptimal rise suggests ectopic.
-  - Very high hCG suggests molar pregnancy, twins, or wrong dates.
-- **Negative test but still suspect pregnancy?** Too early (repeat in 1 week), dilute urine (use the first morning sample), or the **hook effect** (extremely high hCG in a mole can give a false negative; dilute the sample).
-- **Positive test but not pregnant?** Recent pregnancy or miscarriage (hCG can persist about 4–6 weeks), hCG injection (infertility treatment), gestational trophoblastic disease, rare tumours (germ cell).
-- **Physiology vs pathology:** before attributing anything to "normal pregnancy", ask "**Is this within the expected range of change, and is the trend right?**"
-  - Breathlessness: physiological if gradual, at rest or on talking, with a normal RR, SpO₂ and exam. Pathological if sudden, with tachypnoea, tachycardia, chest pain, cough or haemoptysis.
-  - Oedema: physiological if bilateral ankle oedema, worse in the evening, with normal BP. Pathological if facial or hand oedema with hypertension, or unilateral.
-  - Murmur: physiological if soft systolic ejection. Pathological if diastolic, loud (grade 3 or more), or with symptoms.
-  - Hb: 10.5–11 in the second trimester may be mild dilution, but **below 11 is still treated** as anaemia in Uganda (WHO cut-off), and below 10 is almost always true anaemia.
-- **Haemorrhage physiology pitfall:** because of the expanded blood volume, a pregnant woman can lose **1,000–1,500 mL (up to about 30% of blood volume) before BP falls**. **Tachycardia and a narrowing pulse pressure come first**; hypotension is a late, pre-arrest sign. Use the **shock index** (HR ÷ systolic BP): **0.9 or more is worrying, 1.4 or more is critical**.
-
-## Clinical workup
+## 4. Application in Practice
 
 This topic has two practical workups that you will use every day: **(A) confirming and dating a pregnancy**, and **(B) deciding whether a symptom, sign or result in a pregnant woman is normal physiology or disease**. Both follow the same steps.
 
@@ -236,13 +216,15 @@ This topic has two practical workups that you will use every day: **(A) confirmi
 
 | Ask | Why: the answer that changes the plan |
 |---|---|
-| **First day of LNMP**; was it a normal period? | Naegele's EDD. A light "period" may have been bleeding in early pregnancy, so dates are uncertain → early scan |
-| **Cycle length and regularity** | Long cycles: add (cycle length − 28) days. Irregular → scan dating |
-| **Contraception** (DMPA, implant, pill, IUD) and **breastfeeding** | Amenorrhoea may be the method, not a pregnancy; IUD in situ → higher ectopic risk |
-| **Pain, bleeding, shoulder-tip pain, fainting** | Ectopic or miscarriage → urgent scan, not routine booking |
-| **Severe vomiting** | Twins, **molar pregnancy**, hyperemesis → early scan, hCG, U&E |
-| **Previous ectopic, PID, tubal surgery, infertility** | Ectopic risk → locate the pregnancy by TVS |
-| **Drugs** | Teratogens (valproate, warfarin, ACE inhibitors, methotrexate, isotretinoin) → switch now; folic acid **5 mg** if on antiepileptics or previous NTD |
+| **First day of LNMP**; was it a normal period (flow, duration)? | Naegele's EDD. A lighter "period" may have been implantation or threatened miscarriage bleeding, so dates are uncertain → early scan |
+| **Cycle length and regularity** | Naegele assumes 28 days. Long cycles: add (cycle length − 28) days. Irregular → scan dating |
+| **Contraception**: type (DMPA, implant, pill, IUD) and when stopped | Amenorrhoea may be the method, not a pregnancy: Depo-Provera can cause amenorrhoea without pregnancy; conceiving with an IUD in place raises ectopic risk; stopping the pill causes irregular cycles |
+| **Breastfeeding?** | Lactational amenorrhoea can hide a new pregnancy |
+| **Symptoms**: nausea, breast tenderness, frequency, quickening | Presumptive support. **Severe vomiting** suggests twins, **molar pregnancy** or hyperemesis → early scan, hCG, U&E |
+| **Pain, bleeding, shoulder-tip pain, fainting** | **Ectopic** or **miscarriage** must be excluded early → urgent scan, not routine booking |
+| **Home pregnancy test results** | Timing and repeat testing |
+| **Previous pregnancies, ectopics, PID, tubal surgery, infertility** | Ectopic risk → locate the pregnancy by TVS |
+| **Medical conditions and drugs** | Teratogens (valproate, warfarin, ACE inhibitors, methotrexate, isotretinoin) → switch now; folic acid **5 mg** if on antiepileptics or with a previous NTD |
 
 **(B) Is this symptom physiological?** For every symptom ask: **onset** (gradual = more likely physiological; sudden = pathology), **severity** (does it stop her from normal activity?), **associated features** (the "red-flag companions" below), and **trend** (getting worse week by week?).
 
@@ -258,15 +240,49 @@ This topic has two practical workups that you will use every day: **(A) confirmi
 
 ### Step 2: Focused examination
 
-**General:** pallor, jaundice, oedema (where?), pulse character, JVP, thyroid (modest symmetrical enlargement can be normal; a nodule is not).
+Follow the order of Hutchison's Clinical Methods (24th edition), adapted for the pregnant woman.
 
-**Cardiorespiratory:** a **soft ejection systolic flow murmur** is found in most pregnant women and is normal. **A diastolic murmur, a loud (grade 3 or more) murmur, a displaced heaving apex, basal crepitations or an irregular pulse are never physiological.** Chest: clear, normal RR.
+#### Introduction, consent and preparation
 
-**Abdomen:** fundal height against the landmarks (**12 weeks** just above symphysis, **16** halfway to umbilicus, **20–22** at umbilicus, **36** at xiphisternum); linea nigra and striae; fetal heart with Doppler from 10–12 weeks, Pinard from about 20 weeks.
+- **Introduce yourself**, confirm her identity, explain the examination and obtain **consent**; offer a **chaperone** (always for the breast and pelvic examination).
+- **Hand hygiene** before and after.
+- **Position and exposure**: semi-recumbent; **from 20 weeks never flat on her back** (left lateral tilt 15–30°); expose only the part being examined.
 
-**Pelvic (only when indicated):** speculum for bleeding source, os open or closed, bluish cervix (Chadwick's); bimanual for uterine size (hen's egg 6 weeks, orange 8, grapefruit 12), softening, **adnexal tenderness or mass, cervical excitation** (ectopic).
+#### General inspection and vital signs
 
-**Legs:** calf size and tenderness on both sides (DVT is commoner on the **left**).
+- Well or unwell, pallor, jaundice, **oedema (where?)**, hydration, weight and height (BMI; baseline for weight gain).
+- **Vital signs read against pregnancy norms** (Step 0 table): pulse, BP (baseline for later comparison), RR, SpO₂, temperature, shock index if bleeding.
+
+#### Hands, face and neck
+
+- **Hands**: pulse rate and character; palmar erythema (oestrogen, can be normal); capillary refill.
+- **Face**: conjunctival pallor; chloasma; gum hyperaemia (pregnancy gingivitis, epulis).
+- **Neck**: JVP; **thyroid** (modest symmetrical enlargement can be normal; a nodule is not).
+
+#### Breasts (with consent and a chaperone)
+
+Enlargement, **Montgomery's tubercles**, secondary areola, pigmented nipples, colostrum from about 16 weeks.
+
+#### Cardiorespiratory
+
+A **soft ejection systolic flow murmur** is found in most pregnant women and is normal. **A diastolic murmur, a loud (grade 3 or more) murmur, a displaced heaving apex, basal crepitations or an irregular pulse are never physiological.** Chest: clear, normal RR.
+
+#### Abdomen
+
+1. **Inspection**: linea nigra, striae, scars, size of the abdomen.
+2. **Fundal height** against the landmarks (**12 weeks** just above symphysis, **16** halfway to umbilicus, **20–22** at umbilicus, **36** at xiphisternum); the fundus is palpable from 12 weeks.
+3. **Fetal parts** (from about 20 weeks): lie and presentation later in pregnancy.
+4. **Auscultation**: fetal heart with **Doppler from 10–12 weeks**, **Pinard from about 20 weeks**.
+
+#### Pelvic examination (only when indicated)
+
+- **Speculum first**: bleeding source, os open or closed, bluish cervix (Chadwick's), discharge.
+- **Bimanual**: uterine size (a hen's egg is about 6 weeks, an orange about 8 weeks, a grapefruit about 12 weeks), softening (Hegar's/Goodell's), **adnexal tenderness or mass, cervical excitation** (ectopic).
+
+#### Legs and completing the examination
+
+- **Legs**: calf size and tenderness on both sides (DVT is commoner on the **left**); ankle oedema.
+- Cover her, **thank her**, **hand hygiene**, and **summarise** with an impression ("physiological" or "needs investigation").
 
 **Document** for a normal early pregnancy: "Pulse 88, BP 108/64, RR 16, SpO₂ 98%, no pallor, soft ejection systolic murmur only, uterus about 8 weeks' size, soft, non-tender, no adnexal mass, os closed."
 
@@ -300,6 +316,8 @@ This topic has two practical workups that you will use every day: **(A) confirmi
 | **D-dimer, ESR, CRP** | Rarely useful | **All rise in normal pregnancy** | A positive D-dimer does not diagnose VTE: go straight to **compression Doppler ultrasound** (and CTPA/V/Q where available) if clinical suspicion |
 | **ECG / echocardiogram** | Palpitations, murmur with symptoms, breathlessness at rest | ECG may show **left axis deviation, T inversion in III, ectopics** normally | Echo for any diastolic murmur (mitral stenosis) or suspected peripartum cardiomyopathy. Echo at regional/national referral (e.g. Uganda Heart Institute, Mulago) |
 
+For all of these tests (urine and serum hCG, TVS and transabdominal ultrasound, Doppler and Pinard, FBC, renal and liver tests, clotting, ABG, TFTs and OGTT), two rules apply: **urine hCG first** in any woman of reproductive age, and **interpret every result against pregnancy-specific ranges**.
+
 ### Step 5: Putting it together
 
 **Model one-line summary (physiology vs pathology):**
@@ -332,7 +350,39 @@ A 34-week woman with BP 150/96 mmHg has: **creatinine 92 µmol/L**, **ALT 68 IU/
 > [!PEARL]
 > When you present any pregnant woman's results, say the pregnancy-normal range out loud: "Her creatinine is 92, which is **high for pregnancy** where we expect 35 to 70." It shows the consultant you know the physiology and stops the team being falsely reassured.
 
-## Differential diagnosis
+**Model summary line (diagnosing pregnancy)**
+
+> "Mrs K is a **26-year-old G1P0** who presents with **7 weeks of amenorrhoea**, nausea and breast tenderness. Her urine hCG is positive and a transvaginal scan shows a **single intrauterine gestational sac with a fetal pole of CRL 11 mm and cardiac activity**, consistent with **7 weeks + 2 days**, matching her LNMP dates. **Diagnosis: a viable singleton intrauterine pregnancy at 7 weeks.** Plan: book ANC, start iron–folate, booking bloods, and advice for nausea."
+
+## 5. Clinical Acumen
+
+### Thinking like a clinician
+
+- **"Every woman of reproductive age is pregnant until proven otherwise."** Before an X-ray, prescription, laparotomy or diagnosis of "PID" or "appendicitis", do a urine hCG.
+- **Interpreting hCG with ultrasound:**
+  - hCG above the discriminatory zone (about 1,500–3,500 IU/L) with **no intrauterine sac on TVS** suggests ectopic or complete miscarriage.
+  - hCG below the zone with no sac means a **pregnancy of unknown location**: repeat hCG in 48 hours. A rise of 63% or more suggests a viable IUP; a fall of 50% or more suggests failing pregnancy; a suboptimal rise suggests ectopic.
+  - Very high hCG suggests molar pregnancy, twins, or wrong dates.
+- **Negative test but still suspect pregnancy?** Too early (repeat in 1 week), dilute urine (use the first morning sample), or the **hook effect** (extremely high hCG in a mole can give a false negative; dilute the sample).
+- **Positive test but not pregnant?** Recent pregnancy or miscarriage (hCG can persist about 4–6 weeks), hCG injection (infertility treatment), gestational trophoblastic disease, rare tumours (germ cell).
+- **Physiology vs pathology:** before attributing anything to "normal pregnancy", ask "**Is this within the expected range of change, and is the trend right?**"
+  - Breathlessness: physiological if gradual, at rest or on talking, with a normal RR, SpO₂ and exam. Pathological if sudden, with tachypnoea, tachycardia, chest pain, cough or haemoptysis.
+  - Oedema: physiological if bilateral ankle oedema, worse in the evening, with normal BP. Pathological if facial or hand oedema with hypertension, or unilateral.
+  - Murmur: physiological if soft systolic ejection. Pathological if diastolic, loud (grade 3 or more), or with symptoms.
+  - Hb: 10.5–11 in the second trimester may be mild dilution, but **below 11 is still treated** as anaemia in Uganda (WHO cut-off), and below 10 is almost always true anaemia.
+- **Haemorrhage physiology pitfall:** because of the expanded blood volume, a pregnant woman can lose **1,000–1,500 mL (up to about 30% of blood volume) before BP falls**. **Tachycardia and a narrowing pulse pressure come first**; hypotension is a late, pre-arrest sign. Use the **shock index** (HR ÷ systolic BP): **0.9 or more is worrying, 1.4 or more is critical**.
+
+### Red flags
+
+> [!REDFLAG]
+> - **Positive pregnancy test + pain or bleeding + empty uterus on scan** means **ectopic until proven otherwise**. Shock, shoulder-tip pain or peritonism means a ruptured ectopic: resuscitate and take her to theatre.
+> - **Uterus much larger than dates + very high hCG + hyperemesis or early pre-eclampsia (before 20 weeks) + vaginal bleeding** means a **molar pregnancy**.
+> - **Breathlessness with RR above 20/min, SpO₂ below 95%, orthopnoea, a diastolic murmur, or tachycardia above 100 bpm** is **not** physiological: think cardiac disease (RHD, peripartum cardiomyopathy), PE, pneumonia or severe anaemia.
+> - **Unilateral leg swelling** (usually left) means DVT until proven otherwise.
+> - **Generalised or facial oedema with hypertension** means pre-eclampsia.
+> - **Pruritus of the palms and soles, no rash** means intrahepatic cholestasis (check bile acids and LFTs).
+
+
 
 ### Amenorrhoea in a woman of reproductive age
 
@@ -353,11 +403,16 @@ A 34-week woman with BP 150/96 mmHg has: **creatinine 92 µmol/L**, **ALT 68 IU/
 
 Wrong dates, **twins**, **molar pregnancy**, **polyhydramnios**, **fibroids**, **macrosomia**, full bladder.
 
-## Investigations
+### Common student mistakes
 
-All the tests (urine and serum hCG, TVS and transabdominal ultrasound, Doppler and Pinard, FBC, renal and liver tests, clotting, ABG, TFTs and OGTT), with their **normal pregnancy ranges** and what an abnormal result changes, are in **Clinical workup, Steps 3 and 4** above. The two rules to carry away: **urine hCG first** in any woman of reproductive age, and **interpret every result against pregnancy-specific ranges**.
+- Labelling abdominal pain as "PID" or "appendicitis" without a **urine hCG**.
+- Reading a pregnant woman's creatinine, PaCO₂ or fibrinogen against **non-pregnant** ranges.
+- Calling breathlessness "physiological" without counting the **RR** and checking **SpO₂**.
+- Ordering a **D-dimer** to exclude VTE in pregnancy.
+- Waiting for **hypotension** before calling a bleeding pregnant woman shocked.
+- Examining or resuscitating a woman beyond 20 weeks **flat on her back**.
 
-## Management
+## 6. Common Problems and Their Management
 
 This topic is about normal physiology, so "management" means **(1) confirming and dating the pregnancy, (2) managing common physiological symptoms safely, and (3) applying physiology to emergencies.**
 
@@ -403,7 +458,7 @@ This topic is about normal physiology, so "management" means **(1) confirming an
 > [!UGANDA]
 > In many Ugandan HC IVs, **ABG, fibrinogen and D-dimer are unavailable**. Rely on the bedside: HR, RR, SpO₂, shock index, urine output, capillary refill, conjunctival pallor, and the **bedside clotting test** (WHO: 2 mL of venous blood in a small plain glass tube, tilted every minute; **no clot by 7 minutes**, or a soft clot that breaks up easily, suggests coagulopathy/DIC; some units use the 20-minute whole-blood clotting test instead). **D-dimer rises normally in pregnancy**, so a positive result is unhelpful.
 
-## Complications
+### 4. Complications: when the adaptation fails
 
 What happens when the physiological adaptation **fails or is exceeded**:
 
@@ -420,57 +475,37 @@ What happens when the physiological adaptation **fails or is exceeded**:
 | Increased thyroid demand | Unmasked hypothyroidism or goitre |
 | Pituitary enlargement | **Sheehan's syndrome** after PPH-induced hypotension |
 
-## Ward-round & exam pearls
+## 7. Guidelines, Policy and Law in Uganda
 
-### Model summary line
+> [!UGANDA]
+> This topic follows the **Uganda Clinical Guidelines (UCG) 2023**, the Uganda ANC package and the **WHO 2016 recommendations on antenatal care for a positive pregnancy experience** (at least 8 contacts, the first before 12 weeks; **one ultrasound before 24 weeks**; daily iron and folic acid).
 
-> "Mrs K is a **26-year-old G1P0** who presents with **7 weeks of amenorrhoea**, nausea and breast tenderness. Her urine hCG is positive and a transvaginal scan shows a **single intrauterine gestational sac with a fetal pole of CRL 11 mm and cardiac activity**, consistent with **7 weeks + 2 days**, matching her LNMP dates. **Diagnosis: a viable singleton intrauterine pregnancy at 7 weeks.** Plan: book ANC, start iron–folate, booking bloods, and advice for nausea."
+- **Booking**: ANC ideally **before 12 weeks**; every woman of reproductive age with pain, bleeding or collapse gets a **urine hCG** first.
+- **Folic acid and iron**: folic acid **400 µg** daily with iron per the Uganda ANC package; **5 mg** for a previous NTD-affected baby, antiepileptics, diabetes, sickle cell disease or BMI 30 or more.
+- **Dating**: the scan EDD replaces the LNMP EDD if they differ by more than 5–7 days (first trimester) or 10–14 days (second trimester); the EDD is then **fixed** on the ANC card.
+- **GDM screening**: 75 g OGTT at **24–28 weeks** if risk factors; GDM if fasting 5.1 mmol/L or more, 1 h 10.0 or more, or 2 h 8.5 or more (WHO 2013 criteria).
+- **Drugs**: the safe and avoid lists in section 6; artemether–lumefantrine is acceptable in all trimesters per updated WHO malaria guidance.
+- **Emergencies**: left uterine displacement, the shock index and the bedside clotting test are the tools available at every level (section 6); ABG, fibrinogen and D-dimer are mostly unavailable below regional referral level.
 
-### Likely viva questions with answers
+> [!UGANDA]
+> **Where UCG and WHO/international guidance differ**: the anaemia cut-off. UCG and Ugandan practice treat **Hb below 11 g/dL** as anaemia throughout pregnancy, whereas the **WHO 2024 haemoglobin guideline** uses **below 11.0 g/dL in the first and third trimesters and below 10.5 g/dL in the second trimester** [VERIFY: confirm the trimester-specific WHO 2024 cut-offs and whether UCG 2023 has adopted them]. Quote "below 11" in Ugandan exams and know the WHO nuance.
 
-1. **What are the positive signs of pregnancy?** Fetal heart heard, fetal movements or parts felt by the examiner, and the fetus visualised on ultrasound.
-2. **Why is a pregnant woman's Hb lower?** Plasma volume rises about 50% but red cell mass only about 25%, so haemodilution occurs. It lowers viscosity and improves placental perfusion.
-3. **Why does a pregnant woman desaturate quickly?** FRC is down about 20% (elevated diaphragm) and O₂ consumption is up about 20%, so the oxygen reserve is used up quickly during apnoea.
-4. **Why are pregnant women prone to pyelonephritis?** Progesterone-induced ureteric dilatation and pressure at the pelvic brim cause urinary stasis, and glycosuria adds to it. Asymptomatic bacteriuria therefore ascends.
-5. **What ABG do you expect in normal pregnancy?** Compensated respiratory alkalosis: pH about 7.44, PaCO₂ about 4 kPa, HCO₃⁻ about 18–22 mmol/L.
-6. **Why does BP fall in mid-pregnancy?** Progesterone and nitric oxide cause vasodilation, and the low-resistance placental circulation lowers SVR, with the nadir at about 20–24 weeks.
-7. **When is a heart murmur in pregnancy abnormal?** When it is diastolic, grade 3 or more, radiates widely, or comes with symptoms or signs (orthopnoea, arrhythmia, cyanosis).
-8. **How long can a urine pregnancy test stay positive after delivery or miscarriage?** Up to about 4–6 weeks as hCG clears.
+## 8. Key Points
 
-> [!EXAM]
-> A favourite: "**A 30-week pregnant woman has a PaCO₂ of 5.5 kPa during an asthma attack. Comment.**" Answer: this is **high for pregnancy** (normal is about 4 kPa) and means **respiratory fatigue and impending failure**. Escalate to HDU/ICU.
+### High-yield points
 
-### OSCE tips
+- **Pregnant until proven otherwise**: urine hCG in every woman of reproductive age with pain, bleeding, collapse, or before a drug, X-ray or operation.
+- **Positive signs only come from the fetus**: heart heard, parts or movements felt by the examiner, fetus seen on ultrasound.
+- **hCG above about 1,500–3,500 IU/L with an empty uterus on TVS** = ectopic until proven otherwise.
+- **The 50% club**: plasma volume, cardiac output, minute ventilation and GFR all rise by roughly half.
+- **Normal ranges change**: creatinine 35–70 µmol/L, PaCO₂ about 4 kPa, fibrinogen 4–6 g/L, ALP up 2–4 times.
+- **Never physiological**: RR above 20, SpO₂ below 95%, resting HR above 100, a diastolic murmur, raised ALT/AST, unilateral leg swelling.
+- **Tilt her left from 20 weeks.**
+- **She keeps her BP until about 30% blood loss**: watch the pulse and the shock index.
+- **Hypercoagulable, highest postpartum**: VTE risk about 5-fold.
+- **D-dimer, ESR and WCC rise in normal pregnancy**: do not be misled.
 
-- When asked to "confirm pregnancy", state: history (LNMP, symptoms), a **urine hCG**, and an ultrasound (location, viability, number, dating).
-- Calculate an EDD aloud: LNMP **10 March 2025**: add 7 days (17 March 2025), subtract 3 months (17 December 2024), add 1 year, which gives an **EDD of 17 December 2025**.
-- Explain physiology in patient-friendly language when counselling ("Your body makes extra blood for the baby; the water part increases more, so your blood level looks lower. That is why we give iron").
-
-## Mnemonics & memory aids
-
-**Things that go UP: "the 50% club"**
-
-Roughly **half again**: **plasma volume** (40–50%), **cardiac output** (30–50%), **minute ventilation** (40–50%), **GFR and renal plasma flow** (50% or more). Smaller rises: red cell mass (20–30%), heart rate (10–20 bpm), tidal volume, O₂ consumption (20%), WCC, ESR, fibrinogen and clotting factors VII, VIII and X, ALP, cortisol, TBG, prolactin.
-
-**Things that go DOWN: "Down with SPICE-FR"**
-
-- **S**VR (and so mid-pregnancy BP)
-- **P**aCO₂ (and so HCO₃⁻)
-- **I**nsulin sensitivity (second half)
-- **C**reatinine and urea
-- **E**xpiratory reserve volume
-- **F**RC
-- **R**ed cell concentration (Hb), plus albumin and protein S
-
-**Signs of early pregnancy by the "letters of the alphabet":** **C**hadwick (Colour, bluish), **G**oodell (Gentle cervix, soft), **H**egar (Hollow feel of the isthmus, soft). **C, G, H** come in alphabetical order, roughly matching the order in which you would examine: look (C), then feel the cervix (G), then bimanual (H).
-
-**Fetal heart detection "10–20" rule:** Doppler at about **10** weeks, Pinard at about **20** weeks.
-
-**Fundal height "12–16–20–36":** symphysis at 12 weeks, halfway at 16, umbilicus at 20 (to 22), xiphisternum at 36.
-
-## High-yield summary
-
-### Numbers & doses to know
+### Numbers & doses
 
 | Item | Value |
 |---|---|
@@ -497,7 +532,7 @@ Roughly **half again**: **plasma volume** (40–50%), **cardiac output** (30–5
 | Aortocaval compression | From about **20 weeks**: tilt **15–30° left** |
 | Perimortem CS | Deliver within **4–5 minutes** of arrest if no ROSC (uterus at or above umbilicus) |
 
-### Classic exam traps
+### Exam traps
 
 - **"Hb 10.5 g/dL at 28 weeks is just dilution, so no treatment."** → Physiological haemodilution is real, but in Uganda (WHO) **below 11 g/dL is anaemia** and is treated and investigated.
 - **"PaCO₂ 5.3 kPa is normal."** → Normal for a non-pregnant adult, but **high for pregnancy** (normal about 4 kPa): in an asthmatic it signals **respiratory fatigue**.
@@ -509,6 +544,19 @@ Roughly **half again**: **plasma volume** (40–50%), **cardiac output** (30–5
 - **"BP is normal, so she is not bleeding much."** → Pregnant women keep their BP until about 30% blood loss: **tachycardia and a rising shock index come first**.
 
 ### Questions seniors ask
+
+**Viva questions**
+
+1. **What are the positive signs of pregnancy?** Fetal heart heard, fetal movements or parts felt by the examiner, and the fetus visualised on ultrasound.
+2. **Why is a pregnant woman's Hb lower?** Plasma volume rises about 50% but red cell mass only about 25%, so haemodilution occurs. It lowers viscosity and improves placental perfusion.
+3. **Why does a pregnant woman desaturate quickly?** FRC is down about 20% (elevated diaphragm) and O₂ consumption is up about 20%, so the oxygen reserve is used up quickly during apnoea.
+4. **Why are pregnant women prone to pyelonephritis?** Progesterone-induced ureteric dilatation and pressure at the pelvic brim cause urinary stasis, and glycosuria adds to it. Asymptomatic bacteriuria therefore ascends.
+5. **What ABG do you expect in normal pregnancy?** Compensated respiratory alkalosis: pH about 7.44, PaCO₂ about 4 kPa, HCO₃⁻ about 18–22 mmol/L.
+6. **Why does BP fall in mid-pregnancy?** Progesterone and nitric oxide cause vasodilation, and the low-resistance placental circulation lowers SVR, with the nadir at about 20–24 weeks.
+7. **When is a heart murmur in pregnancy abnormal?** When it is diastolic, grade 3 or more, radiates widely, or comes with symptoms or signs (orthopnoea, arrhythmia, cyanosis).
+8. **How long can a urine pregnancy test stay positive after delivery or miscarriage?** Up to about 4–6 weeks as hCG clears.
+
+**On the ward round**
 
 **Name the positive signs of pregnancy.** Fetal heart heard, fetal parts or movements felt by the examiner, and the fetus seen on ultrasound. Everything else (including hCG) is presumptive or probable.
 
@@ -523,3 +571,49 @@ Roughly **half again**: **plasma volume** (40–50%), **cardiac output** (30–5
 **Why must she lie tilted to the left?** From about 20 weeks the supine uterus compresses the IVC and aorta, cutting venous return and cardiac output by up to 25–30%: supine hypotension and fetal distress.
 
 **Why are pregnant women prone to VTE, and when is the risk highest?** Virchow's triad: stasis (venous compression, progesterone), hypercoagulability (fibrinogen, VII, VIII, X up; protein S down) and vessel injury at delivery. Risk is about 5-fold, **highest postpartum**, especially after CS.
+
+### Mnemonics
+
+**Things that go UP: "the 50% club"**
+
+Roughly **half again**: **plasma volume** (40–50%), **cardiac output** (30–50%), **minute ventilation** (40–50%), **GFR and renal plasma flow** (50% or more). Smaller rises: red cell mass (20–30%), heart rate (10–20 bpm), tidal volume, O₂ consumption (20%), WCC, ESR, fibrinogen and clotting factors VII, VIII and X, ALP, cortisol, TBG, prolactin.
+
+**Things that go DOWN: "Down with SPICE-FR"**
+
+- **S**VR (and so mid-pregnancy BP)
+- **P**aCO₂ (and so HCO₃⁻)
+- **I**nsulin sensitivity (second half)
+- **C**reatinine and urea
+- **E**xpiratory reserve volume
+- **F**RC
+- **R**ed cell concentration (Hb), plus albumin and protein S
+
+**Signs of early pregnancy by the "letters of the alphabet":** **C**hadwick (Colour, bluish), **G**oodell (Gentle cervix, soft), **H**egar (Hollow feel of the isthmus, soft). **C, G, H** come in alphabetical order, roughly matching the order in which you would examine: look (C), then feel the cervix (G), then bimanual (H).
+
+**Fetal heart detection "10–20" rule:** Doppler at about **10** weeks, Pinard at about **20** weeks.
+
+**Fundal height "12–16–20–36":** symphysis at 12 weeks, halfway at 16, umbilicus at 20 (to 22), xiphisternum at 36.
+
+### OSCE tips
+
+- When asked to "confirm pregnancy", state: history (LNMP, symptoms), a **urine hCG**, and an ultrasound (location, viability, number, dating).
+- Calculate an EDD aloud: LNMP **10 March 2025**: add 7 days (17 March 2025), subtract 3 months (17 December 2024), add 1 year, which gives an **EDD of 17 December 2025**.
+- Explain physiology in patient-friendly language when counselling ("Your body makes extra blood for the baby; the water part increases more, so your blood level looks lower. That is why we give iron").
+- **Physiology viva**: give each change as "**what changes, why, and what it means clinically**" (for example: FRC falls 20% because the diaphragm rises, so she desaturates quickly during a fit).
+
+> [!EXAM]
+> A favourite: "**A 30-week pregnant woman has a PaCO₂ of 5.5 kPa during an asthma attack. Comment.**" Answer: this is **high for pregnancy** (normal is about 4 kPa) and means **respiratory fatigue and impending failure**. Escalate to HDU/ICU.
+
+## 9. References
+
+1. Ministry of Health Uganda. Uganda Clinical Guidelines 2023: National Guidelines for Management of Common Health Conditions. Kampala: MoH; 2023. https://library.health.go.ug/sites/default/files/resources/Uganda%20Clinical%20Guidelines%202023.pdf
+2. World Health Organization. WHO Recommendations on Antenatal Care for a Positive Pregnancy Experience. Geneva: WHO; 2016. https://www.ncbi.nlm.nih.gov/books/NBK409109/
+3. World Health Organization. Daily iron and folic acid supplementation during pregnancy (e-Library of Evidence for Nutrition Actions). https://www.who.int/tools/elena/interventions/daily-iron-pregnancy
+4. World Health Organization. Guideline on haemoglobin cutoffs to define anaemia in individuals and populations. Geneva: WHO; 2024. https://iris.who.int/handle/10665/376196
+5. World Health Organization. Diagnostic criteria and classification of hyperglycaemia first detected in pregnancy. Geneva: WHO; 2013.
+6. StatPearls. Physiology, Maternal Blood. NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK557783/
+7. Sanghavi M, Rutherford JD. Cardiovascular Physiology of Pregnancy. Circulation. 2014. https://www.ahajournals.org/doi/10.1161/circulationaha.114.009029
+8. Emerging understanding and measurement of plasma volume expansion in pregnancy. American Journal of Clinical Nutrition. 2017. https://pmc.ncbi.nlm.nih.gov/articles/PMC5701717/
+9. Medscape eMedicine. Shock and Pregnancy: Cardiovascular and Respiratory Physiology During Normal Pregnancy. https://emedicine.medscape.com/article/169450-overview
+10. Nursing Times. Pregnancy 1: effects on haematological and cardiovascular systems. 2023. https://www.nursingtimes.net/womens-health/pregnancy-1-effects-on-haematological-and-cardiovascular-systems-29-08-2023/
+11. Glynn M, Drake WM, editors. Hutchison's Clinical Methods: An Integrated Approach to Clinical Practice. 24th edition. Edinburgh: Elsevier; 2018.

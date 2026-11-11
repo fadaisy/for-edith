@@ -14,18 +14,33 @@ highYield:
   - "MPDSR in Uganda: every maternal death is notifiable within 24 hours and reviewed (ideally within 7 days) in a no-name, no-blame audit that must end in a response (action)."
   - "Leading causes of maternal death in Uganda: haemorrhage (mostly PPH), hypertensive disorders, sepsis, abortion complications, obstructed labour/ruptured uterus, and indirect causes (malaria, HIV, anaemia, heart disease)."
   - "Respectful maternity care is a human right and a quality standard: consent, privacy, dignity, a companion of choice, no abuse, no detention for unpaid bills."
+format: concept
+system: Maternal health systems and public health
+specialty: Obstetrics
+level: Core
+tags: [EmONC, BEmONC, CEmONC, signal functions, safe motherhood, maternal mortality, MMR, three delays, referral, MPDSR, maternal near miss, respectful maternity care, rapid initial assessment, SDG 3.1]
+last_reviewed: 2026-11-11
+sources:
+  - "Uganda Bureau of Statistics. Uganda Demographic and Health Survey 2022"
+  - "Ministry of Health Uganda. Maternal and Perinatal Death Surveillance and Response Guidelines, 2017"
+  - "Ministry of Health Uganda. National Annual Maternal and Perinatal Death Report FY 2022/2023"
+  - "Ministry of Health Uganda. Uganda Clinical Guidelines 2023"
+  - "Ministry of Health Uganda. Essential Maternal and Newborn Clinical Care Guidelines for Uganda, 2022"
+  - "WHO, UNFPA, UNICEF, AMDD. Monitoring emergency obstetric care: a handbook, 2009"
+  - "Thaddeus & Maine. Too far to walk: maternal mortality in context, 1994"
+  - "PLOS One. Delphi consensus on revised EmONC signal functions, 2025"
+  - "World Health Organization. Managing Complications in Pregnancy and Childbirth (MCPC), 2nd edition, 2017"
+  - "World Health Organization. Recommendations on antenatal care for a positive pregnancy experience, 2016"
+  - "World Health Organization. Intrapartum care for a positive childbirth experience, 2018"
+  - "Hutchison's Clinical Methods, 24th edition (Glynn & Drake), 2018"
 ---
 
-## In a nutshell
-
-Each year about **260,000 women die** from pregnancy and childbirth worldwide, and about **70% of them in sub-Saharan Africa**. In Uganda roughly **1 in every 530 live births** is accompanied by a maternal death (MMR 189/100,000, UDHS 2022). Most deaths happen **around labour, delivery and the first 24 hours after birth**.
+## 1. Definitions and Key Concepts
 
 The key insight of the safe-motherhood movement is this: **we cannot predict which woman will develop a complication**, because most obstetric emergencies (PPH, eclampsia, obstructed labour, sepsis) occur in "low-risk" women. So the strategy is to make sure **every woman can reach, in time, a facility that can perform the life-saving "signal functions"**. That is **Emergency Obstetric and Newborn Care (EmONC)**.
 
 > [!PEARL]
 > The one thing never to forget: **"Every pregnancy faces risk."** Prevent what you can (family planning, ANC, skilled birth attendance), but mothers survive because the emergency is **recognised early, reached quickly and treated competently**. That is the three delays turned upside down.
-
-## Definitions & classification
 
 | Term | Definition |
 |---|---|
@@ -46,20 +61,22 @@ The key insight of the safe-motherhood movement is this: **we cannot predict whi
 
 | # | Signal function | What it treats | BEmONC | CEmONC |
 |---|---|---|---|---|
-| 1 | **Parenteral antibiotics** | Puerperal sepsis, septic abortion, PROM | ✔ | ✔ |
-| 2 | **Parenteral uterotonic drugs** (oxytocin) | PPH | ✔ | ✔ |
-| 3 | **Parenteral anticonvulsants** (MgSO₄) | Pre-eclampsia/eclampsia | ✔ | ✔ |
-| 4 | **Manual removal of placenta** | Retained placenta, PPH | ✔ | ✔ |
-| 5 | **Removal of retained products** (MVA, D&C) | Incomplete abortion, secondary PPH | ✔ | ✔ |
-| 6 | **Assisted vaginal delivery** (vacuum, forceps) | Prolonged 2nd stage, fetal distress | ✔ | ✔ |
-| 7 | **Basic neonatal resuscitation** (bag and mask) | Birth asphyxia | ✔ | ✔ |
-| 8 | **Surgery (caesarean section)** | Obstructed labour, praevia, abruption, fetal distress, rupture | | ✔ |
-| 9 | **Blood transfusion** | Haemorrhage, severe anaemia | | ✔ |
+| 1 | **Parenteral antibiotics** | Puerperal sepsis, septic abortion, PROM | Yes | Yes |
+| 2 | **Parenteral uterotonic drugs** (oxytocin) | PPH | Yes | Yes |
+| 3 | **Parenteral anticonvulsants** (MgSO₄) | Pre-eclampsia/eclampsia | Yes | Yes |
+| 4 | **Manual removal of placenta** | Retained placenta, PPH | Yes | Yes |
+| 5 | **Removal of retained products** (MVA, D&C) | Incomplete abortion, secondary PPH | Yes | Yes |
+| 6 | **Assisted vaginal delivery** (vacuum, forceps) | Prolonged 2nd stage, fetal distress | Yes | Yes |
+| 7 | **Basic neonatal resuscitation** (bag and mask) | Birth asphyxia | Yes | Yes |
+| 8 | **Surgery (caesarean section)** | Obstructed labour, praevia, abruption, fetal distress, rupture | No | Yes |
+| 9 | **Blood transfusion** | Haemorrhage, severe anaemia | No | Yes |
 
 > [!NOTE]
 > A 2025 Delphi consensus (the "Re-Visioning EmONC" project) proposed an **expanded set of 25 signal functions** (11 obstetric, 13 neonatal, 1 referral), adding for example tranexamic acid, antenatal corticosteroids, kangaroo care and referral capacity. For exams, **learn the classic 7 + 2**, and mention that the framework is being updated.
 
-## Epidemiology & Uganda context
+## 2. Burden and Uganda Context
+
+Each year about **260,000 women die** from pregnancy and childbirth worldwide, and about **70% of them in sub-Saharan Africa**. In Uganda roughly **1 in every 530 live births** is accompanied by a maternal death (MMR 189/100,000, UDHS 2022). Most deaths happen **around labour, delivery and the first 24 hours after birth**.
 
 ### Global picture
 
@@ -85,7 +102,7 @@ This is real progress, driven by more facility births (**about 9 in 10 births no
 |---|---|
 | **Obstetric haemorrhage** (especially **PPH**) | Leading cause nationally, around a quarter to a third of deaths |
 | **Hypertensive disorders** (pre-eclampsia/eclampsia) | Often second; linked to late or low-quality ANC and failure to give MgSO₄ |
-| **Sepsis** (puerperal, post-abortion, post-CS) | Leading cause in some tertiary series (e.g. Mulago, about 31% in one study) |
+| **Sepsis** (puerperal, post-abortion, post-CS) | Leading cause in some tertiary series (about 31% in one 2016 series [VERIFY: that series appears to come from Mbarara Regional Referral Hospital, not Mulago as previously stated]) |
 | **Abortion complications** | Unsafe abortion; restrictive law and stigma delay care |
 | **Obstructed labour / ruptured uterus** | Late referral, herbal uterotonics |
 | **Indirect causes** | **Malaria, HIV/TB, anaemia**, cardiac disease, sickle cell disease |
@@ -107,7 +124,19 @@ This is real progress, driven by more facility births (**about 9 in 10 births no
 > [!UGANDA]
 > Common gaps at HC IVs, which you will see on outreach and in referral letters: no anaesthetist or a non-functional theatre, **no blood**, oxytocin or MgSO₄ stock-outs, one midwife for the whole maternity at night, no ambulance fuel, and referral forms without vital signs. Knowing these realities helps you understand the "third delay" and write better referral and MPDSR reports.
 
-## Principles
+## 3. Principles and Framework
+
+```mermaid
+flowchart TD
+  A["Complication: about 15% of all pregnancies, often in low-risk women"] --> B["Delay 1: deciding to seek care"]
+  B --> C["Delay 2: reaching a facility"]
+  C --> D["Delay 3: receiving adequate care"]
+  D --> E["Signal function given in time: survival"]
+  D --> F["Signal function missing or late: near miss or death"]
+  F --> G["MPDSR: notify, review, respond"]
+  G --> H["Fix the delay: education, transport, staffing, supplies, drills"]
+  H --> B
+```
 
 ### The three delays model (Thaddeus & Maine, 1994, *"Too far to walk"*)
 
@@ -167,59 +196,7 @@ Seven categories of **disrespect and abuse** (Bowser & Hill): physical abuse, no
 
 **Why it matters clinically:** disrespect drives the **first delay**. Women who were slapped or shouted at last time deliver at home or with a TBA next time.
 
-## Clinical acumen
-
-This topic is about systems, but your acumen is still tested on the ward: **recognising the emergency, triaging it and referring it correctly**.
-
-### Focused history: danger signs to ask every pregnant or postnatal woman
-
-| Danger sign | Think of |
-|---|---|
-| **Vaginal bleeding** (any amount in pregnancy; heavy after birth) | Abortion, ectopic, APH, PPH |
-| **Convulsions / fits**, severe headache, blurred vision, epigastric pain | Pre-eclampsia/eclampsia (also malaria, epilepsy, meningitis) |
-| **Fever**, foul-smelling discharge, abdominal pain | Sepsis, malaria, chorioamnionitis |
-| **Severe abdominal pain** | Abruption, rupture, ectopic, sepsis, surgical causes |
-| **Labour >12 hours**, or contractions without progress | Obstructed/prolonged labour |
-| **Draining liquor** before labour | PROM/PPROM |
-| **Reduced or absent fetal movements** | Fetal compromise/IUFD |
-| **Difficulty breathing**, fast heartbeat, extreme weakness | Anaemia, heart failure, PE, sepsis |
-| **Swelling of face and hands** | Pre-eclampsia |
-
-For a woman who has been referred, **also ask the three delays questions**: *When did the problem start? When did you decide to come? How did you travel, and how long did it take? Where did you go first, and what was done there?* This is both clinically useful (duration of labour, doses already given) and good MPDSR data.
-
-### Examination: the rapid initial assessment (RIA)
-
-On arrival, **before the history**, triage every woman in under a minute:
-
-1. **Airway, Breathing**: very difficult breathing, cyanosis.
-2. **Circulation (shock)**: cold clammy skin, pulse >110, SBP <90, confusion.
-3. **Vaginal bleeding**: heavy bleeding, pads soaked.
-4. **Unconscious or convulsing**.
-5. **Dangerous fever** (≥38 °C) with weakness or a stiff neck.
-6. **Abdominal pain** (severe).
-7. **Labour**: imminent delivery, prolonged labour.
-
-Anyone with a "yes" gets **emergency care immediately**. Use **obstetric early warning scores (MEOWS)** on the wards to catch deterioration.
-
-### Red flags in the system
-
-> [!REDFLAG]
-> - A **referral note without vital signs, drugs given or times**: re-assess everything
-> - A woman **referred in shock without an IV line** or without MgSO₄ for eclampsia
-> - **Decision-to-delivery interval** for an emergency CS of more than 30–60 minutes
-> - **No monitoring after birth** (first 2 hours unobserved), where most PPH deaths happen
-> - **Stock-outs** of oxytocin, MgSO₄, antibiotics, blood; theatre closed at night
-> - A mother "waiting for relatives to buy supplies" before surgery
-
-### Thinking like a clinician (and like a public-health doctor)
-
-- **Every maternal death has a story**: analyse it by delays and by missed opportunities (ANC, labour monitoring, postpartum observation).
-- **"Stabilise before transfer"**: pre-referral treatment saves lives. A woman with eclampsia should get her **MgSO₄ loading dose** before the ambulance; PPH needs **oxytocin, TXA, fluids and NASG**; sepsis needs the **first antibiotic dose**.
-- **The first 24 hours postpartum** is the most dangerous period. Keep women at the facility for **at least 24 hours** after birth.
-- **Indirect causes** kill Ugandan mothers too: test for **malaria and HIV**, look for **anaemia**, and ask about heart disease.
-- **Pitfall**: thinking of EmONC as "buildings and equipment". The signal function must actually have been **performed** in the last 3 months to count; a vacuum extractor in a cupboard is not assisted vaginal delivery.
-
-## Clinical workup
+## 4. Application in Practice
 
 In this topic the "workup" has two faces: **(A) the systematic assessment of any woman arriving with an obstetric emergency**, which ends in the right **signal function** at the right level, and **(B) the systematic review of a maternal death**, which ends in a **response**. Steps 0–5 follow the woman; the maternal death review is worked through in Step 5.
 
@@ -236,14 +213,16 @@ In this topic the "workup" has two faces: **(A) the systematic assessment of any
 | **Dangerous fever** (≥38 °C with weakness, stiff neck, confusion) | Emergency | Cultures if possible, **first dose of IV antibiotics**, malaria test |
 | **Severe abdominal pain** | Emergency | Think rupture, abruption, ectopic, sepsis |
 | **Imminent delivery** (urge to push, head visible) | Emergency | Deliver; prepare for newborn resuscitation |
-| **Priority signs**, e.g. labour, ruptured membranes, severe headache or blurred vision, severe pallor, vomiting | Priority | Full assessment next; do not leave her in the queue |
+| **Priority signs**, e.g. labour (including prolonged labour), ruptured membranes, severe headache or blurred vision, severe pallor, vomiting | Priority | Full assessment next; do not leave her in the queue |
+
+Anyone with a "yes" gets **emergency care immediately**. Use **obstetric early warning scores (MEOWS)** on the wards to catch deterioration.
 
 Then, in the same 5 minutes:
 
 1. **Shout for help** and assign roles; note the **time of arrival**.
 2. **Full set of vitals**: pulse, BP, RR, SpO₂, temperature, conscious level; start a **MEOWS/early warning chart**.
 3. **IV access and bloods** (Hb, group and cross-match, clotting tube); **catheter** if shocked, eclamptic or in obstructed labour.
-4. **Name the emergency and the signal function it needs** (table below), then decide: **can this facility do it now?** If not, stabilise and refer (see Management B).
+4. **Name the emergency and the signal function it needs** (table below), then decide: **can this facility do it now?** If not, stabilise and refer (see section 6B).
 
 | Emergency | Signal function(s) needed | HC III (BEmONC) | HC IV / hospital (CEmONC) |
 |---|---|---|---|
@@ -259,6 +238,24 @@ Then, in the same 5 minutes:
 
 ### Step 1: Focused history
 
+**Danger signs to ask every pregnant or postnatal woman**
+
+| Danger sign | Think of |
+|---|---|
+| **Vaginal bleeding** (any amount in pregnancy; heavy after birth) | Abortion, ectopic, APH, PPH |
+| **Convulsions / fits**, severe headache, blurred vision, epigastric pain | Pre-eclampsia/eclampsia (also malaria, epilepsy, meningitis) |
+| **Fever**, foul-smelling discharge, abdominal pain | Sepsis, malaria, chorioamnionitis |
+| **Severe abdominal pain** | Abruption, rupture, ectopic, sepsis, surgical causes |
+| **Labour >12 hours**, or contractions without progress | Obstructed/prolonged labour |
+| **Draining liquor** before labour | PROM/PPROM |
+| **Reduced or absent fetal movements** | Fetal compromise/IUFD |
+| **Difficulty breathing**, fast heartbeat, extreme weakness | Anaemia, heart failure, PE, sepsis |
+| **Swelling of face and hands** | Pre-eclampsia |
+
+For a woman who has been referred, **also ask the three delays questions**: *When did the problem start? When did you decide to come? How did you travel, and how long did it take? Where did you go first, and what was done there?* This is both clinically useful (duration of labour, doses already given) and good MPDSR data.
+
+**For the woman in front of you (and her referral note)**
+
 Ask the woman, her companion and **read the referral note and ANC card**. Each item changes what you do:
 
 - [ ] **What is the problem, and when did it start?** → duration of labour, bleeding or fits; TXA works only within 3 h of birth.
@@ -273,19 +270,44 @@ Ask the woman, her companion and **read the referral note and ANC card**. Each i
 
 ### Step 2: Focused examination
 
+Follow the order of Hutchison's Clinical Methods (24th edition), but **only after the rapid initial assessment and resuscitation** (Step 0). In an emergency, examine while the team resuscitates and complete the sequence once she is stable.
+
+#### Introduction, consent and preparation
+
+- Introduce yourself to the woman and her companion; explain what you are doing and obtain **consent** (if she cannot consent, act in her best interests and inform the next of kin).
+- Privacy, a **chaperone**, **hand hygiene** and gloves.
+- **Position**: left lateral tilt from 20 weeks (or the recovery position if convulsing or unconscious); expose only what you need.
+
+#### General inspection and vital signs
+
 **General**: conscious level (AVPU/GCS), pallor, jaundice, oedema, dehydration, signs of respiratory distress.
 
 **Vital signs with trend**: pulse, BP, RR, SpO₂, temperature, **shock index**, urine output (≥30 mL/h).
 
-**System checks by presenting problem**:
+#### Hands, face and neck
+
+- **Hands**: cold, clammy peripheries and slow capillary refill (shock); pallor of the palms (anaemia).
+- **Face**: conjunctival pallor, jaundice, central cyanosis, facial oedema (pre-eclampsia).
+- **Neck**: neck stiffness (meningitis, cerebral malaria); raised JVP (heart failure, fluid overload).
+
+#### System checks by presenting problem
+
 - **Chest and heart**: crackles (pulmonary oedema, pneumonia), murmur (cardiac disease).
 - **Neuro**: GCS, neck stiffness, focal signs, reflexes (MgSO₄ monitoring).
 
-**Obstetric**:
+#### Obstetric examination
+
+In the order of the obstetric abdominal examination (inspection, fundal height, lie, presentation, engagement in fifths, fetal heart), then the postpartum, vaginal and newborn checks:
+
 - **Abdomen**: fundal height, uterine tone and tenderness, scar tenderness, **Bandl's ring**, fetal lie and presentation, descent (fifths), contractions, **fetal heart**.
 - **Postpartum**: fundus (firm? high?), lochia, perineum, wound.
 - **Vaginal examination** only if there is **no APH** (or praevia has been excluded): dilatation, station, moulding, caput, liquor colour; in obstructed labour, look for oedema of the cervix and vulva.
 - **Newborn**, if delivered: breathing, heart rate, temperature, feeding.
+
+#### Completing the examination
+
+- Cover her, thank her and her companion, **hand hygiene**.
+- **Name the emergency and the signal function** it needs, and say whether this facility can deliver it now.
 
 | Document these positives | And these negatives |
 |---|---|
@@ -363,7 +385,33 @@ Ask the woman, her companion and **read the referral note and ANC card**. Each i
 > - CS 1,200 / 40,000 births = **3%** → below 5%: **unmet need** for surgery.
 > - Direct obstetric deaths in EmONC facilities 40 / women with direct complications treated 2,700 = **1.5%** → above the **<1%** target: look at the **quality of care** (third delay).
 
-## Differential diagnosis
+**Model presentation of a referred emergency**
+
+> "Mrs L, a 19-year-old primigravida at 38 weeks, referred from a HC III 40 km away with eclampsia. She fitted twice at home, and the family delayed 6 hours before seeking care (first delay: they consulted a herbalist first). Transport took 3 hours on a boda-boda then an ambulance (second delay). She received MgSO₄ 4 g IV and 10 g IM at the HC III at 14:00, but no antihypertensive, and no BP is recorded on the referral note. On arrival: BP 172/114, GCS 13, reflexes present, RR 18, urine protein 3+, cephalic, 4 cm, FHR 150. Plan: continue MgSO₄ maintenance, hydralazine 5 mg IV, bloods (FBC, LFTs, creatinine, clotting), catheter, deliver within 12 hours (augment or CS), and note the delays for the MPDSR/near-miss audit."
+
+## 5. Clinical Acumen
+
+This topic is about systems, but your acumen is still tested on the ward: **recognising the emergency, triaging it and referring it correctly**.
+
+### Thinking like a clinician (and like a public-health doctor)
+
+- **Every maternal death has a story**: analyse it by delays and by missed opportunities (ANC, labour monitoring, postpartum observation).
+- **"Stabilise before transfer"**: pre-referral treatment saves lives. A woman with eclampsia should get her **MgSO₄ loading dose** before the ambulance; PPH needs **oxytocin, TXA, fluids and NASG**; sepsis needs the **first antibiotic dose**.
+- **The first 24 hours postpartum** is the most dangerous period. Keep women at the facility for **at least 24 hours** after birth.
+- **Indirect causes** kill Ugandan mothers too: test for **malaria and HIV**, look for **anaemia**, and ask about heart disease.
+- **Pitfall**: thinking of EmONC as "buildings and equipment". The signal function must actually have been **performed** in the last 3 months to count; a vacuum extractor in a cupboard is not assisted vaginal delivery.
+
+### Red flags in the system
+
+> [!REDFLAG]
+> - A **referral note without vital signs, drugs given or times**: re-assess everything
+> - A woman **referred in shock without an IV line** or without MgSO₄ for eclampsia
+> - **Decision-to-delivery interval** for an emergency CS of more than 30–60 minutes
+> - **No monitoring after birth** (first 2 hours unobserved), where most PPH deaths happen
+> - **Stock-outs** of oxytocin, MgSO₄, antibiotics, blood; theatre closed at night
+> - A mother "waiting for relatives to buy supplies" before surgery
+
+### Scenarios: the cause of collapse or death around childbirth
 
 When a woman collapses or dies around childbirth, the differential of the **cause** guides both care and the MPDSR review.
 
@@ -379,24 +427,20 @@ When a woman collapses or dies around childbirth, the differential of the **caus
 | Peripartum cardiomyopathy / cardiac disease | Orthopnoea, oedema, murmur, late pregnancy to 5 months postpartum | Echo, CXR, ECG |
 | Anaesthetic complication | High spinal, failed intubation, aspiration | Clinical history |
 
-## Investigations
+### Common student mistakes
 
-The **clinical** tests for an obstetric emergency (bedside tests, laboratory and imaging, with Ugandan availability) are in **Clinical workup, Steps 3 and 4** above. At the **programme** level, these are the "investigations" you use to judge a service:
+- Triaging by order of arrival instead of by **danger signs**.
+- Referring without **stabilising** (no IV line, no MgSO₄ loading dose, no first antibiotic dose).
+- Writing a referral note without **vital signs, drugs, doses and times**.
+- Counting equipment as a signal function when it was not **used in the last 3 months**.
+- Calling an accidental death in pregnancy a "maternal death", or a malaria death 3 weeks postpartum "not maternal".
+- Turning an MPDSR review into a search for someone to blame, or ending it without a **response**.
 
-| Data source | What you are looking for | Why |
-|---|---|---|
-| **Partograph / Labour Care Guide audit** | Charts started, lines crossed and acted on | Prevents rupture and fistula |
-| **HMIS/DHIS2 data**: births, complications, CS rate, case fatality | EmONC indicators | Monitor met need and quality |
-| **EmONC needs assessment** (signal functions in last 3 months) | Whether facilities are truly functional | Plan where to invest |
-| **MPDSR reviews, verbal autopsies, near-miss audits** | Causes and avoidable factors | Drive the response |
-| **Criterion-based audit** (e.g. % eclampsia given MgSO₄; % women with AMTSL) | Quality of care against standards | Quality improvement |
-| **Stock and cold-chain records** (oxytocin, MgSO₄, blood) | Stock-outs, broken cold chain | A signal function without supplies is not available |
-
-## Management
+## 6. Common Problems and Their Management
 
 ### A. At the individual level: managing an obstetric emergency (the EmONC approach)
 
-1. **Rapid initial assessment and triage** on arrival (see above). Shout for help.
+1. **Rapid initial assessment and triage** on arrival (section 4, Step 0). Shout for help.
 2. **Resuscitate** (ABC): airway, oxygen, **IV access with two large-bore cannulae**, fluids, left lateral tilt if pregnant, keep warm, catheter.
 3. **Identify the problem** quickly: bleeding, fits, fever, prolonged labour, collapse.
 4. **Give the signal-function treatment** without delay:
@@ -462,7 +506,20 @@ The **clinical** tests for an obstetric emergency (bedside tests, laboratory and
 5. **Implement and follow up**; report to the district and the national committee.
 6. **Keep it no-name, no-blame**: focus on systems, not individuals.
 
-## Complications
+### F. Judging a service: programme-level "investigations"
+
+The clinical tests for an obstetric emergency are in section 4 (Steps 3 and 4). At the **programme** level, these are the "investigations" you use to judge a service:
+
+| Data source | What you are looking for | Why |
+|---|---|---|
+| **Partograph / Labour Care Guide audit** | Charts started, lines crossed and acted on | Prevents rupture and fistula |
+| **HMIS/DHIS2 data**: births, complications, CS rate, case fatality | EmONC indicators | Monitor met need and quality |
+| **EmONC needs assessment** (signal functions in last 3 months) | Whether facilities are truly functional | Plan where to invest |
+| **MPDSR reviews, verbal autopsies, near-miss audits** | Causes and avoidable factors | Drive the response |
+| **Criterion-based audit** (e.g. % eclampsia given MgSO₄; % women with AMTSL) | Quality of care against standards | Quality improvement |
+| **Stock and cold-chain records** (oxytocin, MgSO₄, blood) | Stock-outs, broken cold chain | A signal function without supplies is not available |
+
+### G. Complications of failed safe-motherhood systems
 
 "Complications" here means the consequences of failure of safe-motherhood systems:
 
@@ -474,35 +531,41 @@ The **clinical** tests for an obstetric emergency (bedside tests, laboratory and
 | Sheehan's syndrome, renal failure | Household poverty, school dropout of older girls | Litigation, poor morale |
 | Post-traumatic stress, depression | | |
 
-## Ward-round & exam pearls
+## 7. Guidelines, Policy and Law in Uganda
 
-**Model presentation of a referred emergency:**
-> "Mrs L, a 19-year-old primigravida at 38 weeks, referred from a HC III 40 km away with eclampsia. She fitted twice at home, and the family delayed 6 hours before seeking care (first delay: they consulted a herbalist first). Transport took 3 hours on a boda-boda then an ambulance (second delay). She received MgSO₄ 4 g IV and 10 g IM at the HC III at 14:00, but no antihypertensive, and no BP is recorded on the referral note. On arrival: BP 172/114, GCS 13, reflexes present, RR 18, urine protein 3+, cephalic, 4 cm, FHR 150. Plan: continue MgSO₄ maintenance, hydralazine 5 mg IV, bloods (FBC, LFTs, creatinine, clotting), catheter, deliver within 12 hours (augment or CS), and note the delays for the MPDSR/near-miss audit."
+> [!UGANDA]
+> This topic follows the **Uganda Clinical Guidelines (UCG) 2023**, the **Essential Maternal and Newborn Clinical Care Guidelines for Uganda (MoH 2022)**, the **national MPDSR guidelines (2017)**, the **UN EmONC monitoring handbook (2009)** and the **WHO MCPC manual**.
 
-**Viva questions with answers**
-1. *Define maternal death.* See definitions: while pregnant or within 42 days, related to or aggravated by pregnancy, not accidental.
-2. *List the BEmONC signal functions.* Antibiotics, uterotonics, anticonvulsants (all parenteral); MRP; removal of retained products; assisted vaginal delivery; neonatal resuscitation. **CEmONC adds CS and blood transfusion.**
-3. *What are the three delays? Give an intervention for each.* Deciding (education and birth preparedness), reaching (transport, waiting homes), receiving care (staffing, supplies, drills, MPDSR).
-4. *What is the UN recommendation on EmONC availability?* ≥5 EmONC facilities, including ≥1 CEmONC, per 500,000 population.
-5. *What is MPDSR and its principles?* Continuous identification, notification and review of deaths **with a response**; no name, no blame; confidentiality.
-6. *What is SDG 3.1?* Global MMR <70 per 100,000 live births by 2030; no country >140.
-7. *Why is MMR a better measure than maternal mortality rate for obstetric care?* MMR measures risk **per pregnancy/birth** (quality of obstetric care); the rate also reflects fertility levels.
-8. *What is the acceptable direct obstetric case fatality rate in EmONC facilities?* **<1%**.
+- **Levels of care**: HC III = BEmONC (7 signal functions); HC IV, general hospitals and above = CEmONC (all 9). Emergencies go to the nearest facility able to perform the needed signal function (section 6B).
+- **MPDSR**: maternal and perinatal deaths are **notifiable** (since 2008); notify within **24 hours**, review at the facility committee ideally within **7 days**, **no name, no blame**, and every review ends in a **response**. Uganda publishes a **National Annual Maternal and Perinatal Death Report**.
+- **Free maternity care at public facilities**: user fees were abolished in Ugandan public facilities in 2001; informal payments and "buy your own gloves" demands are a recognised cause of the third delay [VERIFY: year of user-fee abolition and current MoH policy wording].
+- **Respectful maternity care** is part of the national quality standards and of the **Patients' Charter** (rights to information, consent, privacy, dignity and non-discrimination) [VERIFY: current edition of the Uganda Patients' Charter]. Detaining women for unpaid bills is a recognised form of abuse.
+- **Abortion**: the law is restrictive (Constitution Article 22(2) and the Penal Code Act), which drives unsafe abortion and stigma; **post-abortion care is legal, a BEmONC signal function (removal of retained products), and must be given without delay or judgement** [VERIFY: current MoH standards and guidelines on reducing morbidity and mortality from unsafe abortion].
+- **SDG 3.1**: global MMR below 70 per 100,000 live births by 2030, with no country above 140.
 
-**OSCE tips**: in a referral station, verbalise **stabilisation before transfer**, write the **referral note with vital signs, drugs and times**, and **call the receiving facility**. In a counselling station on birth preparedness, cover **place of birth, skilled attendant, transport, money, blood donor, companion, danger signs, and items (mama kit)**.
+> [!UGANDA]
+> **Where Ugandan practice and WHO/international guidance differ**:
+> - **ANC contacts**: WHO 2016 recommends **at least 8 contacts**; Uganda has historically used 4 focused visits and is moving to the WHO model [VERIFY: the number of ANC contacts in the current Uganda ANC policy].
+> - **MgSO₄ regimen**: Uganda uses the **Pritchard (IM) regimen** (4 g IV + 10 g IM, then 5 g IM 4-hourly); WHO accepts either Pritchard or the **Zuspan (IV) regimen** (4 g IV, then 1 g/h infusion) where an infusion can be monitored.
+> - **Signal functions**: exams still use the classic **7 + 2** (UN 2009); the 2025 Delphi consensus proposed 25 signal functions, not yet adopted as national policy.
+> - **Labour monitoring**: the modified WHO partograph is the Ugandan standard; the WHO **Labour Care Guide** (2020) is being introduced [VERIFY: national roll-out status of the Labour Care Guide].
 
-## Mnemonics & memory aids
+## 8. Key Points
 
-- **BEmONC signal functions, "AAA + MRP + RR + AVD + NR"**: **A**ntibiotics, **A**nticonvulsants, **A**nti-haemorrhagic uterotonics (all parenteral); **M**anual **R**emoval of **P**lacenta; **R**emoval of **R**etained products; **A**ssisted **V**aginal **D**elivery; **N**eonatal **R**esuscitation. **CEmONC = + "Cut and Carry blood"** (CS and transfusion).
-- **Three delays: "Decide, Drive, Deliver"**: decide to seek care, drive (reach) the facility, deliver (receive) adequate care.
-- **5 per 500,000, at least 1 comprehensive** ("five-for-half-a-million").
-- **42 days** (maternal death) vs **1 year** (late maternal death).
-- **MPDSR: "Notify in 1 day, review in 1 week, respond always."**
-- **SDG 3.1: "70 by 2030."**
+### High-yield points
 
-## High-yield summary
+- **Every pregnancy faces risk**: complications cannot be predicted, so every woman needs timely access to EmONC.
+- **Maternal death**: pregnant or within 42 days, related to or aggravated by pregnancy, not accidental; late maternal death 42 days to 1 year.
+- **BEmONC = 7 signal functions; CEmONC = 7 + CS + blood transfusion**; a function counts only if performed in the last 3 months.
+- **Three delays**: deciding, reaching, receiving care; give one intervention for each.
+- **Rapid initial assessment before any history**: shock, bleeding, fits, fever, severe pain, imminent birth.
+- **Stabilise before referral**: MgSO₄ loading dose, PPH bundle, first antibiotic dose, first dexamethasone dose, escort, note with vitals, drugs and times, phone ahead.
+- **First 24 hours postpartum** are the most dangerous: observe every 15 minutes for 2 hours and keep her at least 24 hours.
+- **UN indicators**: at least 5 EmONC facilities (1 comprehensive) per 500,000; met need 100%; CS 5–15%; direct obstetric case fatality below 1%.
+- **MPDSR**: notify in 24 hours, review in 7 days, no name no blame, always a response.
+- **Uganda MMR**: 336 (2016) → 189 (2022); SDG target below 70 by 2030.
 
-### Numbers & doses to know
+### Numbers & doses
 
 | Item | Value |
 |---|---|
@@ -526,7 +589,7 @@ The **clinical** tests for an obstetric emergency (bedside tests, laboratory and
 | ANC (WHO 2016) | At least **8 contacts**, first in the first trimester |
 | Newborn | Ventilate within the **Golden Minute** |
 
-### Classic exam traps
+### Exam traps
 
 - **"The HC III has a vacuum extractor, so it offers assisted vaginal delivery."** Only if it was **performed in the last 3 months**.
 - **"CEmONC = BEmONC + CS."** It is **+ CS and blood transfusion**.
@@ -538,6 +601,19 @@ The **clinical** tests for an obstetric emergency (bedside tests, laboratory and
 - **Triage by order of arrival.** Triage by **danger signs**: shock, bleeding and fits go first.
 
 ### Questions seniors ask
+
+**Viva questions**
+
+1. *Define maternal death.* Death while pregnant or within 42 days, related to or aggravated by pregnancy, not accidental.
+2. *List the BEmONC signal functions.* Antibiotics, uterotonics, anticonvulsants (all parenteral); MRP; removal of retained products; assisted vaginal delivery; neonatal resuscitation. **CEmONC adds CS and blood transfusion.**
+3. *What are the three delays? Give an intervention for each.* Deciding (education and birth preparedness), reaching (transport, waiting homes), receiving care (staffing, supplies, drills, MPDSR).
+4. *What is the UN recommendation on EmONC availability?* ≥5 EmONC facilities, including ≥1 CEmONC, per 500,000 population.
+5. *What is MPDSR and its principles?* Continuous identification, notification and review of deaths **with a response**; no name, no blame; confidentiality.
+6. *What is SDG 3.1?* Global MMR <70 per 100,000 live births by 2030; no country >140.
+7. *Why is MMR a better measure than maternal mortality rate for obstetric care?* MMR measures risk **per pregnancy/birth** (quality of obstetric care); the rate also reflects fertility levels.
+8. *What is the acceptable direct obstetric case fatality rate in EmONC facilities?* **<1%**.
+
+**On the ward round**
 
 **A woman is brought in fitting. What do you do in the first minute?**
 Shout for help, protect the airway (left lateral), oxygen, and give the MgSO₄ loading dose; then check BP, glucose and the fetal heart.
@@ -562,3 +638,39 @@ Most PPH deaths happen in the first 24 hours, especially the first 2; she needs 
 
 **What is a maternal near miss and why review it?**
 A woman who nearly died but survived (e.g. shock, ≥5 units of blood, hysterectomy for bleeding, eclampsia with coma); near misses are commoner than deaths and she can tell you what went wrong.
+
+### Mnemonics
+
+- **BEmONC signal functions, "AAA + MRP + RR + AVD + NR"**: **A**ntibiotics, **A**nticonvulsants, **A**nti-haemorrhagic uterotonics (all parenteral); **M**anual **R**emoval of **P**lacenta; **R**emoval of **R**etained products; **A**ssisted **V**aginal **D**elivery; **N**eonatal **R**esuscitation. **CEmONC = + "Cut and Carry blood"** (CS and transfusion).
+- **Three delays: "Decide, Drive, Deliver"**: decide to seek care, drive (reach) the facility, deliver (receive) adequate care.
+- **5 per 500,000, at least 1 comprehensive** ("five-for-half-a-million").
+- **42 days** (maternal death) vs **1 year** (late maternal death).
+- **MPDSR: "Notify in 1 day, review in 1 week, respond always."**
+- **SDG 3.1: "70 by 2030."**
+
+### OSCE tips
+
+- **Referral station**: verbalise **stabilisation before transfer**, write the **referral note with vital signs, drugs and times**, and **call the receiving facility**.
+- **Birth-preparedness counselling station**: cover **place of birth, skilled attendant, transport, money, blood donor, companion, danger signs, and items (mama kit)**.
+- **Triage station**: do the rapid initial assessment aloud and allocate staff by danger signs, not by order of arrival (worked example 1, section 4).
+- **Maternal death analysis**: structure it by the three delays, with patient/family, community and health-system factors in each, then one SMART action per delay (worked example 2, section 4).
+
+## 9. References
+
+1. Uganda Bureau of Statistics. Uganda Demographic and Health Survey 2022. Kampala: UBOS; 2023. https://www.ubos.org/wp-content/uploads/publications/UDHS-2022-Report.pdf
+2. Ministry of Health Uganda. Maternal and Perinatal Death Surveillance and Response Guidelines. Kampala: MoH; 2017. https://library.health.go.ug/sites/default/files/resources/Maternal%20and%20Perinatal%20Death%20Surveillance%20and%20Response%20Guidelines%20August%202017.pdf
+3. Ministry of Health Uganda. National Annual Maternal and Perinatal Death Report FY 2022/2023. Kampala: MoH; 2023. https://library.health.go.ug/sexual-and-reproductive-health/maternal-health/national-annual-maternal-and-perinatal-death-report
+4. Ministry of Health Uganda. Uganda Clinical Guidelines 2023: National Guidelines for Management of Common Health Conditions. Kampala: MoH; 2023. https://library.health.go.ug/uganda-clinical-guidelines-2023
+5. Ministry of Health Uganda. Essential Maternal and Newborn Clinical Care Guidelines for Uganda. Kampala: MoH; 2022. https://library.health.go.ug/sites/default/files/resources/Essential%20Maternal%20Newborn%20Care%20Guidelines%202022%20V3.pdf
+6. WHO, UNFPA, UNICEF, AMDD. Monitoring emergency obstetric care: a handbook. Geneva: WHO; 2009. https://www.unfpa.org/sites/default/files/pub-pdf/obstetric_monitoring.pdf
+7. Thaddeus S, Maine D. Too far to walk: maternal mortality in context. Social Science & Medicine. 1994;38(8):1091–1110. https://pubmed.ncbi.nlm.nih.gov/8042057/
+8. A Delphi process to build consensus on revised Emergency Obstetric and Newborn Care (EmONC) signal functions and levels of care. PLOS One. 2025. https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0331684
+9. Why mothers die at a busy tertiary urban hospital in Kampala, Uganda: a comprehensive review of maternal deaths 2016–2018. BMC Pregnancy and Childbirth. 2022. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9652663/
+10. Puerperal sepsis, the leading cause of maternal deaths at a Tertiary University Teaching Hospital in Uganda. BMC Pregnancy and Childbirth. 2016. https://link.springer.com/article/10.1186/s12884-016-0986-9
+11. A practical approach to measuring MPDSR implementation: findings from a cross-sectional assessment in regional referral hospitals in Uganda. BMC Pregnancy and Childbirth. 2025. https://link.springer.com/article/10.1186/s12884-025-08184-w
+12. The conduct of maternal and perinatal death reviews in Oyam District, Uganda. 2016. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4944522/
+13. Beyond facility-based births: Is Uganda delivering effective maternal and newborn care? (UDHS 2022 and 2023 HHFA analysis). PLOS Global Public Health. 2025. https://journals.plos.org/globalpublichealth/article?id=10.1371%2Fjournal.pgph.0004949
+14. World Health Organization. Managing Complications in Pregnancy and Childbirth: a guide for midwives and doctors, 2nd edition. Geneva: WHO; 2017.
+15. World Health Organization. WHO recommendations on antenatal care for a positive pregnancy experience. Geneva: WHO; 2016.
+16. World Health Organization. WHO recommendations: intrapartum care for a positive childbirth experience. Geneva: WHO; 2018.
+17. Glynn M, Drake WM, editors. Hutchison's Clinical Methods: An Integrated Approach to Clinical Practice. 24th edition. Edinburgh: Elsevier; 2018.

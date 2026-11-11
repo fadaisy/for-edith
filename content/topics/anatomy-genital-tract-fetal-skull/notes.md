@@ -14,17 +14,30 @@ highYield:
   - Moulding is graded 0 to +3. Moulding +3 (bones overlapping and irreducible) with a high head (3/5 or more palpable) means CPD or obstruction, so do a CS, not oxytocin or ventouse.
   - Clinical pelvimetry is adequate if the sacral promontory is not reached, the sacrum is hollow, the spines are not prominent, the subpubic angle admits 2 fingers and the intertuberous diameter admits 4 knuckles.
   - The best evidence of an adequate pelvis is a previous vaginal delivery of a good-sized baby. X-ray pelvimetry is not recommended routinely.
+format: concept
+system: Reproductive (obstetric anatomy)
+specialty: Obstetrics
+level: Core
+tags: [anatomy, bony pelvis, pelvic diameters, fetal skull, fontanelles, moulding, cephalopelvic disproportion, obstructed labour, clinical pelvimetry, pelvic floor, episiotomy, pudendal block, ureter, uterine artery, caesarean section]
+last_reviewed: 2026-11-11
+sources:
+  - "Ministry of Health Uganda. Uganda Clinical Guidelines 2023 (obstructed labour, perineal tears, PPH)"
+  - "Ministry of Health Uganda. Essential Maternal and Newborn Clinical Care Guidelines for Uganda"
+  - "World Health Organization. Managing Complications in Pregnancy and Childbirth (MCPC), 2nd edition, 2017"
+  - "World Health Organization. Intrapartum care for a positive childbirth experience, 2018"
+  - "RCOG Green-top Guideline No. 29. Third- and fourth-degree perineal tears, 2015"
+  - "StatPearls. Delivery, face and brow presentation"
+  - "Hutchison's Clinical Methods, 24th edition (Glynn & Drake), 2018"
 ---
 
-## In a nutshell
+## 1. Definitions and Key Concepts
 
 Obstetrics is applied anatomy. Every labour is a meeting between the **passenger** (the fetal head: its diameters, sutures, fontanelles and ability to mould) and the **passage** (the bony pelvis and soft tissues), driven by the **powers** (the uterus). When you do a vaginal examination in labour you are reading anatomy with your fingers: which suture, which fontanelle, how much moulding, where the ischial spines are.
 
-In Uganda, where **obstructed labour** still causes uterine rupture, fistula and maternal death, and where many CS and repairs are done by junior doctors at HC IVs, this anatomy is practical, not academic. It tells you **when a head will not fit**, **where the ureter is** when you clamp the uterine artery, and **where to inject** a pudendal block.
-
 The one thing never to forget: **the head enters the pelvis transverse, rotates at the level of the spines, and must present its smallest diameter (9.5 cm, a well-flexed head) to get through.** Deflexion or a brow means trouble.
 
-## Definitions & classification
+> [!PEARL]
+> **Passage, passenger, powers.** Every question about labour can be asked in this order: is the **passage** (bony pelvis, pelvic floor, cervix) adequate; is the **passenger** (size, attitude, position, moulding of the head) presenting its smallest diameter; and are the **powers** (contractions) adequate? Anatomy answers the first two.
 
 | Term | Meaning |
 |---|---|
@@ -40,7 +53,9 @@ The one thing never to forget: **the head enters the pelvis transverse, rotates 
 | **Attitude** | Relationship of fetal parts to each other (flexion or deflexion of the head) |
 | **Denominator** | The part of the presentation used to name position: **occiput** (vertex), **sacrum** (breech), **mentum** (face), **acromion** (shoulder) |
 
-## Epidemiology & Uganda context
+## 2. Burden and Uganda Context
+
+In Uganda, where **obstructed labour** still causes uterine rupture, fistula and maternal death, and where many CS and repairs are done by junior doctors at HC IVs, this anatomy is practical, not academic. It tells you **when a head will not fit**, **where the ureter is** when you clamp the uterine artery, and **where to inject** a pudendal block.
 
 - **Obstructed labour and CPD** remain major causes of maternal death, **uterine rupture** and **obstetric fistula** in Uganda. Contributing factors are adolescent pregnancy (an immature pelvis), short stature from childhood undernutrition, late referral and unsupervised home births.
 - **Obstetric fistula**: Uganda has an estimated tens of thousands of women living with unrepaired fistula. Fistula follows prolonged pressure of the fetal head on the bladder or rectum against the pubic bones, which causes ischaemic necrosis. This is anatomy at its most tragic.
@@ -48,7 +63,9 @@ The one thing never to forget: **the head enters the pelvis transverse, rotates 
 - **Female genital mutilation** is practised in a few communities in eastern and north-eastern Uganda (e.g. among the Sebei and Pokot) and scars the vulva and perineum.
 - Many Ugandan HC IVs rely on medical officers to perform CS, so **safe surgical anatomy** (lower segment, bladder, uterine vessels, ureters) is a core competence.
 
-## Anatomy
+## 3. Principles and Framework
+
+This section is the anatomy itself, organised from the passage (bony pelvis, pelvic floor, soft tissues) to the organs and their vessels and nerves, and finally the passenger (fetal skull).
 
 ### 1. The bony pelvis
 
@@ -239,11 +256,11 @@ About **10 cm** long, running in the upper free border of the broad ligament. Th
 ```
   ATTITUDE vs PRESENTING DIAMETER
 
-  Well flexed vertex  ── suboccipitobregmatic ── 9.5 cm   ✔ easy
+  Well flexed vertex  ── suboccipitobregmatic ── 9.5 cm     easy
   Partly flexed       ── suboccipitofrontal ──── 10  cm
-  Deflexed / OP       ── occipitofrontal ─────── 11.5 cm  (long labour)
-  Brow                ── mentovertical ───────── 13–13.5 cm ✘ obstructs
-  Face (extended)     ── submentobregmatic ──── 9.5 cm   ✔ if mento-anterior
+  Deflexed / OP       ── occipitofrontal ─────── 11.5 cm    (long labour)
+  Brow                ── mentovertical ───────── 13–13.5 cm obstructs
+  Face (extended)     ── submentobregmatic ──── 9.5 cm     delivers if mento-anterior
 
  (The more the head extends, the bigger the diameter, until full
   extension (face) makes it small again.)
@@ -266,59 +283,22 @@ About **10 cm** long, running in the upper free border of the broad ligament. Th
 
 **Intracranial membranes:** the falx cerebri and tentorium cerebelli. Excessive or abnormal moulding (especially rapid, as in precipitate breech delivery of the aftercoming head) can **tear the tentorium**, rupturing the great cerebral vein (of Galen) and causing intracranial haemorrhage.
 
-## Clinical acumen
+### 13. Anatomy predicts the mechanism of labour
 
-### Focused history (anatomy-relevant)
+The head meets each plane of the pelvis with the diameter that fits it best. Each cardinal movement is a direct consequence of the anatomy above.
 
-| Question | Why it matters |
-|---|---|
-| **Height and childhood illness** (rickets, polio, TB spine) | Short stature (below 150 cm) and bony deformity point to a contracted pelvis |
-| **Previous pelvic fracture** (road traffic accident) | Distorted pelvis |
-| **Previous labours**: length, instrumental delivery, birth weights, stillbirths from obstructed labour | **The best pelvimeter is a previous vaginal delivery of a good-sized baby**. A previous obstructed labour suggests CPD |
-| **Previous CS**: why and what type of incision (classical or lower segment) | Scar rupture risk depends on the uterine anatomy |
-| **Previous 3rd/4th degree tear, fistula or FGM** | Plan the mode of delivery and repair |
-| **Leaking urine or faeces after a previous delivery** | Fistula (vesicovaginal or rectovaginal) |
+```mermaid
+flowchart TD
+  A["Inlet widest transversely: head engages OT, biparietal 9.5 cm passes the brim"] --> B["Flexion: suboccipitobregmatic 9.5 cm presents"]
+  B --> C["Descent through the round mid-cavity"]
+  C --> D["Internal rotation at the spines: levator ani gutter turns the occiput forwards"]
+  D --> E["Outlet widest AP: head arrives OA"]
+  E --> F["Extension under the symphysis along the curve of Carus"]
+  F --> G["Restitution and external rotation as the shoulders rotate"]
+  G --> H["Delivery of the shoulders and body"]
+```
 
-### Examination
-
-**Abdominal (in labour):** fifths of the head palpable above the brim (engagement). A **Bandl's ring**, a distended bladder and a tense tender lower segment are signs of obstruction.
-
-**Vaginal examination: read the head**
-
-1. Cervix: dilatation, effacement, application to the head.
-2. Membranes: intact or ruptured; colour of the liquor.
-3. **Presenting part:** vertex (smooth, sutures, fontanelles), face (mouth, nose, malar bones, gums) or breech (anus, sacrum, ischial tuberosities, genitalia).
-4. **Position:** follow the **sagittal suture** to a fontanelle.
-   - The **posterior fontanelle** (small, 3 sutures, Y) **anterior** means **OA** (good).
-   - The **anterior fontanelle** (large, 4 sutures, diamond) **easily felt** means **deflexion** (OP or brow).
-   - Sagittal suture **transverse** means OT (normal at the inlet; a **deep transverse arrest** if it is still transverse at or below the spines in the second stage).
-5. **Station** relative to the ischial spines.
-6. **Moulding** (0 to +3) and **caput**.
-7. **Clinical pelvimetry:** can you reach the **sacral promontory** (a normal pelvis: not reached, diagonal conjugate over 12 cm)? The sacral curve (hollow or flat)? Are the **ischial spines prominent**? Sacrospinous notch width (2 fingers or more)? **Subpubic angle** (2 fingers or more, about 90°)? **Intertuberous diameter** (a closed fist, 4 knuckles, about 8.5 cm or more)?
-
-### Red flags
-
-> [!REDFLAG]
-> **Signs of obstructed labour / CPD, so call a senior and prepare for CS:**
-> - Head still **3/5 or more palpable** abdominally with a fully dilated cervix
-> - **Moulding +3** and large caput
-> - **Cervix oedematous**, poorly applied, dilatation stalls (crosses the action line on the partograph)
-> - **Bandl's ring**, haematuria (bladder compression), maternal tachycardia, dehydration, fever
-> - A **brow presentation** (anterior fontanelle, supraorbital ridges and nose felt) at term
-> - Fetal distress
-
-**Beware:** a large caput may reach the spines while the bony head is still high, giving a **false impression of descent**. Always correlate the VE with the **abdominal fifths**.
-
-### Thinking like a clinician
-
-- **Pelvis + head + powers:** before saying "CPD", ask whether the **powers** are adequate (augment if not, provided there is no obstruction), whether the **position** is right (OP and deflexion enlarge the diameter), and only then whether the passage is too small.
-- **Anatomy predicts the mechanism:** the head enters **transverse** (widest inlet diameter), **flexes** (so 9.5 cm presents), **descends**, **rotates internally** at the spines/pelvic floor to OA (the outlet is widest AP), **extends** under the symphysis, **restitutes**, and **rotates externally**, then the shoulders are delivered.
-- **Previous vaginal delivery of a 3.5 kg baby** is better evidence of an adequate pelvis than any X-ray pelvimetry (which is not recommended routinely).
-- **Pitfall:** calling OP "OA" because the fontanelles were confused. Count the sutures meeting at the fontanelle (**3 = posterior**, **4 = anterior**), and feel for the size.
-- **Pitfall:** pushing a brow presentation through with oxytocin. It will not deliver: 13 cm will not pass a 10–11 cm pelvis.
-- **Surgery:** at CS, reflect the **bladder** down from the lower segment and make the incision **transverse in the LUS**. For lateral extensions, **place the fingers under the broad ligament and identify the ureter**.
-
-## Clinical workup
+## 4. Application in Practice
 
 The applied workup of this topic is the **"passage and passenger" assessment**: can this head get through this pelvis? You do it on every woman admitted in labour, again whenever progress is slow, and always before an instrumental delivery or augmentation. It is also the workup that tells you **when to stop and do a caesarean section** before the uterus ruptures or a fistula forms.
 
@@ -347,17 +327,57 @@ On arrival in labour (or when called to a "slow labour"):
 | **Onset of labour, time of rupture of membranes, liquor colour, time pushing** | Prolonged labour and long ROM → infection, fistula risk, moulding |
 | **Estimated gestation and size** (GDM, big previous babies) | Macrosomia → relative CPD, shoulder dystocia |
 | **Previous 3rd/4th degree tear, FGM** | Perineal plan (episiotomy, repair by an experienced person) |
+| **Leaking urine or faeces after a previous delivery** | **Fistula** (vesicovaginal or rectovaginal) → plan repair and the mode of the next delivery with a senior |
 
 ### Step 2: Focused examination
 
-**General:** height (**below 150 cm** is a risk marker), gait and limp, spinal deformity, signs of rickets (bowed legs), hydration, pallor.
+Examine in the order of Hutchison's Clinical Methods (24th edition), adapted for the labour ward. In an emergency (Step 0) resuscitate first and complete the sequence once she is stable.
 
-**Abdominal (the passenger from above):**
+#### Introduction, consent and preparation
 
-1. Lie, presentation, and **estimated fetal weight** (clinical estimate, SFH).
-2. **Fifths of the head palpable above the brim** (5/5 free; **2/5 or less = engaged**). This is the **most reliable measure of descent** because caput cannot fool it.
-3. Contractions: frequency per 10 minutes and duration.
-4. Bladder (distended?), Bandl's ring, tenderness of the lower segment.
+- **Introduce yourself**, confirm her name and age, and explain what you are going to do and why.
+- **Consent** for the abdominal examination and, separately, for each vaginal examination; offer a **female chaperone**, use a screen and keep her covered except for the part being examined (respectful maternity care).
+- **Hand hygiene** before touching her; sterile gloves and an antiseptic swab for the VE.
+- **Bladder**: ask her to empty it first (a full bladder distorts the fundal height and the fifths).
+- **Position and exposure**: semi-recumbent with a **left lateral tilt** for the abdomen (from about 20 weeks, to avoid aortocaval compression), exposed from the xiphisternum to the symphysis; dorsal or lithotomy position for the VE.
+
+#### General inspection and vital signs
+
+- **From the end of the bed**: well or unwell, exhausted, distressed, pushing; dehydration (dry tongue); pallor.
+- **Build**: height (**below 150 cm** is a risk marker), gait and limp, spinal deformity, signs of rickets (bowed legs).
+- **Vital signs**: pulse, BP, temperature, RR; a woman in obstructed labour is often **tachycardic, febrile and ketotic** (Step 0).
+
+#### Hands, face and neck
+
+- Hands: pallor, capillary refill, cool peripheries (shock in rupture or haemorrhage).
+- Face and mouth: conjunctival pallor, dry tongue (dehydration in prolonged labour).
+- Note anything that will matter in theatre (anaemia, difficult airway); then move to the abdomen.
+
+#### Obstetric abdominal examination (the passenger from above)
+
+In order:
+
+1. **Inspection**: size and shape of the uterus, **scars** (previous CS: lower transverse or vertical/classical), a visible **Bandl's ring**, a distended bladder above the uterus.
+2. **Fundal height and size**: symphysis–fundal height and **estimated fetal weight** (clinical estimate).
+3. **Lie and presentation.**
+4. **Engagement: fifths of the head palpable above the brim** (5/5 free; **2/5 or less = engaged**). This is the **most reliable measure of descent** because caput cannot fool it.
+5. **Contractions**: frequency per 10 minutes and duration; palpate the bladder (distended?), a **Bandl's ring** and **tenderness of the lower segment**. A Bandl's ring, a distended bladder and a tense tender lower segment are signs of obstruction.
+6. **Auscultation of the fetal heart** after a contraction (Pinard or Doppler, 110–160 bpm; Step 0).
+
+#### Vaginal examination (read the head with your fingers)
+
+The sequence:
+
+1. Cervix: dilatation, effacement, application to the head.
+2. Membranes: intact or ruptured; colour of the liquor.
+3. **Presenting part:** vertex (smooth, sutures, fontanelles), face (mouth, nose, malar bones, gums) or breech (anus, sacrum, ischial tuberosities, genitalia).
+4. **Position:** follow the **sagittal suture** to a fontanelle.
+   - The **posterior fontanelle** (small, 3 sutures, Y) **anterior** means **OA** (good).
+   - The **anterior fontanelle** (large, 4 sutures, diamond) **easily felt** means **deflexion** (OP or brow).
+   - Sagittal suture **transverse** means OT (normal at the inlet; a **deep transverse arrest** if it is still transverse at or below the spines in the second stage).
+5. **Station** relative to the ischial spines.
+6. **Moulding** (0 to +3) and **caput**.
+7. **Clinical pelvimetry** (table below).
 
 **Vaginal examination: the passenger** (after hand hygiene, consent, and with a chaperone):
 
@@ -388,6 +408,13 @@ On arrival in labour (or when called to a "slow labour"):
 > [!EXAM]
 > In the OSCE, describe pelvimetry in the order **inlet → cavity → mid-pelvis → outlet**: promontory, sacral curve and side walls, spines and sacrospinous ligament, then subpubic angle, intertuberous diameter and coccyx. Finish with "**clinically adequate pelvis**" or "**clinically contracted at the ... level**".
 
+#### Completing the examination
+
+- Remove gloves, cover her, help her into a comfortable position (left lateral), **thank her** and explain the findings.
+- **Hand hygiene**.
+- **Plot** the findings on the partograph (dilatation, descent in fifths, moulding, liquor, FHR, contractions).
+- **Summarise** in one sentence with an impression and a plan (model VE report in Step 5).
+
 ### Step 3: Bedside tests
 
 | Test | What you look for | How it changes the plan |
@@ -409,6 +436,8 @@ On arrival in labour (or when called to a "slow labour"):
 | **Urea and electrolytes, creatinine** | Prolonged obstructed labour, dehydration, oliguria | Raised creatinine (above about 90 µmol/L in pregnancy), low potassium | Fluid resuscitation, catheter, watch renal function. Hospital labs |
 | **X-ray / CT pelvimetry** | **Not routine** (no proven benefit); occasionally after a pelvic fracture or before planning birth with known deformity | Measured diameters | Rarely changes practice; labour itself is the best pelvimeter. CT at national referral/private centres |
 | **Dye test (methylene blue) / examination under anaesthesia** | Leaking urine after obstructed labour | Fistula site and size | Continuous catheter for 10–14 days (small fresh fistula may heal); referral to a fistula repair centre (e.g. Mulago, Kitovu Hospital, or regional fistula camps) |
+
+The investigations for this topic are mostly **clinical**: abdominal fifths, VE with clinical pelvimetry, and the partograph. They are set out, with their interpretation and Ugandan availability, in **Steps 2–4** above. Remember that **X-ray or CT pelvimetry is not recommended routinely** (it does not improve outcomes), and that **labour itself is the best test of the pelvis**. After obstructed labour, a **methylene blue dye test** (with cystoscopy at a fistula centre) assesses a suspected vesicovaginal fistula.
 
 ### Step 5: Putting it together
 
@@ -439,9 +468,35 @@ A multipara has been fully dilated for 2 hours (pushing for 1 hour). The head is
 > [!PEARL]
 > The abdominal **fifths** tell you where the **bone** is; the VE station can be fooled by caput. When the two disagree, **believe the abdomen** and assume the head is higher than it feels.
 
-## Differential diagnosis
+**Model VE report (labour ward)**
 
-### What is the presenting part on VE?
+> "On vaginal examination the vulva and vagina are normal. The cervix is **6 cm dilated, 80% effaced, soft and well applied** to the presenting part. Membranes are **ruptured with clear liquor**. The presenting part is the **vertex** at **station −1**. The **sagittal suture is in the right oblique diameter** with the **posterior fontanelle anterior on the left**, so **left occipito-anterior (LOA)**. **Moulding +1, no caput.** The pelvis feels **adequate**: sacral promontory not reached, spines not prominent, subpubic angle admits 2 fingers. **Impression: normal progress in the active first stage.**"
+
+## 5. Clinical Acumen
+
+### Thinking like a clinician
+
+- **Pelvis + head + powers:** before saying "CPD", ask whether the **powers** are adequate (augment if not, provided there is no obstruction), whether the **position** is right (OP and deflexion enlarge the diameter), and only then whether the passage is too small.
+- **Anatomy predicts the mechanism:** the head enters **transverse** (widest inlet diameter), **flexes** (so 9.5 cm presents), **descends**, **rotates internally** at the spines/pelvic floor to OA (the outlet is widest AP), **extends** under the symphysis, **restitutes**, and **rotates externally**, then the shoulders are delivered.
+- **Previous vaginal delivery of a 3.5 kg baby** is better evidence of an adequate pelvis than any X-ray pelvimetry (which is not recommended routinely).
+- **Pitfall:** calling OP "OA" because the fontanelles were confused. Count the sutures meeting at the fontanelle (**3 = posterior**, **4 = anterior**), and feel for the size.
+- **Pitfall:** pushing a brow presentation through with oxytocin. It will not deliver: 13 cm will not pass a 10–11 cm pelvis.
+- **Surgery:** at CS, reflect the **bladder** down from the lower segment and make the incision **transverse in the LUS**. For lateral extensions, **place the fingers under the broad ligament and identify the ureter**.
+
+### Red flags
+
+> [!REDFLAG]
+> **Signs of obstructed labour / CPD, so call a senior and prepare for CS:**
+> - Head still **3/5 or more palpable** abdominally with a fully dilated cervix
+> - **Moulding +3** and large caput
+> - **Cervix oedematous**, poorly applied, dilatation stalls (crosses the action line on the partograph)
+> - **Bandl's ring**, haematuria (bladder compression), maternal tachycardia, dehydration, fever
+> - A **brow presentation** (anterior fontanelle, supraorbital ridges and nose felt) at term
+> - Fetal distress
+
+**Beware:** a large caput may reach the spines while the bony head is still high, giving a **false impression of descent**. Always correlate the VE with the **abdominal fifths**.
+
+### Scenarios: what is the presenting part on VE?
 
 | Finding on VE | Distinguishing features | What it means |
 |---|---|---|
@@ -453,20 +508,16 @@ A multipara has been fully dilated for 2 hours (pushing for 1 hour). The head is
 | **Breech** | **Anus in line with the ischial tuberosities** (a line, not a triangle); meconium on the glove; sacrum; genitalia | Breech management |
 | **Caput mistaken for descent** | Soft, boggy swelling; sutures hard to feel; the abdomen still has 3/5 or more palpable | Obstruction |
 
-### Scalp swellings in the newborn
+### Common student mistakes
 
-| Condition | Crosses sutures? | Timing | Risk |
-|---|---|---|---|
-| **Caput succedaneum** | **Yes** | Present at birth, resolves in 1–3 days | Benign |
-| **Cephalhaematoma** | **No** (limited to one bone) | Appears after hours; resolves over weeks | Jaundice; rarely an underlying fracture |
-| **Subgaleal haemorrhage** | **Yes** (fluctuant, spreads to the neck and ears) | Hours after (often vacuum) delivery | **Hypovolaemic shock**. Monitor Hb, HR and head circumference |
-| **Chignon** | Localised to the cup site | After vacuum | Benign; resolves in hours |
+- Reporting station from the VE without checking the **abdominal fifths** (caput fools the fingers).
+- Calling OP "OA" because the fontanelles were not identified by **counting the sutures**.
+- Starting **oxytocin** for "poor progress" before excluding obstruction.
+- Forgetting to **catheterise** after obstructed labour, or removing the catheter after 1–2 days.
+- Not doing a **rectal examination** before and after perineal repair.
+- Clamping lateral to the uterus at CS without pushing the bladder down and identifying the **ureter**.
 
-## Investigations
-
-The investigations for this topic are mostly **clinical**: abdominal fifths, VE with clinical pelvimetry, and the partograph. They are set out, with their interpretation and Ugandan availability, in **Clinical workup, Steps 2–4** above. Remember that **X-ray or CT pelvimetry is not recommended routinely** (it does not improve outcomes), and that **labour itself is the best test of the pelvis**. After obstructed labour, a **methylene blue dye test** (with cystoscopy at a fistula centre) assesses a suspected vesicovaginal fistula.
-
-## Management
+## 6. Common Problems and Their Management
 
 This lecture underpins management in labour and surgery. The practical applications follow.
 
@@ -512,6 +563,16 @@ This lecture underpins management in labour and surgery. The practical applicati
 
 ### 5. Managing a newborn scalp swelling
 
+First tell the swellings apart:
+
+| Condition | Crosses sutures? | Timing | Risk |
+|---|---|---|---|
+| **Caput succedaneum** | **Yes** | Present at birth, resolves in 1–3 days | Benign |
+| **Cephalhaematoma** | **No** (limited to one bone) | Appears after hours; resolves over weeks | Jaundice; rarely an underlying fracture |
+| **Subgaleal haemorrhage** | **Yes** (fluctuant, spreads to the neck and ears) | Hours after (often vacuum) delivery | **Hypovolaemic shock**. Monitor Hb, HR and head circumference |
+| **Chignon** | Localised to the cup site | After vacuum | Benign; resolves in hours |
+
+
 | Swelling | Management |
 |---|---|
 | Caput | Reassure; resolves in days |
@@ -525,7 +586,8 @@ This lecture underpins management in labour and surgery. The practical applicati
 3. **Laparotomy** as soon as possible: deliver the baby and placenta, then **repair** the rupture (if it is simple, e.g. a lower segment tear, and she wants more children) or do a **subtotal/total hysterectomy** (if it is extensive or she is unstable). **Identify the ureters and bladder** because lateral tears extend into the broad ligament.
 4. **Antibiotics**, tubal ligation if she consents (repair carries a high risk of repeat rupture), and a **catheter for 10–14 days** if the bladder was involved.
 
-## Complications
+### 7. Complications of the anatomical problems
+
 
 | Anatomical problem | Complication |
 |---|---|
@@ -537,46 +599,53 @@ This lecture underpins management in labour and surgery. The practical applicati
 | Excessive or rapid moulding | Tentorial tear, intracranial haemorrhage |
 | Pudendal block | Haematoma, local anaesthetic toxicity |
 
-## Ward-round & exam pearls
+### Drug summary for this topic
 
-### Model VE report (labour ward)
+All doses are as already given in the steps above.
 
-> "On vaginal examination the vulva and vagina are normal. The cervix is **6 cm dilated, 80% effaced, soft and well applied** to the presenting part. Membranes are **ruptured with clear liquor**. The presenting part is the **vertex** at **station −1**. The **sagittal suture is in the right oblique diameter** with the **posterior fontanelle anterior on the left**, so **left occipito-anterior (LOA)**. **Moulding +1, no caput.** The pelvis feels **adequate**: sacral promontory not reached, spines not prominent, subpubic angle admits 2 fingers. **Impression: normal progress in the active first stage.**"
+| Drug | Dose | Route | Frequency | Key cautions |
+|---|---|---|---|---|
+| **Lidocaine 1%** (pudendal block, episiotomy, perineal infiltration) | Up to 10 mL each side for a pudendal block; about 10 mL for episiotomy infiltration | Local infiltration | Once | Maximum **3 mg/kg without adrenaline** (about 200 mg); dilute to 0.5% if a larger volume is needed; **aspirate** before injecting |
+| **Ampicillin** | 2 g | IV | 6-hourly | Prolonged labour, ruptured membranes, fever |
+| **Gentamicin** | 5 mg/kg | IV | Once daily | Renal function in obstructed labour |
+| **Metronidazole** | 500 mg | IV | 8-hourly | Add if chorioamnionitis is suspected |
+| **Cefazolin** | 2 g | IV | Single prophylactic dose | At CS |
+| **Paracetamol** | 1 g | Oral | 6-hourly | Perineal pain |
+| **Diclofenac** | 50 mg | Oral | 8-hourly | Avoid if contraindicated (renal impairment, bleeding, asthma) |
+| **Vitamin K** | 1 mg | IM | Once | Newborn with subgaleal haemorrhage, if not already given |
 
-### Likely viva questions with answers
+## 7. Guidelines, Policy and Law in Uganda
 
-1. **Why does the head enter the pelvis transversely and deliver OA?** The inlet's widest diameter is transverse (13 cm) and the outlet's is AP (13 cm). The gutter of the levator ani rotates the occiput forwards.
-2. **Which diameter engages in a well-flexed vertex, and how long is it?** Suboccipitobregmatic, 9.5 cm (with the biparietal diameter of 9.5 cm transversely).
-3. **Why can't a brow deliver vaginally at term?** The mentovertical diameter (13–13.5 cm) exceeds every pelvic diameter.
-4. **What is the obstetric conjugate, and how do you estimate it?** Promontory to the nearest point on the back of the symphysis (about 11 cm): diagonal conjugate (about 12.5 cm) minus 1.5 cm.
-5. **Where is the ureter at risk during CS or hysterectomy?** At the pelvic brim, near the infundibulopelvic ligament, and **under the uterine artery 1.5–2 cm lateral to the cervix**.
-6. **What is the main support of the uterus?** The cardinal (Mackenrodt's) and uterosacral ligaments with levator ani.
-7. **How do you tell caput from cephalhaematoma?** Caput crosses sutures and is present at birth. Cephalhaematoma is limited by the sutures and appears later.
-8. **Nerve roots of the pudendal nerve?** S2, S3, S4 ("S2, 3, 4 keeps the pelvic floor off the floor").
+> [!UGANDA]
+> This topic follows the **Uganda Clinical Guidelines (UCG) 2023** (obstructed labour, perineal tears, PPH), the **Essential Maternal and Newborn Clinical Care Guidelines for Uganda**, the **WHO MCPC manual** (pudendal block, episiotomy repair, CS technique) and the **WHO 2018 intrapartum care recommendations**.
 
-> [!EXAM]
-> Drawing a quick **table of skull diameters with presentations** and a **diagram of the pelvic inlet** earns marks in written papers. Practise until you can draw both in under 2 minutes.
+- **Partograph**: Ugandan labour wards use the **modified WHO partograph**, started in the active phase (cervix 4 cm or more). The **WHO 2018 recommendations** define the active first stage from **5 cm**, and the WHO **Labour Care Guide** (2020) replaces the partograph's alert and action lines with time limits per centimetre [VERIFY: whether the Labour Care Guide has been adopted nationally in Uganda and which version is in current MoH use]. Know both: the Ugandan exam answer is the modified WHO partograph.
+- **Episiotomy**: restrictive, not routine. WHO 2018 recommends **against routine or liberal episiotomy**; when it is needed, a **mediolateral** incision is used.
+- **X-ray pelvimetry**: not recommended routinely; clinical pelvimetry and the progress of labour are the tests.
+- **Obstructed labour**: managed at a CEmONC facility (HC IV and above). A HC III stabilises (IV fluids, catheter, antibiotics, **no oxytocin**) and refers (see the EmONC topic).
+- **Obstetric fistula**: continuous bladder drainage for 10–14 days after prolonged obstructed labour, then referral to a fistula repair centre (e.g. Mulago, Kitovu Hospital, or regional fistula camps).
+- **Female genital mutilation** is a criminal offence under the **Prohibition of Female Genital Mutilation Act, 2010**. A woman with FGM still needs respectful care and a delivery plan (an experienced attendant; anterior episiotomy or defibulation where needed) [VERIFY: whether UCG 2023 gives a specific intrapartum FGM protocol].
+- **Consent and dignity**: every VE needs consent, privacy and a chaperone; the number of VEs should be kept to what labour monitoring needs (usually 4-hourly in the active phase), because repeated VEs raise the risk of infection.
 
-### OSCE tips
+> [!UGANDA]
+> **Where Ugandan practice and WHO differ**: active phase from **4 cm (modified WHO partograph, Uganda)** vs **5 cm (WHO 2018 / Labour Care Guide)**. Quote the Ugandan partograph in Ugandan exams and know the WHO change.
 
-- On a **pelvis model**, point out the sacral promontory, ischial spines, sacrospinous ligament, subpubic arch and ischial tuberosities, and name the diameters of each plane.
-- On a **fetal skull model**, show the fontanelles (count the sutures), demonstrate flexion versus deflexion, and name the presenting diameter for each attitude.
-- **Demonstrate moulding grades** with your fingers on the model sutures.
+## 8. Key Points
 
-## Mnemonics & memory aids
+### High-yield points
 
-- **"In Transverse, Out Anteroposterior"**: the inlet is widest transversely and the outlet is widest AP.
-- **Skull diameters "9.5, 10, 11.5, 13"**: **S**uboccipito**B**regmatic 9.5 (**S**mall and **B**est), suboccipito**F**rontal 10, **O**ccipito**F**rontal 11.5 (**O**P), **M**ento**V**ertical 13 (**M**ost **V**ast, brow).
-- **Fontanelles**: **A**nterior is **A** bigger diamond (4 sutures); **P**osterior is **P**etite (3 sutures, Y).
-- **"Water under the bridge"**: the ureter runs under the uterine artery.
-- **"S2, 3, 4 keeps the pelvic floor off the floor"** (pudendal nerve, pelvic floor).
-- **Ovarian veins: "Right goes Right to the IVC, Left takes a Left turn to the renal vein."**
-- **Tube parts, medial to lateral: "In Is A Fine tube"** = **In**terstitial, **Is**thmus, **A**mpulla, **F**imbriae (with the infundibulum). Ectopics are commonest in the **A**mpulla.
-- **Uterine supports: "a CUP holds the uterus"**: **C**ardinal, **U**terosacral, **P**ubocervical ligaments, sitting on the **P**elvic floor (levator ani). The round and broad ligaments are not supports.
+- **In transverse, out AP**: the inlet is widest transversely (13 cm), the outlet widest AP (13 cm), the spines (10 cm) are the narrowest point and define station 0.
+- **The head must present 9.5 cm** (well-flexed suboccipitobregmatic). Deflexion (11.5 cm) means a long labour; a brow (13–13.5 cm) cannot deliver at term.
+- **Count the sutures**: 3 at the posterior fontanelle (Y), 4 at the anterior (diamond).
+- **Believe the abdomen over the VE**: fifths palpable cannot be fooled by caput.
+- **Moulding +3 with a high head is obstruction**: CS, not oxytocin or ventouse.
+- **Water under the bridge**: the ureter passes under the uterine artery 1.5–2 cm lateral to the cervix.
+- **Cardinal and uterosacral ligaments with levator ani** support the uterus; the round and broad ligaments do not.
+- **Pain pathways**: first stage T10–L1; second stage pudendal S2–S4.
+- **Catheter for 10–14 days** after obstructed labour prevents or heals early fistula.
+- **A previous vaginal delivery of a good-sized baby** is the best pelvimeter.
 
-## High-yield summary
-
-### Numbers & doses to know
+### Numbers & doses
 
 | Item | Value |
 |---|---|
@@ -603,7 +672,7 @@ This lecture underpins management in labour and surgery. The practical applicati
 | Catheter after obstructed labour | **10–14 days** |
 | Scar rupture risk | Lower segment about **0.5–1%**; classical about **4–9%** |
 
-### Classic exam traps
+### Exam traps
 
 - **"The pelvic inlet is widest AP."** → The inlet is widest **transversely** (13 cm); the **outlet** is widest AP. That is why the head enters OT and delivers OA.
 - **"The fontanelle I feel is large, so it is the posterior one near the symphysis: OA."** → **Count the sutures**: 4 = anterior (diamond), 3 = posterior (Y). Feeling the anterior fontanelle easily means **deflexion/OP**, not OA.
@@ -615,6 +684,19 @@ This lecture underpins management in labour and surgery. The practical applicati
 - **"Cephalhaematoma crosses the sutures."** → **Caput** and **subgaleal haemorrhage** cross sutures; a cephalhaematoma is **limited by them**.
 
 ### Questions seniors ask
+
+**Viva questions**
+
+1. **Why does the head enter the pelvis transversely and deliver OA?** The inlet's widest diameter is transverse (13 cm) and the outlet's is AP (13 cm). The gutter of the levator ani rotates the occiput forwards.
+2. **Which diameter engages in a well-flexed vertex, and how long is it?** Suboccipitobregmatic, 9.5 cm (with the biparietal diameter of 9.5 cm transversely).
+3. **Why can't a brow deliver vaginally at term?** The mentovertical diameter (13–13.5 cm) exceeds every pelvic diameter.
+4. **What is the obstetric conjugate, and how do you estimate it?** Promontory to the nearest point on the back of the symphysis (about 11 cm): diagonal conjugate (about 12.5 cm) minus 1.5 cm.
+5. **Where is the ureter at risk during CS or hysterectomy?** At the pelvic brim, near the infundibulopelvic ligament, and **under the uterine artery 1.5–2 cm lateral to the cervix**.
+6. **What is the main support of the uterus?** The cardinal (Mackenrodt's) and uterosacral ligaments with levator ani.
+7. **How do you tell caput from cephalhaematoma?** Caput crosses sutures and is present at birth. Cephalhaematoma is limited by the sutures and appears later.
+8. **Nerve roots of the pudendal nerve?** S2, S3, S4 ("S2, 3, 4 keeps the pelvic floor off the floor").
+
+**On the ward round**
 
 **How do you know the head is engaged?** Abdominally, **2/5 or less** is palpable above the brim; vaginally, the bony leading part is at or near the spines. Engagement means the biparietal diameter (9.5 cm) has passed the inlet.
 
@@ -629,3 +711,40 @@ This lecture underpins management in labour and surgery. The practical applicati
 **Why do we keep a catheter for 10–14 days after obstructed labour?** Prolonged compression of the bladder base between head and pubis causes ischaemic necrosis. Continuous drainage rests the bladder and can let a small early fistula heal.
 
 **Why does the head rotate to OA?** The occiput is the first part to meet the gutter-shaped **levator ani**, which guides it forwards; the **outlet is widest AP**, so the head's longest diameter aligns AP to exit.
+
+### Mnemonics
+
+- **"In Transverse, Out Anteroposterior"**: the inlet is widest transversely and the outlet is widest AP.
+- **Skull diameters "9.5, 10, 11.5, 13"**: **S**uboccipito**B**regmatic 9.5 (**S**mall and **B**est), suboccipito**F**rontal 10, **O**ccipito**F**rontal 11.5 (**O**P), **M**ento**V**ertical 13 (**M**ost **V**ast, brow).
+- **Fontanelles**: **A**nterior is **A** bigger diamond (4 sutures); **P**osterior is **P**etite (3 sutures, Y).
+- **"Water under the bridge"**: the ureter runs under the uterine artery.
+- **"S2, 3, 4 keeps the pelvic floor off the floor"** (pudendal nerve, pelvic floor).
+- **Ovarian veins: "Right goes Right to the IVC, Left takes a Left turn to the renal vein."**
+- **Tube parts, medial to lateral: "In Is A Fine tube"** = **In**terstitial, **Is**thmus, **A**mpulla, **F**imbriae (with the infundibulum). Ectopics are commonest in the **A**mpulla.
+- **Uterine supports: "a CUP holds the uterus"**: **C**ardinal, **U**terosacral, **P**ubocervical ligaments, sitting on the **P**elvic floor (levator ani). The round and broad ligaments are not supports.
+
+### OSCE tips
+
+- On a **pelvis model**, point out the sacral promontory, ischial spines, sacrospinous ligament, subpubic arch and ischial tuberosities, and name the diameters of each plane.
+- On a **fetal skull model**, show the fontanelles (count the sutures), demonstrate flexion versus deflexion, and name the presenting diameter for each attitude.
+- **Demonstrate moulding grades** with your fingers on the model sutures.
+- **Pelvimetry station**: describe it in the order inlet → cavity → mid-pelvis → outlet and finish with "clinically adequate" or "contracted at the ... level" (Step 2).
+- **VE report**: present it like the model VE report in section 4 (cervix, membranes and liquor, presenting part, position, station, moulding and caput, pelvis, impression).
+
+> [!EXAM]
+> Drawing a quick **table of skull diameters with presentations** and a **diagram of the pelvic inlet** earns marks in written papers. Practise until you can draw both in under 2 minutes.
+
+## 9. References
+
+1. Ministry of Health Uganda. Uganda Clinical Guidelines 2023 (Obstetric conditions: obstructed labour, perineal tears, PPH). Kampala: MoH; 2023. https://library.health.go.ug/sites/default/files/resources/Uganda%20Clinical%20Guidelines%202023.pdf
+2. Ministry of Health Uganda. Essential Maternal and Newborn Clinical Care Guidelines for Uganda. Kampala: MoH; 2016. https://library.health.go.ug/sites/default/files/resources/Essential%20Maternal%20&%20Neonatal%20Care%20Clinical%20Guidelines%20-%202016%20fully%20edited.pdf
+3. World Health Organization. Managing Complications in Pregnancy and Childbirth: a guide for midwives and doctors, 2nd edition. Geneva: WHO; 2017.
+4. World Health Organization. WHO recommendations: intrapartum care for a positive childbirth experience. Geneva: WHO; 2018.
+5. Royal College of Obstetricians and Gynaecologists. The management of third- and fourth-degree perineal tears (Green-top Guideline No. 29). London: RCOG; 2015.
+6. StatPearls. Delivery, Face and Brow Presentation. NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/sites/books/NBK567727/
+7. ScienceDirect Topics (Elsevier). Fetal head: diameters, sutures and fontanelles. https://www.sciencedirect.com/topics/medicine-and-dentistry/fetal-head
+8. Wikipedia. Fetal head. https://en.wikipedia.org/wiki/Fetal_head
+9. Jaypee Digital. Pelvis and Fetal Skull (textbook chapter). https://www.jaypeedigital.com/eReader/chapter/9789385999543/ch1
+10. Midwives Revision Uganda. Fetal Skull Anatomy: Sutures, Diameters & Quiz. https://midwivesrevisionuganda.com/fetal-skull/
+11. Epomedicine. Fetal Skull Dimensions: Mnemonic. https://epomedicine.com/medical-students/fetal-skull-dimensions-mnemonic/
+12. Glynn M, Drake WM, editors. Hutchison's Clinical Methods: An Integrated Approach to Clinical Practice. 24th edition. Edinburgh: Elsevier; 2018.
